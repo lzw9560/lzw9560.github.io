@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Victory&#39;s Bolg</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2017-08-17T07:08:53.000Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Victory</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Elasticsearch 笔记</title>
+    <link href="http://yoursite.com/2017/08/17/Elasticsearch-%E7%AC%94%E8%AE%B0/"/>
+    <id>http://yoursite.com/2017/08/17/Elasticsearch-笔记/</id>
+    <published>2017-08-17T07:05:42.000Z</published>
+    <updated>2017-08-17T07:08:53.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="程序" scheme="http://yoursite.com/categories/programming/"/>
+    
+    
+      <category term="ES" scheme="http://yoursite.com/tags/ES/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2017/08/17/Hello-World/"/>
+    <id>http://yoursite.com/2017/08/17/Hello-World/</id>
+    <published>2017-08-17T03:54:15.000Z</published>
+    <updated>2017-08-17T03:54:15.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2017/08/15/index/"/>
+    <id>http://yoursite.com/2017/08/15/index/</id>
+    <published>2017-08-15T11:12:36.000Z</published>
+    <updated>2017-08-15T11:12:36.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
