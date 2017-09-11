@@ -3,9 +3,16 @@
   
     
     <entry>
-      <title><![CDATA[Elasticsearch 笔记]]></title>
+      <title><![CDATA[Elasticsearch]]></title>
       <url>/2017/08/17/Elasticsearch-%E7%AC%94%E8%AE%B0/</url>
-      <content type="html"></content>
+      <content type="html"><![CDATA[<p>Elasticsearch指南<br><a id="more"></a></p>
+<p>文档地址：<br><a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html#getting-started" target="_blank" rel="external">英文官方文档</a>  </p>
+<p><a href="https://www.gitbook.com/book/looly/elasticsearch-the-definitive-guide-cn/details" target="_blank" rel="external">Elasticsearch权威指南（中文版）</a></p>
+<p><a href="http://www.jianshu.com/p/f9adeded30b8" target="_blank" rel="external">Elasticsearch 5.4.0 用户指南</a></p>
+<p><a href="http://www.jianshu.com/p/f3a1982bf302" target="_blank" rel="external">全文检索基础</a></p>
+<p><a href="http://blog.csdn.net/jiuqiyuliang/article/details/51245335" target="_blank" rel="external">安装</a></p>
+<p><a href="http://www.jianshu.com/p/068ee911c001" target="_blank" rel="external">ik中文分词</a><br><a href="http://www.cnblogs.com/xing901022/p/5910139.html" target="_blank" rel="external">拼音分词</a></p>
+]]></content>
       
         <categories>
             
@@ -16,7 +23,7 @@
         
         <tags>
             
-            <tag> ES </tag>
+            <tag> Elasticsearch </tag>
             
         </tags>
         
