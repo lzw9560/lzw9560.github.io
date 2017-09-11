@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>http://yoursite.com/2017/08/17/hexo/index/</loc>
+    <lastmod>2017-09-11T09:32:09.000Z</lastmod>
+    <data>
+        <display>
+        <title>Hexo 常用命令</title>
+        <pubTime>2017-08-17T07:05:42.000Z</pubTime>
+        
+        <tag>Hexo</tag>
+         
+         
+           
+             
+              <breadCrumb title="Hexo" url="http://yoursite.com/categories/Hexo/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2017/08/17/Elasticsearch-%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2017-08-18T08:10:56.000Z</lastmod>
     <data>
