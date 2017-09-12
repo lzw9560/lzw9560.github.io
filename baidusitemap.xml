@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>http://yoursite.com/2017/09/12/tool/supervisor/</loc>
+    <lastmod>2017-09-12T09:15:04.000Z</lastmod>
+    <data>
+        <display>
+        <title>Supervisor 安装配置</title>
+        <pubTime>2017-09-12T09:00:46.000Z</pubTime>
+        
+        <tag>Supervisor</tag>
+         
+         
+           
+             
+              <breadCrumb title="tool" url="http://yoursite.com/categories/tool/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2017/09/12/gitlabci/gitlab_runner/</loc>
     <lastmod>2017-09-12T08:53:30.000Z</lastmod>
     <data>

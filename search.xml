@@ -3,6 +3,43 @@
   
     
     <entry>
+      <title><![CDATA[Supervisor 安装配置]]></title>
+      <url>/2017/09/12/tool/supervisor/</url>
+      <content type="html"><![CDATA[<h4 id="Supervisor"><a href="#Supervisor" class="headerlink" title="Supervisor"></a>Supervisor</h4><a id="more"></a>
+<h5 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h5><p>-<br>在 web 应用部署到线上后，需要保证应用一直处于运行状态，在遇到程序异常、报错等情况，导致 web 应用终止时，需要保证程序可以立刻重启，继续提供服务。</p>
+<p>所以，就需要一个工具，时刻监控 web 应用的运行情况，管理该进程。</p>
+<p>Supervisor 就是解决这种需求的工具，可以保证程序崩溃后，重新把程序启动起来等功能。</p>
+<p>Supervisor 是一个用 Python 写的进程管理工具，可以很方便的用来在 UNIX-like 系统（不支持 Windows）下启动、重启（自动重启程序）、关闭进程（不仅仅是 Python 进程）。</p>
+<h5 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h5><p>-</p>
+<ol>
+<li>Ubuntu系统下：apt-get install supervisor，通过这种方式安装后，自动设置为开机启动</li>
+<li>也可以通过 pip install supervisor 进行安装，但是需要手动启动，然后设置为开机启动（不推荐这种安装方式）</li>
+</ol>
+<p>参考：</p>
+<ul>
+<li><p><a href="http://liyangliang.me/posts/2015/06/using-supervisor/" target="_blank" rel="external">http://liyangliang.me/posts/2015/06/using-supervisor/</a></p>
+</li>
+<li><p><a href="http://www.cnblogs.com/xueweihan/p/6195824.html" target="_blank" rel="external">http://www.cnblogs.com/xueweihan/p/6195824.html</a></p>
+</li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> tool </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Supervisor </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[GitLab-Runner]]></title>
       <url>/2017/09/12/gitlabci/gitlab_runner/</url>
       <content type="html"><![CDATA[<h4 id="GitLab-Runner"><a href="#GitLab-Runner" class="headerlink" title="GitLab-Runner"></a>GitLab-Runner</h4><a id="more"></a>
