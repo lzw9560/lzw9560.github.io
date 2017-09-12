@@ -3,6 +3,98 @@
   
     
     <entry>
+      <title><![CDATA[GitLab-Runner]]></title>
+      <url>/2017/09/12/gitlabci/gitlab_runner/</url>
+      <content type="html"><![CDATA[<h4 id="GitLab-Runner"><a href="#GitLab-Runner" class="headerlink" title="GitLab-Runner"></a>GitLab-Runner</h4><a id="more"></a>
+<blockquote>
+<p>GitLab-Runner是配合GitLab-CI进行使用的。一般的，GitLab里面的每一个工程都会定义一个属于这个工程的软件集成脚本，用来自动化地完成一些软件集成工作。当这个工程的仓库代码发生变动时，比如有人push了代码，GitLab就会将这个变动通知GitLab-CI。这时GitLab-CI会找出与这个工程相关联的Runner，并通知这些Runner把代码更新到本地并执行预定义好的执行脚本。</p>
+<p>Runner可以分布在不同的主机上，同一个主机上也可以有多个Runner</p>
+</blockquote>
+<h5 id="Runner类型"><a href="#Runner类型" class="headerlink" title="Runner类型"></a>Runner类型</h5><p><strong>Shared Runner（共享型）</strong></p>
+<blockquote>
+<p>这种Runner是所有工程都能够用的。只有系统管理员能够创建Shared Runner。<br><strong>Specific Runner（指定型）</strong><br>这种Runner只能为指定的工程服务。拥有该工程访问权限的人都能为该工程创建Shared Runner。</p>
+</blockquote>
+<h5 id="创建-Runner"><a href="#创建-Runner" class="headerlink" title="创建 Runner"></a>创建 Runner</h5><blockquote>
+<p>Linux 服务器安装 gitlab-CI-multi-runner <a href="https://gitlab.com/gitlab-org/gitlab-ci-multi-runner" target="_blank" rel="external">官方文档</a></p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"># For Debian/Ubuntu</div><div class="line">$ curl -L https://packages.gitlab.com/install/repositories/runner/gitlab-ci-multi-runner/script.deb.sh | sudo bash</div><div class="line">$ sudo apt-get install gitlab-ci-multi-runner</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"># For CentOS</div><div class="line">$ curl -L https://packages.gitlab.com/install/repositories/runner/gitlab-ci-multi-runner/script.rpm.sh | sudo bash</div><div class="line">$ sudo yum install gitlab-ci-multi-runner</div></pre></td></tr></table></figure>
+<h5 id="注册"><a href="#注册" class="headerlink" title="注册"></a>注册</h5><blockquote>
+<p>安装好 GitLab Runner 之后，我们只要启动 Runner 然后和 CI 绑定就可以了：</p>
+</blockquote>
+<ul>
+<li>打开你 GitLab 中的项目页面，在项目设置中找到 runners</li>
+<li>运行 sudo gitlab-ci-multi-runner register</li>
+<li>输入 CI URL</li>
+<li>输入 Token</li>
+<li>输入 Runner 的名字</li>
+<li>选择 Runner 的类型，简单起见还是选 Shell 吧</li>
+<li>完成</li>
+</ul>
+<p>参考：</p>
+<ul>
+<li><a href="http://zhaozhiming.github.io/blog/2015/11/30/gitlab-ci-runner-create-and-config/" target="_blank" rel="external">http://zhaozhiming.github.io/blog/2015/11/30/gitlab-ci-runner-create-and-config/</a></li>
+<li><a href="http://www.tuicool.com/articles/jEBf6jb" target="_blank" rel="external">http://www.tuicool.com/articles/jEBf6jb</a></li>
+<li><a href="https://scarletsky.github.io/2016/07/29/use-gitlab-ci-for-continuous-integration/" target="_blank" rel="external">https://scarletsky.github.io/2016/07/29/use-gitlab-ci-for-continuous-integration/</a></li>
+<li><a href="https://www.oschina.net/question/12_219138" target="_blank" rel="external">https://www.oschina.net/question/12_219138</a></li>
+<li><a href="http://5404542.blog.51cto.com/5394542/1851887" target="_blank" rel="external">http://5404542.blog.51cto.com/5394542/1851887</a></li>
+<li><a href="https://segmentfault.com/a/1190000007180257" target="_blank" rel="external">https://segmentfault.com/a/1190000007180257</a></li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> tool </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> GitLab-CI </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[GitLab-CI 一些概念]]></title>
+      <url>/2017/09/12/gitlabci/gitlabci/</url>
+      <content type="html"><![CDATA[<h5 id="GitLab-CI"><a href="#GitLab-CI" class="headerlink" title="GitLab-CI"></a>GitLab-CI</h5><a id="more"></a>
+<h6 id="Continuous-Integration-持续集成"><a href="#Continuous-Integration-持续集成" class="headerlink" title="Continuous Integration(持续集成)"></a>Continuous Integration(持续集成)</h6><blockquote>
+<p>持续集成是一种软件开发实践，即团队开发成员经常集成他们的工作，通常每个成员至少集成一次，也就意味着每天可能会发生多次集成。每次集成都通过自动化的构建（包括编译，发布，自动化测试）来验证，从而尽快的发现集成错误。许多团队发现这个过程可以大大减少集成的问题，让团队能都更快的开发内聚的软件。</p>
+<p>软件集成： 代码合并–&gt; 安装依赖–&gt; 编译–&gt; 测试 –&gt;发布。</p>
+</blockquote>
+<h6 id="GitLab-CI-1"><a href="#GitLab-CI-1" class="headerlink" title="GitLab-CI"></a>GitLab-CI</h6><blockquote>
+<p>GitLab-CI 就是一套配合GitLab使用的持续集成系统（Jenkins也可以配合GitLab使用）。</p>
+</blockquote>
+<h6 id="Pipeline"><a href="#Pipeline" class="headerlink" title="Pipeline"></a>Pipeline</h6><blockquote>
+<p>一次 Pipeline 其实相当于一次构建任务，里面可以包含多个流程，如安装依赖、运行测试、编译、部署测试服务器、部署生产服务器等流程。<br>任何提交或者 Merge Request 的合并都可以触发 Pipeline，如下图所示：</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">+------------------+           +----------------+</div><div class="line">|                  |  trigger  |                |</div><div class="line">|   Commit / MR    +----------&gt;+    Pipeline    |</div><div class="line">|                  |           |                |</div><div class="line">+------------------+           +----------------+</div></pre></td></tr></table></figure>
+<h6 id="Stages"><a href="#Stages" class="headerlink" title="Stages"></a>Stages</h6><p>Stages 表示构建阶段，说白了就是上面提到的流程。<br>我们可以在一次 Pipeline 中定义多个 Stages，这些 Stages 会有以下特点：</p>
+<p>所有 Stages 会按照顺序运行，即当一个 Stage 完成后，下一个 Stage 才会开始<br>只有当所有 Stages 完成后，该构建任务 (Pipeline) 才会成功<br>如果任何一个 Stage 失败，那么后面的 Stages 不会执行，该构建任务 (Pipeline) 失败<br>因此，Stages 和 Pipeline 的关系就是：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">+--------------------------------------------------------+</div><div class="line">|                                                        |</div><div class="line">|  Pipeline                                              |</div><div class="line">|                                                        |</div><div class="line">|  +-----------+     +------------+      +------------+  |</div><div class="line">|  |  Stage 1  |----&gt;|   Stage 2  |-----&gt;|   Stage 3  |  |</div><div class="line">|  +-----------+     +------------+      +------------+  |</div><div class="line">|                                                        |</div><div class="line">+--------------------------------------------------------+</div></pre></td></tr></table></figure>
+<h6 id="Jobs"><a href="#Jobs" class="headerlink" title="Jobs"></a>Jobs</h6><p>Jobs 表示构建工作，表示某个 Stage 里面执行的工作。<br>我们可以在 Stages 里面定义多个 Jobs，这些 Jobs 会有以下特点：</p>
+<p>相同 Stage 中的 Jobs 会并行执行<br>相同 Stage 中的 Jobs 都执行成功时，该 Stage 才会成功<br>如果任何一个 Job 失败，那么该 Stage 失败，即该构建任务 (Pipeline) 失败<br>所以，Jobs 和 Stage 的关系图就是：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">+------------------------------------------+</div><div class="line">|                                          |</div><div class="line">|  Stage 1                                 |</div><div class="line">|                                          |</div><div class="line">|  +---------+  +---------+  +---------+   |</div><div class="line">|  |  Job 1  |  |  Job 2  |  |  Job 3  |   |</div><div class="line">|  +---------+  +---------+  +---------+   |</div><div class="line">|                                          |</div><div class="line">+------------------------------------------+</div></pre></td></tr></table></figure>]]></content>
+      
+        <categories>
+            
+            <category> tool </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> GitLab-CI </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Elasticsearch]]></title>
       <url>/2017/08/17/Elasticsearch-%E7%AC%94%E8%AE%B0/</url>
       <content type="html"><![CDATA[<p>Elasticsearch指南<br><a id="more"></a></p>
