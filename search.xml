@@ -31,8 +31,9 @@
     
     <entry>
       <title><![CDATA[Hexo 常用命令]]></title>
-      <url>/2017/08/17/hexo/index/</url>
+      <url>/2017/08/17/Hexo/index/</url>
       <content type="html"><![CDATA[<p>Hexo</p>
+<a id="more"></a>
 <p>安装 Hexo<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install -g hexo</div></pre></td></tr></table></figure></p>
 <p>查看 Node 版本<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">node -v</div></pre></td></tr></table></figure></p>
 <p>查看 Hexo 版本<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo version</div></pre></td></tr></table></figure></p>
