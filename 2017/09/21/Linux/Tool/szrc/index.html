@@ -78,7 +78,7 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Supervisor," />
+  <meta name="keywords" content="Linux/sz、rz," />
 
 
 
@@ -96,18 +96,18 @@
 
 
 
-<meta name="description" content="Supervisor">
-<meta name="keywords" content="Supervisor">
+<meta name="description" content="sz/rz">
+<meta name="keywords" content="Linux&#x2F;sz、rz">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Supervisor 安装配置">
-<meta property="og:url" content="http://yoursite.com/2017/09/12/tool/supervisor/index.html">
+<meta property="og:title" content="iTerm2使用sz&#x2F;rz">
+<meta property="og:url" content="http://yoursite.com/2017/09/21/Linux/Tool/szrc/index.html">
 <meta property="og:site_name" content="Victory&#39;s Blog">
-<meta property="og:description" content="Supervisor">
+<meta property="og:description" content="sz/rz">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-09-12T09:15:04.000Z">
+<meta property="og:updated_time" content="2017-09-21T06:46:03.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Supervisor 安装配置">
-<meta name="twitter:description" content="Supervisor">
+<meta name="twitter:title" content="iTerm2使用sz&#x2F;rz">
+<meta name="twitter:description" content="sz/rz">
 
 
 
@@ -136,13 +136,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2017/09/12/tool/supervisor/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/09/21/Linux/Tool/szrc/"/>
 
 
 
 
 
-  <title>Supervisor 安装配置 | Victory's Blog</title>
+  <title>iTerm2使用sz/rz | Victory's Blog</title>
   
 
 
@@ -299,7 +299,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/09/12/tool/supervisor/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/09/21/Linux/Tool/szrc/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Victory">
@@ -316,7 +316,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Supervisor 安装配置</h1>
+          <h1 class="post-title" itemprop="name headline">iTerm2使用sz/rz</h1>
         
 
         <div class="post-meta">
@@ -328,8 +328,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-12T17:00:46+08:00">
-                2017-09-12
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-21T11:27:20+08:00">
+                2017-09-21
               </time>
             
 
@@ -387,7 +387,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  263
+                  299
                 </span>
               
 
@@ -424,23 +424,35 @@
       
 
       
-        <h4 id="Supervisor"><a href="#Supervisor" class="headerlink" title="Supervisor"></a>Supervisor</h4><a id="more"></a>
-<h5 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h5><p>-<br>在 web 应用部署到线上后，需要保证应用一直处于运行状态，在遇到程序异常、报错等情况，导致 web 应用终止时，需要保证程序可以立刻重启，继续提供服务。</p>
-<p>所以，就需要一个工具，时刻监控 web 应用的运行情况，管理该进程。</p>
-<p>Supervisor 就是解决这种需求的工具，可以保证程序崩溃后，重新把程序启动起来等功能。</p>
-<p>Supervisor 是一个用 Python 写的进程管理工具，可以很方便的用来在 UNIX-like 系统（不支持 Windows）下启动、重启（自动重启程序）、关闭进程（不仅仅是 Python 进程）。</p>
-<h5 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h5><p>-</p>
-<ol>
-<li>Ubuntu系统下：apt-get install supervisor，通过这种方式安装后，自动设置为开机启动</li>
-<li>也可以通过 pip install supervisor 进行安装，但是需要手动启动，然后设置为开机启动（不推荐这种安装方式）</li>
-</ol>
-<p>参考：</p>
-<ul>
-<li><p><a href="http://liyangliang.me/posts/2015/06/using-supervisor/" target="_blank" rel="external">http://liyangliang.me/posts/2015/06/using-supervisor/</a></p>
+        <h5 id="sz-rz"><a href="#sz-rz" class="headerlink" title="sz/rz"></a>sz/rz</h5><a id="more"></a>
+<blockquote>
+<p>在Windows下SecureCRT 或者Xshell可以很方便的使用上传下载工具sz、rz，mac下我们一般使用scp来完成。<br>但是在某些场景下（登录服务器使用跳板机等）不能使用scp。</p>
+</blockquote>
+<h4 id="scp"><a href="#scp" class="headerlink" title="scp"></a>scp</h4><ul>
+<li><p>上传<br>  <code>scp -r local_folder remote_username@remote_ip:remote_folder</code></p>
+<p>  <code>scp -r local_folder remote_ip:remote_folder</code></p>
 </li>
-<li><p><a href="http://www.cnblogs.com/xueweihan/p/6195824.html" target="_blank" rel="external">http://www.cnblogs.com/xueweihan/p/6195824.html</a></p>
+<li><p>下载<br>  <code>scp -r remote_username@remote_ip:remote_folder local_folder</code></p>
 </li>
 </ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">几个可能用到的参数：</div><div class="line">-v 和大多数linux命令中的-v意思一样,用来显示进度。可以用来查看连接、认证、或是配置错误。</div><div class="line">-r 递归处理，将指定目录下的文档和子目录一并处理</div><div class="line">-C 使能压缩选项</div><div class="line">-P 选择端口。注意-p已经被rcp使用</div><div class="line">-4 强行使用IPV4地址</div><div class="line">-6 强行使用IPV6地址</div></pre></td></tr></table></figure>
+<h3 id="mac下品日志使用rz、sz"><a href="#mac下品日志使用rz、sz" class="headerlink" title="mac下品日志使用rz、sz"></a>mac下品日志使用rz、sz</h3><ul>
+<li>首先需要安装 iterm2</li>
+<li>安装 lrzsz: <code>brew install lrzsz</code></li>
+<li><p>下载iterm2-zmodem</p>
+  <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">cd /usr/local/bin</div><div class="line"></div><div class="line">sudo wget https://raw.github.com/mmastrac/iterm2-zmodem/master/iterm2-send-zmodem.sh</div><div class="line"></div><div class="line">sudo wget https://raw.github.com/mmastrac/iterm2-zmodem/master/iterm2-recv-zmodem.sh</div><div class="line"></div><div class="line">sudo chmod 777 /usr/local/bin/iterm2-*</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<ul>
+<li>添加trigger</li>
+</ul>
+<pre><code>打开Item2，点击profiles，选择某个profile之后然后继续选择advanced → triggers，添加triggers。
+***
+</code></pre><p>Regular expression    Action    Action</p>
+<pre><code>***
+</code></pre><p>**B0100    Run Silent Coprocess    /usr/local/bin/iterm2-send-zmodem.sh</p>
+<pre><code>***
+</code></pre><p>**B00000000000000    Run Silent Coprocess    /usr/local/bin/iterm2-recv-zmodem.sh</p>
 
       
     </div>
@@ -471,7 +483,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/Supervisor/" rel="tag"> <i class="fa fa-tag"></i>Supervisor</a>
+            <a href="/tags/Linux-sz、rz/" rel="tag"> <i class="fa fa-tag"></i>Linux/sz、rz</a>
           
         </div>
       
@@ -484,8 +496,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/09/12/gitlabci/gitlab_runner/" rel="next" title="GitLab-Runner">
-                <i class="fa fa-chevron-left"></i> GitLab-Runner
+              <a href="/2017/09/12/tool/supervisor/" rel="next" title="Supervisor 安装配置">
+                <i class="fa fa-chevron-left"></i> Supervisor 安装配置
               </a>
             
           </div>
@@ -493,10 +505,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2017/09/21/Linux/Tool/szrc/" rel="prev" title="iTerm2使用sz/rz">
-                iTerm2使用sz/rz <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -637,7 +645,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#Supervisor"><span class="nav-number">1.</span> <span class="nav-text">Supervisor</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#简介"><span class="nav-number">1.1.</span> <span class="nav-text">简介</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#安装"><span class="nav-number">1.2.</span> <span class="nav-text">安装</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-5"><a class="nav-link" href="#sz-rz"><span class="nav-number">1.</span> <span class="nav-text">sz/rz</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#scp"><span class="nav-number"></span> <span class="nav-text">scp</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#mac下品日志使用rz、sz"><span class="nav-number"></span> <span class="nav-text">mac下品日志使用rz、sz</span></a></div>
             
 
           </div>
