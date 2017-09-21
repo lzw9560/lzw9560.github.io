@@ -5,11 +5,11 @@
     <entry>
       <title><![CDATA[iTerm2使用sz/rz]]></title>
       <url>/2017/09/21/Linux/Tool/szrc/</url>
-      <content type="html"><![CDATA[<h5 id="sz-rz"><a href="#sz-rz" class="headerlink" title="sz/rz"></a>sz/rz</h5><a id="more"></a>
+      <content type="html"><![CDATA[<h3 id="sz-rz"><a href="#sz-rz" class="headerlink" title="sz/rz"></a>sz/rz</h3><a id="more"></a>
 <blockquote>
 <p>在Windows下SecureCRT 或者Xshell可以很方便的使用上传下载工具sz、rz，mac下我们一般使用scp来完成。<br>但是在某些场景下（登录服务器使用跳板机等）不能使用scp。</p>
 </blockquote>
-<h4 id="scp"><a href="#scp" class="headerlink" title="scp"></a>scp</h4><ul>
+<h3 id="scp"><a href="#scp" class="headerlink" title="scp"></a>scp</h3><ul>
 <li><p>上传<br>  <code>scp -r local_folder remote_username@remote_ip:remote_folder</code></p>
 <p>  <code>scp -r local_folder remote_ip:remote_folder</code></p>
 </li>
