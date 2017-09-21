@@ -104,7 +104,7 @@
 <meta property="og:site_name" content="Victory&#39;s Blog">
 <meta property="og:description" content="sz/rz">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-09-21T06:51:56.000Z">
+<meta property="og:updated_time" content="2017-09-21T06:52:33.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="iTerm2使用sz&#x2F;rz">
 <meta name="twitter:description" content="sz/rz">
@@ -387,7 +387,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  299
+                  294
                 </span>
               
 
@@ -447,7 +447,28 @@
 <li>添加trigger</li>
 </ul>
 <pre><code>打开Item2，点击profiles，选择某个profile之后然后继续选择advanced → triggers，添加triggers。
-</code></pre><p>Regular | expression | Action    | Action<br>|—|—|—|<br>**B0100 | Run Silent Coprocess | /usr/local/bin/iterm2-send-zmodem.sh<br>**B00000000000000| Run Silent Coprocess | /usr/local/bin/iterm2-recv-zmodem.sh</p>
+</code></pre><table>
+<thead>
+<tr>
+<th>Regular</th>
+<th>expression</th>
+<th>Action</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>**B0100</td>
+<td>Run Silent Coprocess</td>
+<td>/usr/local/bin/iterm2-send-zmodem.sh</td>
+</tr>
+<tr>
+<td>**B00000000000000</td>
+<td>Run Silent Coprocess</td>
+<td>/usr/local/bin/iterm2-recv-zmodem.sh</td>
+</tr>
+</tbody>
+</table>
 
       
     </div>

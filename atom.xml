@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-09-21T06:51:56.000Z</updated>
+  <updated>2017-09-21T06:52:33.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2017/09/21/Linux/Tool/szrc/"/>
     <id>http://yoursite.com/2017/09/21/Linux/Tool/szrc/</id>
     <published>2017-09-21T03:27:20.000Z</published>
-    <updated>2017-09-21T06:51:56.000Z</updated>
+    <updated>2017-09-21T06:52:33.000Z</updated>
     
     <content type="html"><![CDATA[<h3 id="sz-rz"><a href="#sz-rz" class="headerlink" title="sz/rz"></a>sz/rz</h3><a id="more"></a>
 <blockquote>
@@ -45,7 +45,28 @@
 <li>添加trigger</li>
 </ul>
 <pre><code>打开Item2，点击profiles，选择某个profile之后然后继续选择advanced → triggers，添加triggers。
-</code></pre><p>Regular | expression | Action    | Action<br>|—|—|—|<br>**B0100 | Run Silent Coprocess | /usr/local/bin/iterm2-send-zmodem.sh<br>**B00000000000000| Run Silent Coprocess | /usr/local/bin/iterm2-recv-zmodem.sh</p>
+</code></pre><table>
+<thead>
+<tr>
+<th>Regular</th>
+<th>expression</th>
+<th>Action</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>**B0100</td>
+<td>Run Silent Coprocess</td>
+<td>/usr/local/bin/iterm2-send-zmodem.sh</td>
+</tr>
+<tr>
+<td>**B00000000000000</td>
+<td>Run Silent Coprocess</td>
+<td>/usr/local/bin/iterm2-recv-zmodem.sh</td>
+</tr>
+</tbody>
+</table>
 ]]></content>
     
     <summary type="html">
