@@ -28,7 +28,7 @@
 <li>添加trigger</li>
 </ul>
 <pre><code>打开Item2，点击profiles，选择某个profile之后然后继续选择advanced → triggers，添加triggers。
-</code></pre><h2 id="Regular-expression-Action-Action"><a href="#Regular-expression-Action-Action" class="headerlink" title="Regular | expression | Action    | Action"></a>Regular | expression | Action    | Action</h2><h2 id="B0100-Run-Silent-Coprocess-usr-local-bin-iterm2-send-zmodem-sh"><a href="#B0100-Run-Silent-Coprocess-usr-local-bin-iterm2-send-zmodem-sh" class="headerlink" title="**B0100 | Run Silent Coprocess | /usr/local/bin/iterm2-send-zmodem.sh"></a>**B0100 | Run Silent Coprocess | /usr/local/bin/iterm2-send-zmodem.sh</h2><p>**B00000000000000| Run Silent Coprocess | /usr/local/bin/iterm2-recv-zmodem.sh</p>
+</code></pre><p>Regular | expression | Action    | Action<br>|—|—|—|<br>**B0100 | Run Silent Coprocess | /usr/local/bin/iterm2-send-zmodem.sh<br>**B00000000000000| Run Silent Coprocess | /usr/local/bin/iterm2-recv-zmodem.sh</p>
 ]]></content>
       
         <categories>
