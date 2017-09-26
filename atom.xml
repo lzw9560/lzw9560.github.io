@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-09-26T07:38:56.000Z</updated>
+  <updated>2017-09-26T08:08:12.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,10 +20,9 @@
     <link href="http://yoursite.com/2017/09/26/hexo/travis/"/>
     <id>http://yoursite.com/2017/09/26/hexo/travis/</id>
     <published>2017-09-26T07:05:42.000Z</published>
-    <updated>2017-09-26T07:38:56.000Z</updated>
+    <updated>2017-09-26T08:08:12.000Z</updated>
     
-    <content type="html"><![CDATA[<p>travis-ci 自动部署 Hexo</p>
-<a id="more"></a>
+    <content type="html"><![CDATA[<h2 id="travis-ci-自动部署-Hexo"><a href="#travis-ci-自动部署-Hexo" class="headerlink" title="travis-ci 自动部署 Hexo"></a>travis-ci 自动部署 Hexo</h2><a id="more"></a>
 <blockquote>
 <p>travis-ci是一个持续集成工具，目前已经支持大部分主流语言了，如：node.js、objective-c、android、php、c、java、python、ruby、go等等。travis ci与github集成非常紧密，官方的集成测试托管只支持github项目，而且它对于公有的github仓库免费。在这篇文章中，我将介绍如何通过travis-ci自动化部署hexo博客。</p>
 </blockquote>
@@ -43,13 +42,14 @@
 </blockquote>
 <p>  查看是否登录成功</p>
   <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">travis whoami</div></pre></td></tr></table></figure>
+<p>  <a href="http://w3cboy.com/post/2016/03/travisci-hexo-deploy/" target="_blank" rel="external">http://w3cboy.com/post/2016/03/travisci-hexo-deploy/</a></p>
 </li>
 </ul>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;travis-ci 自动部署 Hexo&lt;/p&gt;
+      &lt;h2 id=&quot;travis-ci-自动部署-Hexo&quot;&gt;&lt;a href=&quot;#travis-ci-自动部署-Hexo&quot; class=&quot;headerlink&quot; title=&quot;travis-ci 自动部署 Hexo&quot;&gt;&lt;/a&gt;travis-ci 自动部署 Hexo&lt;/h2&gt;
     
     </summary>
     
@@ -266,9 +266,9 @@
     <link href="http://yoursite.com/2017/08/17/Elasticsearch-%E7%AC%94%E8%AE%B0/"/>
     <id>http://yoursite.com/2017/08/17/Elasticsearch-笔记/</id>
     <published>2017-08-17T07:05:42.000Z</published>
-    <updated>2017-09-26T08:04:02.000Z</updated>
+    <updated>2017-09-26T08:07:01.000Z</updated>
     
-    <content type="html"><![CDATA[<p>Elasticsearch指南<br><a id="more"></a></p>
+    <content type="html"><![CDATA[<h4 id="Elasticsearch指南"><a href="#Elasticsearch指南" class="headerlink" title="Elasticsearch指南"></a>Elasticsearch指南</h4><a id="more"></a>
 <p>文档地址：<br><a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html#getting-started" target="_blank" rel="external">英文官方文档</a>  </p>
 <p><a href="https://www.gitbook.com/book/looly/elasticsearch-the-definitive-guide-cn/details" target="_blank" rel="external">Elasticsearch权威指南（中文版）</a></p>
 <p><a href="http://www.jianshu.com/p/f9adeded30b8" target="_blank" rel="external">Elasticsearch 5.4.0 用户指南</a></p>
@@ -279,7 +279,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;Elasticsearch指南&lt;br&gt;
+      &lt;h4 id=&quot;Elasticsearch指南&quot;&gt;&lt;a href=&quot;#Elasticsearch指南&quot; class=&quot;headerlink&quot; title=&quot;Elasticsearch指南&quot;&gt;&lt;/a&gt;Elasticsearch指南&lt;/h4&gt;
     
     </summary>
     
