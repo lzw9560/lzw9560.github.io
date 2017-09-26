@@ -2,7 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/2017/09/26/Hexo/travis/</loc>
+    <loc>http://yoursite.com/2017/08/17/hexo/hexo/</loc>
+    
+    <lastmod>2017-09-26T08:04:23.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2017/08/17/Elasticsearch-%E7%AC%94%E8%AE%B0/</loc>
+    
+    <lastmod>2017-09-26T08:04:02.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2017/09/26/hexo/travis/</loc>
     
     <lastmod>2017-09-26T07:38:56.000Z</lastmod>
     
@@ -16,14 +30,7 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2017/08/17/Elasticsearch-%E7%AC%94%E8%AE%B0/</loc>
-    
-    <lastmod>2017-09-24T11:57:18.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/09/21/Linux/Tool/szrc/</loc>
+    <loc>http://yoursite.com/2017/09/21/linux/Tool/szrc/</loc>
     
     <lastmod>2017-09-21T06:54:09.000Z</lastmod>
     
@@ -47,13 +54,6 @@
     <loc>http://yoursite.com/2017/09/12/gitlabci/gitlabci/</loc>
     
     <lastmod>2017-09-12T07:58:00.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/08/17/Hexo/hexo/</loc>
-    
-    <lastmod>2017-09-12T06:52:18.000Z</lastmod>
     
   </url>
   
