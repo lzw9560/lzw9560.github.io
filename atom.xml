@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-09-21T06:54:09.000Z</updated>
+  <updated>2017-09-26T07:38:56.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,51 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>travis-ci 自动部署 Hexo</title>
+    <link href="http://yoursite.com/2017/09/26/Hexo/travis/"/>
+    <id>http://yoursite.com/2017/09/26/Hexo/travis/</id>
+    <published>2017-09-26T07:05:42.000Z</published>
+    <updated>2017-09-26T07:38:56.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>travis-ci 自动部署 Hexo</p>
+<a id="more"></a>
+<blockquote>
+<p>travis-ci是一个持续集成工具，目前已经支持大部分主流语言了，如：node.js、objective-c、android、php、c、java、python、ruby、go等等。travis ci与github集成非常紧密，官方的集成测试托管只支持github项目，而且它对于公有的github仓库免费。在这篇文章中，我将介绍如何通过travis-ci自动化部署hexo博客。</p>
+</blockquote>
+<h4 id="开启-travis-ci"><a href="#开启-travis-ci" class="headerlink" title="开启 travis-ci"></a>开启 travis-ci</h4><ul>
+<li>首先去<a href="https://travis-ci.org/" target="_blank" rel="external">travis-ciu</a>]官网，</li>
+<li>点击右上角Sign in with GitHub通过github授权登录。</li>
+<li>然后去到个人信息页面，开启需要使用travis的项目关</li>
+</ul>
+<h4 id="加密私钥"><a href="#加密私钥" class="headerlink" title="加密私钥"></a>加密私钥</h4><ul>
+<li><p>首先我们要安装travis-ci的命令行工具</p>
+  <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">gem install travis</div></pre></td></tr></table></figure>
+</li>
+<li><p>然后通过命令行登录travis-ci</p>
+  <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"># 通过用户名密码登录</div><div class="line"># https://github.com/travis-ci/travis.rb#login</div><div class="line">travis login --auto</div><div class="line"></div><div class="line"># 通过token登录</div><div class="line">travis login --github-token &apos;token&apos;</div></pre></td></tr></table></figure>
+<blockquote>
+<p>github-token可以去<a href="https://github.com/settings/tokens查看，如果Personal" target="_blank" rel="external">https://github.com/settings/tokens查看，如果Personal</a> access tokens列表里面有的话可以选中一个点击Edit，然后点击Regenerate token重新生成就可以看到token了。没有的话点击Generate new token生成一个token</p>
+</blockquote>
+<p>  查看是否登录成功</p>
+  <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">travis whoami</div></pre></td></tr></table></figure>
+</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;travis-ci 自动部署 Hexo&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Hexo" scheme="http://yoursite.com/categories/Hexo/"/>
+    
+    
+      <category term="travis-ci" scheme="http://yoursite.com/tags/travis-ci/"/>
+    
+  </entry>
   
   <entry>
     <title>iTerm2使用sz/rz</title>
@@ -217,13 +262,15 @@
   </entry>
   
   <entry>
-    <title>Elasticsearch</title>
+    <title></title>
     <link href="http://yoursite.com/2017/08/17/Elasticsearch-%E7%AC%94%E8%AE%B0/"/>
     <id>http://yoursite.com/2017/08/17/Elasticsearch-笔记/</id>
     <published>2017-08-17T07:05:42.000Z</published>
-    <updated>2017-08-18T08:10:56.000Z</updated>
+    <updated>2017-09-24T11:57:18.000Z</updated>
     
-    <content type="html"><![CDATA[<p>Elasticsearch指南<br><a id="more"></a></p>
+    <content type="html"><![CDATA[<hr>
+<p>title: Elasticsearch marke<br>date: 2017-08-17 15:05:42<br>tags: Elasticsearch<br>categories: 程序</p>
+<h2 id="toc-true"><a href="#toc-true" class="headerlink" title="toc: true"></a>toc: true</h2><p>Elasticsearch指南<br><a id="more"></a></p>
 <p>文档地址：<br><a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html#getting-started" target="_blank" rel="external">英文官方文档</a>  </p>
 <p><a href="https://www.gitbook.com/book/looly/elasticsearch-the-definitive-guide-cn/details" target="_blank" rel="external">Elasticsearch权威指南（中文版）</a></p>
 <p><a href="http://www.jianshu.com/p/f9adeded30b8" target="_blank" rel="external">Elasticsearch 5.4.0 用户指南</a></p>
@@ -234,21 +281,19 @@
     
     <summary type="html">
     
-      &lt;p&gt;Elasticsearch指南&lt;br&gt;
+      &lt;hr&gt;
+&lt;p&gt;title: Elasticsearch marke&lt;br&gt;date: 2017-08-17 15:05:42&lt;br&gt;tags: Elasticsearch&lt;br&gt;categories: 程序&lt;/p&gt;
+&lt;h2 id=&quot;toc-true&quot;&gt;&lt;a href=&quot;#toc-true&quot; class=&quot;headerlink&quot; title=&quot;toc: true&quot;&gt;&lt;/a&gt;toc: true&lt;/h2&gt;&lt;p&gt;Elasticsearch指南&lt;br&gt;
     
     </summary>
     
-      <category term="程序" scheme="http://yoursite.com/categories/programming/"/>
-    
-    
-      <category term="Elasticsearch" scheme="http://yoursite.com/tags/Elasticsearch/"/>
     
   </entry>
   
   <entry>
     <title>Hexo 常用命令</title>
-    <link href="http://yoursite.com/2017/08/17/Hexo/index/"/>
-    <id>http://yoursite.com/2017/08/17/Hexo/index/</id>
+    <link href="http://yoursite.com/2017/08/17/Hexo/hexo/"/>
+    <id>http://yoursite.com/2017/08/17/Hexo/hexo/</id>
     <published>2017-08-17T07:05:42.000Z</published>
     <updated>2017-09-12T06:52:18.000Z</updated>
     

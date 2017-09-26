@@ -4,6 +4,55 @@
 
     
   <url>
+    <loc>http://yoursite.com/2017/09/26/Hexo/travis/</loc>
+    <lastmod>2017-09-26T07:38:56.000Z</lastmod>
+    <data>
+        <display>
+        <title>travis-ci 自动部署 Hexo</title>
+        <pubTime>2017-09-26T07:05:42.000Z</pubTime>
+        
+        <tag>travis-ci</tag>
+         
+         
+           
+             
+              <breadCrumb title="Hexo" url="http://yoursite.com/categories/Hexo/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/categories/index.html</loc>
+    <lastmod>2017-09-25T08:32:11.000Z</lastmod>
+    <data>
+        <display>
+        <title>categories</title>
+        <pubTime>2017-08-17T03:59:28.000Z</pubTime>
+        
+         
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2017/08/17/Elasticsearch-%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2017-09-24T11:57:18.000Z</lastmod>
+    <data>
+        <display>
+        <title></title>
+        <pubTime>2017-08-17T07:05:42.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2017/09/21/Linux/Tool/szrc/</loc>
     <lastmod>2017-09-21T06:54:09.000Z</lastmod>
     <data>
@@ -84,7 +133,7 @@
 
     
   <url>
-    <loc>http://yoursite.com/2017/08/17/Hexo/index/</loc>
+    <loc>http://yoursite.com/2017/08/17/Hexo/hexo/</loc>
     <lastmod>2017-09-12T06:52:18.000Z</lastmod>
     <data>
         <display>
@@ -98,40 +147,6 @@
              
               <breadCrumb title="Hexo" url="http://yoursite.com/categories/Hexo/"/>
           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2017/08/17/Elasticsearch-%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2017-08-18T08:10:56.000Z</lastmod>
-    <data>
-        <display>
-        <title>Elasticsearch</title>
-        <pubTime>2017-08-17T07:05:42.000Z</pubTime>
-        
-        <tag>Elasticsearch</tag>
-         
-         
-           
-             
-              <breadCrumb title="程序" url="http://yoursite.com/categories/programming/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/categories/index.html</loc>
-    <lastmod>2017-08-17T06:31:59.000Z</lastmod>
-    <data>
-        <display>
-        <title>categories</title>
-        <pubTime>2017-08-17T03:59:28.000Z</pubTime>
-        
-         
         </display>
     </data>
     </url>

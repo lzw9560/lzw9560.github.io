@@ -3,6 +3,49 @@
   
     
     <entry>
+      <title><![CDATA[travis-ci 自动部署 Hexo]]></title>
+      <url>/2017/09/26/Hexo/travis/</url>
+      <content type="html"><![CDATA[<p>travis-ci 自动部署 Hexo</p>
+<a id="more"></a>
+<blockquote>
+<p>travis-ci是一个持续集成工具，目前已经支持大部分主流语言了，如：node.js、objective-c、android、php、c、java、python、ruby、go等等。travis ci与github集成非常紧密，官方的集成测试托管只支持github项目，而且它对于公有的github仓库免费。在这篇文章中，我将介绍如何通过travis-ci自动化部署hexo博客。</p>
+</blockquote>
+<h4 id="开启-travis-ci"><a href="#开启-travis-ci" class="headerlink" title="开启 travis-ci"></a>开启 travis-ci</h4><ul>
+<li>首先去<a href="https://travis-ci.org/" target="_blank" rel="external">travis-ciu</a>]官网，</li>
+<li>点击右上角Sign in with GitHub通过github授权登录。</li>
+<li>然后去到个人信息页面，开启需要使用travis的项目关</li>
+</ul>
+<h4 id="加密私钥"><a href="#加密私钥" class="headerlink" title="加密私钥"></a>加密私钥</h4><ul>
+<li><p>首先我们要安装travis-ci的命令行工具</p>
+  <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">gem install travis</div></pre></td></tr></table></figure>
+</li>
+<li><p>然后通过命令行登录travis-ci</p>
+  <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"># 通过用户名密码登录</div><div class="line"># https://github.com/travis-ci/travis.rb#login</div><div class="line">travis login --auto</div><div class="line"></div><div class="line"># 通过token登录</div><div class="line">travis login --github-token &apos;token&apos;</div></pre></td></tr></table></figure>
+<blockquote>
+<p>github-token可以去<a href="https://github.com/settings/tokens查看，如果Personal" target="_blank" rel="external">https://github.com/settings/tokens查看，如果Personal</a> access tokens列表里面有的话可以选中一个点击Edit，然后点击Regenerate token重新生成就可以看到token了。没有的话点击Generate new token生成一个token</p>
+</blockquote>
+<p>  查看是否登录成功</p>
+  <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">travis whoami</div></pre></td></tr></table></figure>
+</li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> Hexo </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> travis-ci </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[iTerm2使用sz/rz]]></title>
       <url>/2017/09/21/Linux/Tool/szrc/</url>
       <content type="html"><![CDATA[<h3 id="sz-rz"><a href="#sz-rz" class="headerlink" title="sz/rz"></a>sz/rz</h3><a id="more"></a>
@@ -196,9 +239,11 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Elasticsearch]]></title>
+      <title></title>
       <url>/2017/08/17/Elasticsearch-%E7%AC%94%E8%AE%B0/</url>
-      <content type="html"><![CDATA[<p>Elasticsearch指南<br><a id="more"></a></p>
+      <content type="html"><![CDATA[<hr>
+<p>title: Elasticsearch marke<br>date: 2017-08-17 15:05:42<br>tags: Elasticsearch<br>categories: 程序</p>
+<h2 id="toc-true"><a href="#toc-true" class="headerlink" title="toc: true"></a>toc: true</h2><p>Elasticsearch指南<br><a id="more"></a></p>
 <p>文档地址：<br><a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html#getting-started" target="_blank" rel="external">英文官方文档</a>  </p>
 <p><a href="https://www.gitbook.com/book/looly/elasticsearch-the-definitive-guide-cn/details" target="_blank" rel="external">Elasticsearch权威指南（中文版）</a></p>
 <p><a href="http://www.jianshu.com/p/f9adeded30b8" target="_blank" rel="external">Elasticsearch 5.4.0 用户指南</a></p>
@@ -207,24 +252,12 @@
 <p><a href="http://www.jianshu.com/p/068ee911c001" target="_blank" rel="external">ik中文分词</a><br><a href="http://www.cnblogs.com/xing901022/p/5910139.html" target="_blank" rel="external">拼音分词</a></p>
 ]]></content>
       
-        <categories>
-            
-            <category> 程序 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> Elasticsearch </tag>
-            
-        </tags>
         
     </entry>
     
     <entry>
       <title><![CDATA[Hexo 常用命令]]></title>
-      <url>/2017/08/17/Hexo/index/</url>
+      <url>/2017/08/17/Hexo/hexo/</url>
       <content type="html"><![CDATA[<p>Hexo</p>
 <a id="more"></a>
 <p>安装 Hexo<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install -g hexo</div></pre></td></tr></table></figure></p>
