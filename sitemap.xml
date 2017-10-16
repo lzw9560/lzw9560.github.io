@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2017/09/21/linux/vim/nerdtree/</loc>
+    
+    <lastmod>2017-10-16T06:26:46.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2017/09/27/tool/vscode/</loc>
     
     <lastmod>2017-09-27T05:54:57.000Z</lastmod>
