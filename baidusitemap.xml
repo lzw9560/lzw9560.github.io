@@ -4,6 +4,20 @@
 
     
   <url>
+    <loc>http://yoursite.com/categories/index.html</loc>
+    <lastmod>2017-10-21T14:23:07.000Z</lastmod>
+    <data>
+        <display>
+        <title>categories</title>
+        <pubTime>2017-08-17T03:59:28.000Z</pubTime>
+        
+         
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2017/10/21/linux/vim/nerdtree/</loc>
     <lastmod>2017-10-21T10:07:04.000Z</lastmod>
     <data>
@@ -138,20 +152,6 @@
              
               <breadCrumb title="Hexo" url="http://yoursite.com/categories/Hexo/"/>
           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/categories/index.html</loc>
-    <lastmod>2017-09-25T08:32:11.000Z</lastmod>
-    <data>
-        <display>
-        <title>categories</title>
-        <pubTime>2017-08-17T03:59:28.000Z</pubTime>
-        
-         
         </display>
     </data>
     </url>
