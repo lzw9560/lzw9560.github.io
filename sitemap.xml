@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2017/09/27/websit/NotesOfOther/</loc>
+    
+    <lastmod>2017-10-21T10:01:29.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2017/09/21/linux/Mac/Anaconda/</loc>
+    
+    <lastmod>2017-10-19T09:22:23.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2017/09/21/linux/vim/nerdtree/</loc>
     
-    <lastmod>2017-10-16T06:29:45.000Z</lastmod>
+    <lastmod>2017-10-19T09:22:23.000Z</lastmod>
     
   </url>
   

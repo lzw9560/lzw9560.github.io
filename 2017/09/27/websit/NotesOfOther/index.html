@@ -78,7 +78,7 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Linux/sz、rz," />
+  <meta name="keywords" content="Python," />
 
 
 
@@ -96,18 +96,18 @@
 
 
 
-<meta name="description" content="sz/rz">
-<meta name="keywords" content="Linux&#x2F;sz、rz">
+<meta name="description" content="升级">
+<meta name="keywords" content="Python">
 <meta property="og:type" content="article">
-<meta property="og:title" content="iTerm2使用sz&#x2F;rz">
-<meta property="og:url" content="http://yoursite.com/2017/09/21/linux/Tool/szrc/index.html">
+<meta property="og:title" content="Anaconda的升级与卸载">
+<meta property="og:url" content="http://yoursite.com/2017/09/27/websit/NotesOfOther/index.html">
 <meta property="og:site_name" content="Victory&#39;s Blog">
-<meta property="og:description" content="sz/rz">
+<meta property="og:description" content="升级">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-09-21T06:54:09.000Z">
+<meta property="og:updated_time" content="2017-10-21T10:01:29.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="iTerm2使用sz&#x2F;rz">
-<meta name="twitter:description" content="sz/rz">
+<meta name="twitter:title" content="Anaconda的升级与卸载">
+<meta name="twitter:description" content="升级">
 
 
 
@@ -136,13 +136,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2017/09/21/linux/Tool/szrc/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/09/27/websit/NotesOfOther/"/>
 
 
 
 
 
-  <title>iTerm2使用sz/rz | Victory's Blog</title>
+  <title>Anaconda的升级与卸载 | Victory's Blog</title>
   
 
 
@@ -299,7 +299,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/09/21/linux/Tool/szrc/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/09/27/websit/NotesOfOther/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Victory">
@@ -316,7 +316,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">iTerm2使用sz/rz</h1>
+          <h1 class="post-title" itemprop="name headline">Anaconda的升级与卸载</h1>
         
 
         <div class="post-meta">
@@ -328,8 +328,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-21T11:27:20+08:00">
-                2017-09-21
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-27T13:24:50+08:00">
+                2017-09-27
               </time>
             
 
@@ -351,8 +351,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/tool/" itemprop="url" rel="index">
-                    <span itemprop="name">tool</span>
+                  <a href="/categories/Linux-MacOs/" itemprop="url" rel="index">
+                    <span itemprop="name">Linux/MacOs</span>
                   </a>
                 </span>
 
@@ -387,7 +387,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  294
+                  70
                 </span>
               
 
@@ -424,50 +424,11 @@
       
 
       
-        <h3 id="sz-rz"><a href="#sz-rz" class="headerlink" title="sz/rz"></a>sz/rz</h3><a id="more"></a>
-<blockquote>
-<p>在Windows下SecureCRT 或者Xshell可以很方便的使用上传下载工具sz、rz，mac下我们一般使用scp来完成。<br>但是在某些场景下（登录服务器使用跳板机等）不能使用scp。</p>
-</blockquote>
-<h3 id="scp"><a href="#scp" class="headerlink" title="scp"></a>scp</h3><ul>
-<li><p>上传<br>  <code>scp -r local_folder remote_username@remote_ip:remote_folder</code></p>
-<p>  <code>scp -r local_folder remote_ip:remote_folder</code></p>
-</li>
-<li><p>下载<br>  <code>scp -r remote_username@remote_ip:remote_folder local_folder</code></p>
-</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">几个可能用到的参数：</div><div class="line">-v 和大多数linux命令中的-v意思一样,用来显示进度。可以用来查看连接、认证、或是配置错误。</div><div class="line">-r 递归处理，将指定目录下的文档和子目录一并处理</div><div class="line">-C 使能压缩选项</div><div class="line">-P 选择端口。注意-p已经被rcp使用</div><div class="line">-4 强行使用IPV4地址</div><div class="line">-6 强行使用IPV6地址</div></pre></td></tr></table></figure>
-<h3 id="mac下品日志使用rz、sz"><a href="#mac下品日志使用rz、sz" class="headerlink" title="mac下品日志使用rz、sz"></a>mac下品日志使用rz、sz</h3><ul>
-<li>首先需要安装 iterm2</li>
-<li>安装 lrzsz: <code>brew install lrzsz</code></li>
-<li><p>下载iterm2-zmodem</p>
-  <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">cd /usr/local/bin</div><div class="line"></div><div class="line">sudo wget https://raw.github.com/mmastrac/iterm2-zmodem/master/iterm2-send-zmodem.sh</div><div class="line"></div><div class="line">sudo wget https://raw.github.com/mmastrac/iterm2-zmodem/master/iterm2-recv-zmodem.sh</div><div class="line"></div><div class="line">sudo chmod 777 /usr/local/bin/iterm2-*</div></pre></td></tr></table></figure>
-</li>
-</ul>
-<ul>
-<li>添加trigger</li>
-</ul>
-<pre><code>打开Item2，点击profiles，选择某个profile之后然后继续选择advanced → triggers，添加triggers。
-</code></pre><table>
-<thead>
-<tr>
-<th>Regular</th>
-<th>expression</th>
-<th>Action</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>**B0100</td>
-<td>Run Silent Coprocess</td>
-<td>/usr/local/bin/iterm2-send-zmodem.sh</td>
-</tr>
-<tr>
-<td>**B00000000000000</td>
-<td>Run Silent Coprocess</td>
-<td>/usr/local/bin/iterm2-recv-zmodem.sh</td>
-</tr>
-</tbody>
-</table>
+        <h4 id="升级"><a href="#升级" class="headerlink" title="升级"></a>升级</h4><a id="more"></a>
+<p>升级Anaconda需要先升级conda</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">conda update conda</div><div class="line">conda update anaconda</div></pre></td></tr></table></figure>
+<h4 id="卸载"><a href="#卸载" class="headerlink" title="卸载"></a>卸载</h4><p>由于Anaconda的安装文件都包含在一个目录中，所以直接将该目录删除即可。删除整个Anaconda目录：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">rm -rf anaconda</div></pre></td></tr></table></figure></p>
+<p>最后，建议清理下.bashrc中的Anaconda路径。</p>
 
       
     </div>
@@ -498,7 +459,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/Linux-sz、rz/" rel="tag"> <i class="fa fa-tag"></i>Linux/sz、rz</a>
+            <a href="/tags/Python/" rel="tag"> <i class="fa fa-tag"></i>Python</a>
           
         </div>
       
@@ -511,8 +472,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/09/21/linux/vim/nerdtree/" rel="next" title="NERDTree 快捷键">
-                <i class="fa fa-chevron-left"></i> NERDTree 快捷键
+              <a href="/2017/09/26/code/golang/install/" rel="next" title="Golang 安装">
+                <i class="fa fa-chevron-left"></i> Golang 安装
               </a>
             
           </div>
@@ -521,8 +482,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2017/09/21/linux/Mac/Anaconda/" rel="prev" title="NERDTree 快捷键">
-                NERDTree 快捷键 <i class="fa fa-chevron-right"></i>
+              <a href="/2017/09/27/tool/vscode/" rel="prev" title="Visual Studio Code开发技巧">
+                Visual Studio Code开发技巧 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -664,7 +625,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#sz-rz"><span class="nav-number">1.</span> <span class="nav-text">sz/rz</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#scp"><span class="nav-number">2.</span> <span class="nav-text">scp</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#mac下品日志使用rz、sz"><span class="nav-number">3.</span> <span class="nav-text">mac下品日志使用rz、sz</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#升级"><span class="nav-number">1.</span> <span class="nav-text">升级</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#卸载"><span class="nav-number">2.</span> <span class="nav-text">卸载</span></a></li></ol></div>
             
 
           </div>
