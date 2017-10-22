@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-10-22T08:28:03.000Z</updated>
+  <updated>2017-10-22T09:17:08.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,9 +16,122 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>item2 + oh-my-zsh + solarized配色</title>
+    <link href="http://yoursite.com/2017/10/22/linux/Mac/zsh-theme/"/>
+    <id>http://yoursite.com/2017/10/22/linux/Mac/zsh-theme/</id>
+    <published>2017-10-21T16:00:00.000Z</published>
+    <updated>2017-10-22T09:17:08.000Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="item2-oh-my-zsh-solarized配色"><a href="#item2-oh-my-zsh-solarized配色" class="headerlink" title="item2 + oh-my-zsh + solarized配色"></a>item2 + oh-my-zsh + solarized配色</h4><a id="more"></a>
+<h5 id="iTem2设置为默认终端"><a href="#iTem2设置为默认终端" class="headerlink" title="iTem2设置为默认终端"></a>iTem2设置为默认终端</h5><blockquote>
+<p>菜单栏）iTerm2 -&gt; Make iTerm2 Default Term</p>
+</blockquote>
+<h5 id="iTem2设置为默认终端-1"><a href="#iTem2设置为默认终端-1" class="headerlink" title="iTem2设置为默认终端"></a>iTem2设置为默认终端</h5><blockquote>
+<p>打开偏好设置preference，选中Keys，勾选Hotkey下的Show/hide iTerm2 with a system-wide hotkey，将热键设置为command+. ，这样你就可以通过command+. 全局热键来打开或关闭iTerm2窗口，非常方便。</p>
+</blockquote>
+<h5 id="配色方案"><a href="#配色方案" class="headerlink" title="配色方案"></a>配色方案</h5><blockquote>
+<p>这里选用 solarized，效果还不错。点开官网，下载，解压，然后打开 iTerm2 下的偏好设置 preference ，点开 profiles 下的colors 选项，点击右下角的 Color Presets 选项，选择import ，导入解压到的 solarized 文件下的Solarized Dark.itermcolors。</p>
+</blockquote>
+<h5 id="安装oh-my-zsh"><a href="#安装oh-my-zsh" class="headerlink" title="安装oh-my-zsh"></a>安装oh-my-zsh</h5><p>使用 crul 安装：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sh -c &quot;$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&quot;</div></pre></td></tr></table></figure>
+<p>或使用wget：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sh -c &quot;$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)&quot;</div></pre></td></tr></table></figure>
+<h5 id="主题配置"><a href="#主题配置" class="headerlink" title="主题配置"></a>主题配置</h5><p>安装成功后，用vim打开隐藏文件 .zshrc ，修改主题为 agnoster：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"># ZSH_THEME=&quot;robbyrussell&quot;</div><div class="line">ZSH_THEME=&quot;agnoster&quot;</div></pre></td></tr></table></figure>
+<p>应用这个主题需要特殊的字体支持，否则会出现乱码情况，这时我们来配置字体：</p>
+<p>1.使用 Meslo 字体，点开连接<a href="https://github.com/powerline/fonts/blob/master/Meslo%20Slashed/Meslo%20LG%20M%20Regular%20for%20Powerline.tt" target="_blank" rel="external">字体</a>f点击 view raw 下载字体。</p>
+<p>2.安装字体到系统字体册。</p>
+<p>3.应用字体到iTerm2下，我自己喜欢将字号设置为14px，看着舒服（iTerm -&gt; Preferences -&gt; Profiles -&gt; Text -&gt; Change Font）。</p>
+<p>4.重新打开iTerm2窗口，这时便可以看到效果了。</p>
+<h5 id="自动提示命令"><a href="#自动提示命令" class="headerlink" title="自动提示命令"></a>自动提示命令</h5><p>当我们输入命令时，终端会自动提示你接下来可能要输入的命令，这时按 → 便可输出这些命令，非常方便。</p>
+<p>设置如下：</p>
+<p>1.克隆仓库到本地 ~/.oh-my-zsh/custom/plugins 路径下</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions</div></pre></td></tr></table></figure>
+<p>2.用 vim 打开 .zshrc 文件，找到插件设置命令，默认是 plugins=(git) ，我们把它修改为</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">plugins=(zsh-autosuggestions git)</div></pre></td></tr></table></figure>
+<p>3.重新打开终端窗口。</p>
+<p>PS：修改提示字体亮度：</p>
+<p>移动到 ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions 路径下</p>
+<p>cd ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions<br>用 vim 打开 zsh-autosuggestions.zsh 文件，修改<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE=&apos;fg=10&apos;</div></pre></td></tr></table></figure></p>
+<h5 id="语法高亮"><a href="#语法高亮" class="headerlink" title="语法高亮"></a>语法高亮</h5><p>1.使用homebrew安装 zsh-syntax-highlighting 插件。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install zsh-syntax-highlighting</div></pre></td></tr></table></figure></p>
+<p>2.配置.zshrc文件，插入一行。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh</div></pre></td></tr></table></figure></p>
+<p>还有的人是这么干的<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">plugins=(zsh-autosuggestions git zsh-syntax-highlighting)</div></pre></td></tr></table></figure></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;item2-oh-my-zsh-solarized配色&quot;&gt;&lt;a href=&quot;#item2-oh-my-zsh-solarized配色&quot; class=&quot;headerlink&quot; title=&quot;item2 + oh-my-zsh + solarized配色&quot;&gt;&lt;/a&gt;item2 + oh-my-zsh + solarized配色&lt;/h4&gt;
+    
+    </summary>
+    
+      <category term="item2" scheme="http://yoursite.com/categories/item2/"/>
+    
+    
+      <category term="主题配置" scheme="http://yoursite.com/tags/%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>item2 + oh-my-zsh + solarized配色</title>
+    <link href="http://yoursite.com/2017/10/22/linux/Mac/powerline/"/>
+    <id>http://yoursite.com/2017/10/22/linux/Mac/powerline/</id>
+    <published>2017-10-21T16:00:00.000Z</published>
+    <updated>2017-10-22T09:19:44.000Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="powerline"><a href="#powerline" class="headerlink" title="powerline"></a>powerline</h4><a id="more"></a>
+<p>powerline是一个stateless status line，即一个全局状态/提示栏.<br><a href="https://github.com/powerline/powerline" target="_blank" rel="external">powerline</a></p>
+<h5 id="iTem2设置为默认终端"><a href="#iTem2设置为默认终端" class="headerlink" title="iTem2设置为默认终端"></a>iTem2设置为默认终端</h5><blockquote>
+<p>菜单栏）iTerm2 -&gt; Make iTerm2 Default Term</p>
+</blockquote>
+<h5 id="iTem2设置为默认终端-1"><a href="#iTem2设置为默认终端-1" class="headerlink" title="iTem2设置为默认终端"></a>iTem2设置为默认终端</h5><blockquote>
+<p>打开偏好设置preference，选中Keys，勾选Hotkey下的Show/hide iTerm2 with a system-wide hotkey，将热键设置为command+. ，这样你就可以通过command+. 全局热键来打开或关闭iTerm2窗口，非常方便。</p>
+</blockquote>
+<h5 id="配色方案"><a href="#配色方案" class="headerlink" title="配色方案"></a>配色方案</h5><blockquote>
+<p>这里选用 solarized，效果还不错。点开官网，下载，解压，然后打开 iTerm2 下的偏好设置 preference ，点开 profiles 下的colors 选项，点击右下角的 Color Presets 选项，选择import ，导入解压到的 solarized 文件下的Solarized Dark.itermcolors。</p>
+</blockquote>
+<h5 id="安装oh-my-zsh"><a href="#安装oh-my-zsh" class="headerlink" title="安装oh-my-zsh"></a>安装oh-my-zsh</h5><p>使用 crul 安装：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sh -c &quot;$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&quot;</div></pre></td></tr></table></figure>
+<p>或使用wget：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sh -c &quot;$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)&quot;</div></pre></td></tr></table></figure>
+<h5 id="主题配置"><a href="#主题配置" class="headerlink" title="主题配置"></a>主题配置</h5><p>安装成功后，用vim打开隐藏文件 .zshrc ，修改主题为 agnoster：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"># ZSH_THEME=&quot;robbyrussell&quot;</div><div class="line">ZSH_THEME=&quot;agnoster&quot;</div></pre></td></tr></table></figure>
+<p>应用这个主题需要特殊的字体支持，否则会出现乱码情况，这时我们来配置字体：</p>
+<p>1.使用 Meslo 字体，点开连接<a href="https://github.com/powerline/fonts/blob/master/Meslo%20Slashed/Meslo%20LG%20M%20Regular%20for%20Powerline.tt" target="_blank" rel="external">字体</a>f点击 view raw 下载字体。</p>
+<p>2.安装字体到系统字体册。</p>
+<p>3.应用字体到iTerm2下，我自己喜欢将字号设置为14px，看着舒服（iTerm -&gt; Preferences -&gt; Profiles -&gt; Text -&gt; Change Font）。</p>
+<p>4.重新打开iTerm2窗口，这时便可以看到效果了。</p>
+<h5 id="自动提示命令"><a href="#自动提示命令" class="headerlink" title="自动提示命令"></a>自动提示命令</h5><p>当我们输入命令时，终端会自动提示你接下来可能要输入的命令，这时按 → 便可输出这些命令，非常方便。</p>
+<p>设置如下：</p>
+<p>1.克隆仓库到本地 ~/.oh-my-zsh/custom/plugins 路径下</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions</div></pre></td></tr></table></figure>
+<p>2.用 vim 打开 .zshrc 文件，找到插件设置命令，默认是 plugins=(git) ，我们把它修改为</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">plugins=(zsh-autosuggestions git)</div></pre></td></tr></table></figure>
+<p>3.重新打开终端窗口。</p>
+<p>PS：修改提示字体亮度：</p>
+<p>移动到 ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions 路径下</p>
+<p>cd ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions<br>用 vim 打开 zsh-autosuggestions.zsh 文件，修改<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE=&apos;fg=10&apos;</div></pre></td></tr></table></figure></p>
+<h5 id="语法高亮"><a href="#语法高亮" class="headerlink" title="语法高亮"></a>语法高亮</h5><p>1.使用homebrew安装 zsh-syntax-highlighting 插件。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install zsh-syntax-highlighting</div></pre></td></tr></table></figure></p>
+<p>2.配置.zshrc文件，插入一行。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh</div></pre></td></tr></table></figure></p>
+<p>还有的人是这么干的<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">plugins=(zsh-autosuggestions git zsh-syntax-highlighting)</div></pre></td></tr></table></figure></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;powerline&quot;&gt;&lt;a href=&quot;#powerline&quot; class=&quot;headerlink&quot; title=&quot;powerline&quot;&gt;&lt;/a&gt;powerline&lt;/h4&gt;
+    
+    </summary>
+    
+      <category term="item2" scheme="http://yoursite.com/categories/item2/"/>
+    
+    
+      <category term="主题配置" scheme="http://yoursite.com/tags/%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Mac下Python多版本环境管理</title>
-    <link href="http://yoursite.com/2017/10/22/code/Python/Elasticsearch-%E7%AC%94%E8%AE%B0%E7%9A%84%E5%89%AF%E6%9C%AC/"/>
-    <id>http://yoursite.com/2017/10/22/code/Python/Elasticsearch-笔记的副本/</id>
+    <link href="http://yoursite.com/2017/10/22/code/Python/pyenv/"/>
+    <id>http://yoursite.com/2017/10/22/code/Python/pyenv/</id>
     <published>2017-10-21T16:00:00.000Z</published>
     <updated>2017-10-22T08:28:03.000Z</updated>
     
@@ -70,33 +183,6 @@
     
     
       <category term="Linux/vim" scheme="http://yoursite.com/tags/Linux-vim/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Anaconda的升级与卸载</title>
-    <link href="http://yoursite.com/2017/09/27/websit/NotesOfOther/"/>
-    <id>http://yoursite.com/2017/09/27/websit/NotesOfOther/</id>
-    <published>2017-09-27T05:24:50.000Z</published>
-    <updated>2017-10-21T10:01:29.000Z</updated>
-    
-    <content type="html"><![CDATA[<h4 id="升级"><a href="#升级" class="headerlink" title="升级"></a>升级</h4><a id="more"></a>
-<p>升级Anaconda需要先升级conda</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">conda update conda</div><div class="line">conda update anaconda</div></pre></td></tr></table></figure>
-<h4 id="卸载"><a href="#卸载" class="headerlink" title="卸载"></a>卸载</h4><p>由于Anaconda的安装文件都包含在一个目录中，所以直接将该目录删除即可。删除整个Anaconda目录：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">rm -rf anaconda</div></pre></td></tr></table></figure></p>
-<p>最后，建议清理下.bashrc中的Anaconda路径。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h4 id=&quot;升级&quot;&gt;&lt;a href=&quot;#升级&quot; class=&quot;headerlink&quot; title=&quot;升级&quot;&gt;&lt;/a&gt;升级&lt;/h4&gt;
-    
-    </summary>
-    
-      <category term="Linux/MacOs" scheme="http://yoursite.com/categories/Linux-MacOs/"/>
-    
-    
-      <category term="Python" scheme="http://yoursite.com/tags/Python/"/>
     
   </entry>
   
@@ -156,6 +242,33 @@
     
     
       <category term="VS Code" scheme="http://yoursite.com/tags/VS-Code/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Anaconda的升级与卸载</title>
+    <link href="http://yoursite.com/2017/09/27/websit/NotesOfOther/"/>
+    <id>http://yoursite.com/2017/09/27/websit/NotesOfOther/</id>
+    <published>2017-09-27T05:24:50.000Z</published>
+    <updated>2017-10-21T10:01:29.000Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="升级"><a href="#升级" class="headerlink" title="升级"></a>升级</h4><a id="more"></a>
+<p>升级Anaconda需要先升级conda</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">conda update conda</div><div class="line">conda update anaconda</div></pre></td></tr></table></figure>
+<h4 id="卸载"><a href="#卸载" class="headerlink" title="卸载"></a>卸载</h4><p>由于Anaconda的安装文件都包含在一个目录中，所以直接将该目录删除即可。删除整个Anaconda目录：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">rm -rf anaconda</div></pre></td></tr></table></figure></p>
+<p>最后，建议清理下.bashrc中的Anaconda路径。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;升级&quot;&gt;&lt;a href=&quot;#升级&quot; class=&quot;headerlink&quot; title=&quot;升级&quot;&gt;&lt;/a&gt;升级&lt;/h4&gt;
+    
+    </summary>
+    
+      <category term="Linux/MacOs" scheme="http://yoursite.com/categories/Linux-MacOs/"/>
+    
+    
+      <category term="Python" scheme="http://yoursite.com/tags/Python/"/>
     
   </entry>
   

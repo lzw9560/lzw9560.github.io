@@ -4,7 +4,47 @@
 
     
   <url>
-    <loc>http://yoursite.com/2017/10/22/code/Python/Elasticsearch-%E7%AC%94%E8%AE%B0%E7%9A%84%E5%89%AF%E6%9C%AC/</loc>
+    <loc>http://yoursite.com/2017/10/22/linux/Mac/powerline/</loc>
+    <lastmod>2017-10-22T09:19:44.000Z</lastmod>
+    <data>
+        <display>
+        <title>item2 + oh-my-zsh + solarized配色</title>
+        <pubTime>2017-10-21T16:00:00.000Z</pubTime>
+        
+        <tag>主题配置</tag>
+         
+         
+           
+             
+              <breadCrumb title="item2" url="http://yoursite.com/categories/item2/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2017/10/22/linux/Mac/zsh-theme/</loc>
+    <lastmod>2017-10-22T09:17:08.000Z</lastmod>
+    <data>
+        <display>
+        <title>item2 + oh-my-zsh + solarized配色</title>
+        <pubTime>2017-10-21T16:00:00.000Z</pubTime>
+        
+        <tag>主题配置</tag>
+         
+         
+           
+             
+              <breadCrumb title="item2" url="http://yoursite.com/categories/item2/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2017/10/22/code/Python/pyenv/</loc>
     <lastmod>2017-10-22T08:28:03.000Z</lastmod>
     <data>
         <display>
