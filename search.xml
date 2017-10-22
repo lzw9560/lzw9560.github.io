@@ -3,6 +3,35 @@
   
     
     <entry>
+      <title><![CDATA[Mac下Python多版本环境管理]]></title>
+      <url>/2017/10/22/code/Python/Elasticsearch-%E7%AC%94%E8%AE%B0%E7%9A%84%E5%89%AF%E6%9C%AC/</url>
+      <content type="html"><![CDATA[<h4 id="Mac-Python多版本环境管理"><a href="#Mac-Python多版本环境管理" class="headerlink" title="Mac Python多版本环境管理"></a>Mac Python多版本环境管理</h4><a id="more"></a>
+<p>首先通过homebrew安装pyenv，之后的所有Python安装和管理通过pyenv进行。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ brew install pyenv</div></pre></td></tr></table></figure></p>
+<p>pyenv安装完以后，就可以选择性的进行Python环境安装了。下面已安装Python2.7为例：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ pyenv install 2.7.5</div></pre></td></tr></table></figure></p>
+<p>此外，你还可以通过pyenv查看目前系统中已经安装过的Python版本<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ pyenv versions</div></pre></td></tr></table></figure></p>
+<p>如果需要在不同版本的Python间进行切换的话，使用以下命令：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ pyenv global 3.3.1</div></pre></td></tr></table></figure></p>
+<p>当然，你也可以让版本切换只对当前目录生效<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ pyenv local 2.7.5</div></pre></td></tr></table></figure></p>
+<p>参考文档地址：<br><a href="https://stackoverflow.com/questions/18671253/how-can-i-use-homebrew-to-install-both-python-2-and-3-on-mac" target="_blank" rel="external">转自Stackoverflow的回答</a>  </p>
+<p><a href="https://github.com/pyenv/pyenv" target="_blank" rel="external">Github地址：pyenv）</a><br><a href="https://github.com/pyenv/pyenv-virtualenv" target="_blank" rel="external">Github地址：pyenv-virtuelanv）</a></p>
+<p><a href="https://conda.io/docs/index.html" target="_blank" rel="external">conda使用说明</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> pyenv </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Python环境管理 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[NERDTree 快捷键]]></title>
       <url>/2017/10/21/linux/vim/nerdtree/</url>
       <content type="html"><![CDATA[<h3 id="NerdTree-在-vimrc-中的常用配置"><a href="#NerdTree-在-vimrc-中的常用配置" class="headerlink" title="NerdTree 在 .vimrc 中的常用配置"></a>NerdTree 在 .vimrc 中的常用配置</h3><a id="more"></a>
@@ -377,33 +406,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Elasticsearch]]></title>
-      <url>/2017/08/17/Elasticsearch-%E7%AC%94%E8%AE%B0/</url>
-      <content type="html"><![CDATA[<h4 id="Elasticsearch指南"><a href="#Elasticsearch指南" class="headerlink" title="Elasticsearch指南"></a>Elasticsearch指南</h4><a id="more"></a>
-<p>文档地址：<br><a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html#getting-started" target="_blank" rel="external">英文官方文档</a>  </p>
-<p><a href="https://www.gitbook.com/book/looly/elasticsearch-the-definitive-guide-cn/details" target="_blank" rel="external">Elasticsearch权威指南（中文版）</a></p>
-<p><a href="http://www.jianshu.com/p/f9adeded30b8" target="_blank" rel="external">Elasticsearch 5.4.0 用户指南</a></p>
-<p><a href="http://www.jianshu.com/p/f3a1982bf302" target="_blank" rel="external">全文检索基础</a></p>
-<p><a href="http://blog.csdn.net/jiuqiyuliang/article/details/51245335" target="_blank" rel="external">安装</a></p>
-<p><a href="http://www.jianshu.com/p/068ee911c001" target="_blank" rel="external">ik中文分词</a><br><a href="http://www.cnblogs.com/xing901022/p/5910139.html" target="_blank" rel="external">拼音分词</a></p>
-]]></content>
-      
-        <categories>
-            
-            <category> 程序 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> Elasticsearch </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[Hexo 常用命令]]></title>
       <url>/2017/08/17/hexo/hexo/</url>
       <content type="html"><![CDATA[<p>Hexo</p>
@@ -437,29 +439,27 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Mac下Python多版本环境管理]]></title>
-      <url>/2017/08/17/code/Python/Elasticsearch-%E7%AC%94%E8%AE%B0%E7%9A%84%E5%89%AF%E6%9C%AC/</url>
-      <content type="html"><![CDATA[<h4 id="Mac-Python多版本环境管理"><a href="#Mac-Python多版本环境管理" class="headerlink" title="Mac Python多版本环境管理"></a>Mac Python多版本环境管理</h4><a id="more"></a>
-<p>首先通过homebrew安装pyenv，之后的所有Python安装和管理通过pyenv进行。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ brew install pyenv</div></pre></td></tr></table></figure></p>
-<p>pyenv安装完以后，就可以选择性的进行Python环境安装了。下面已安装Python2.7为例：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ pyenv install 2.7.5</div></pre></td></tr></table></figure></p>
-<p>此外，你还可以通过pyenv查看目前系统中已经安装过的Python版本<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ pyenv versions</div></pre></td></tr></table></figure></p>
-<p>如果需要在不同版本的Python间进行切换的话，使用以下命令：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ pyenv global 3.3.1</div></pre></td></tr></table></figure></p>
-<p>当然，你也可以让版本切换只对当前目录生效<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ pyenv local 2.7.5</div></pre></td></tr></table></figure></p>
-<p>参考文档地址：<br><a href="https://stackoverflow.com/questions/18671253/how-can-i-use-homebrew-to-install-both-python-2-and-3-on-mac" target="_blank" rel="external">转自Stackoverflow的回答</a>  </p>
-<p><a href="https://github.com/pyenv/pyenv" target="_blank" rel="external">Github地址：pyenv）</a><br><a href="https://github.com/pyenv/pyenv-virtualenv" target="_blank" rel="external">Github地址：pyenv-virtuelanv）</a></p>
-<p><a href="https://conda.io/docs/index.html" target="_blank" rel="external">conda使用说明</a></p>
+      <title><![CDATA[Elasticsearch]]></title>
+      <url>/2017/08/17/Elasticsearch-%E7%AC%94%E8%AE%B0/</url>
+      <content type="html"><![CDATA[<h4 id="Elasticsearch指南"><a href="#Elasticsearch指南" class="headerlink" title="Elasticsearch指南"></a>Elasticsearch指南</h4><a id="more"></a>
+<p>文档地址：<br><a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html#getting-started" target="_blank" rel="external">英文官方文档</a>  </p>
+<p><a href="https://www.gitbook.com/book/looly/elasticsearch-the-definitive-guide-cn/details" target="_blank" rel="external">Elasticsearch权威指南（中文版）</a></p>
+<p><a href="http://www.jianshu.com/p/f9adeded30b8" target="_blank" rel="external">Elasticsearch 5.4.0 用户指南</a></p>
+<p><a href="http://www.jianshu.com/p/f3a1982bf302" target="_blank" rel="external">全文检索基础</a></p>
+<p><a href="http://blog.csdn.net/jiuqiyuliang/article/details/51245335" target="_blank" rel="external">安装</a></p>
+<p><a href="http://www.jianshu.com/p/068ee911c001" target="_blank" rel="external">ik中文分词</a><br><a href="http://www.cnblogs.com/xing901022/p/5910139.html" target="_blank" rel="external">拼音分词</a></p>
 ]]></content>
       
         <categories>
             
-            <category> pyenv </category>
+            <category> 程序 </category>
             
         </categories>
         
         
         <tags>
             
-            <tag> Python环境管理 </tag>
+            <tag> Elasticsearch </tag>
             
         </tags>
         
