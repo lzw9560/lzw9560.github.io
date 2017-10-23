@@ -104,7 +104,7 @@
 <meta property="og:site_name" content="Victory&#39;s Blog">
 <meta property="og:description" content="powerline">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-10-22T09:19:44.000Z">
+<meta property="og:updated_time" content="2017-10-23T01:47:08.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="item2 + oh-my-zsh + solarized配色">
 <meta name="twitter:description" content="powerline">
@@ -387,7 +387,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  585
+                  18
                 </span>
               
 
@@ -403,7 +403,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  3
+                  1
                 </span>
               
             </div>
@@ -426,39 +426,6 @@
       
         <h4 id="powerline"><a href="#powerline" class="headerlink" title="powerline"></a>powerline</h4><a id="more"></a>
 <p>powerline是一个stateless status line，即一个全局状态/提示栏.<br><a href="https://github.com/powerline/powerline" target="_blank" rel="external">powerline</a></p>
-<h5 id="iTem2设置为默认终端"><a href="#iTem2设置为默认终端" class="headerlink" title="iTem2设置为默认终端"></a>iTem2设置为默认终端</h5><blockquote>
-<p>菜单栏）iTerm2 -&gt; Make iTerm2 Default Term</p>
-</blockquote>
-<h5 id="iTem2设置为默认终端-1"><a href="#iTem2设置为默认终端-1" class="headerlink" title="iTem2设置为默认终端"></a>iTem2设置为默认终端</h5><blockquote>
-<p>打开偏好设置preference，选中Keys，勾选Hotkey下的Show/hide iTerm2 with a system-wide hotkey，将热键设置为command+. ，这样你就可以通过command+. 全局热键来打开或关闭iTerm2窗口，非常方便。</p>
-</blockquote>
-<h5 id="配色方案"><a href="#配色方案" class="headerlink" title="配色方案"></a>配色方案</h5><blockquote>
-<p>这里选用 solarized，效果还不错。点开官网，下载，解压，然后打开 iTerm2 下的偏好设置 preference ，点开 profiles 下的colors 选项，点击右下角的 Color Presets 选项，选择import ，导入解压到的 solarized 文件下的Solarized Dark.itermcolors。</p>
-</blockquote>
-<h5 id="安装oh-my-zsh"><a href="#安装oh-my-zsh" class="headerlink" title="安装oh-my-zsh"></a>安装oh-my-zsh</h5><p>使用 crul 安装：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sh -c &quot;$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&quot;</div></pre></td></tr></table></figure>
-<p>或使用wget：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sh -c &quot;$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)&quot;</div></pre></td></tr></table></figure>
-<h5 id="主题配置"><a href="#主题配置" class="headerlink" title="主题配置"></a>主题配置</h5><p>安装成功后，用vim打开隐藏文件 .zshrc ，修改主题为 agnoster：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"># ZSH_THEME=&quot;robbyrussell&quot;</div><div class="line">ZSH_THEME=&quot;agnoster&quot;</div></pre></td></tr></table></figure>
-<p>应用这个主题需要特殊的字体支持，否则会出现乱码情况，这时我们来配置字体：</p>
-<p>1.使用 Meslo 字体，点开连接<a href="https://github.com/powerline/fonts/blob/master/Meslo%20Slashed/Meslo%20LG%20M%20Regular%20for%20Powerline.tt" target="_blank" rel="external">字体</a>f点击 view raw 下载字体。</p>
-<p>2.安装字体到系统字体册。</p>
-<p>3.应用字体到iTerm2下，我自己喜欢将字号设置为14px，看着舒服（iTerm -&gt; Preferences -&gt; Profiles -&gt; Text -&gt; Change Font）。</p>
-<p>4.重新打开iTerm2窗口，这时便可以看到效果了。</p>
-<h5 id="自动提示命令"><a href="#自动提示命令" class="headerlink" title="自动提示命令"></a>自动提示命令</h5><p>当我们输入命令时，终端会自动提示你接下来可能要输入的命令，这时按 → 便可输出这些命令，非常方便。</p>
-<p>设置如下：</p>
-<p>1.克隆仓库到本地 ~/.oh-my-zsh/custom/plugins 路径下</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions</div></pre></td></tr></table></figure>
-<p>2.用 vim 打开 .zshrc 文件，找到插件设置命令，默认是 plugins=(git) ，我们把它修改为</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">plugins=(zsh-autosuggestions git)</div></pre></td></tr></table></figure>
-<p>3.重新打开终端窗口。</p>
-<p>PS：修改提示字体亮度：</p>
-<p>移动到 ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions 路径下</p>
-<p>cd ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions<br>用 vim 打开 zsh-autosuggestions.zsh 文件，修改<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE=&apos;fg=10&apos;</div></pre></td></tr></table></figure></p>
-<h5 id="语法高亮"><a href="#语法高亮" class="headerlink" title="语法高亮"></a>语法高亮</h5><p>1.使用homebrew安装 zsh-syntax-highlighting 插件。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install zsh-syntax-highlighting</div></pre></td></tr></table></figure></p>
-<p>2.配置.zshrc文件，插入一行。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh</div></pre></td></tr></table></figure></p>
-<p>还有的人是这么干的<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">plugins=(zsh-autosuggestions git zsh-syntax-highlighting)</div></pre></td></tr></table></figure></p>
 
       
     </div>
@@ -502,8 +469,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/10/22/code/Python/pyenv/" rel="next" title="Mac下Python多版本环境管理">
-                <i class="fa fa-chevron-left"></i> Mac下Python多版本环境管理
+              <a href="/2017/10/22/linux/Mac/macVim/" rel="next" title="MacVim">
+                <i class="fa fa-chevron-left"></i> MacVim
               </a>
             
           </div>
@@ -512,8 +479,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2017/10/22/linux/Mac/zsh-theme/" rel="prev" title="item2 + oh-my-zsh + solarized配色">
-                item2 + oh-my-zsh + solarized配色 <i class="fa fa-chevron-right"></i>
+              <a href="/2017/10/22/linux/Mac/tmux/" rel="prev" title="tmux">
+                tmux <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -591,7 +558,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">14</span>
+                <span class="site-state-item-count">16</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -602,7 +569,7 @@
             
             <div class="site-state-item site-state-categories">
               <a href="/categories/index.html">
-                <span class="site-state-item-count">8</span>
+                <span class="site-state-item-count">10</span>
                 <span class="site-state-item-name">分类</span>
               </a>
             </div>
@@ -613,7 +580,7 @@
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">12</span>
+                <span class="site-state-item-count">14</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -655,7 +622,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#powerline"><span class="nav-number">1.</span> <span class="nav-text">powerline</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#iTem2设置为默认终端"><span class="nav-number">1.1.</span> <span class="nav-text">iTem2设置为默认终端</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#iTem2设置为默认终端-1"><span class="nav-number">1.2.</span> <span class="nav-text">iTem2设置为默认终端</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#配色方案"><span class="nav-number">1.3.</span> <span class="nav-text">配色方案</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#安装oh-my-zsh"><span class="nav-number">1.4.</span> <span class="nav-text">安装oh-my-zsh</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#主题配置"><span class="nav-number">1.5.</span> <span class="nav-text">主题配置</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#自动提示命令"><span class="nav-number">1.6.</span> <span class="nav-text">自动提示命令</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#语法高亮"><span class="nav-number">1.7.</span> <span class="nav-text">语法高亮</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#powerline"><span class="nav-number">1.</span> <span class="nav-text">powerline</span></a></li></ol></div>
             
 
           </div>
