@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2017/11/08/linux/Mac/iTerm2%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
+    
+    <lastmod>2017-11-08T06:54:40.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2017/10/22/linux/Mac/tmux/</loc>
     
-    <lastmod>2017-10-23T08:37:41.000Z</lastmod>
+    <lastmod>2017-10-24T06:33:20.000Z</lastmod>
     
   </url>
   
@@ -65,7 +72,7 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2017/09/27/websit/NotesOfOther/</loc>
+    <loc>http://yoursite.com/2017/10/21/websit/NotesOfOther/</loc>
     
     <lastmod>2017-10-21T10:01:29.000Z</lastmod>
     

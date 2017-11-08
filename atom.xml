@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-10-22T08:28:03.000Z</updated>
+  <updated>2017-11-08T06:54:40.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>iTerm2常用命令</title>
+    <link href="http://yoursite.com/2017/11/08/linux/Mac/iTerm2%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+    <id>http://yoursite.com/2017/11/08/linux/Mac/iTerm2常用命令/</id>
+    <published>2017-11-07T16:00:00.000Z</published>
+    <updated>2017-11-08T06:54:40.000Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="iTerm2常用命令"><a href="#iTerm2常用命令" class="headerlink" title="iTerm2常用命令"></a>iTerm2常用命令</h4><a id="more"></a>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div></pre></td><td class="code"><pre><div class="line">----------------分屏--------------------</div><div class="line">1. 垂直分屏：command + d</div><div class="line">2. 水平分屏：command + shift + d</div><div class="line">3. 切换屏幕：command + option + 方向键 command + [ 或 command + ]</div><div class="line">4. 查看历史命令：command + ;</div><div class="line">5. 查看剪贴板历史：command + shift + h</div><div class="line">----------------标签--------------------</div><div class="line">7. 新建标签：command + t</div><div class="line">8. 关闭标签：command + w</div><div class="line">9. 切换标签：command + 数字 command + 左右方向键</div><div class="line">10. 切换全屏：command + enter</div><div class="line">11. 查找：command + f</div><div class="line">12. ----------------命令--------------------</div><div class="line">13. 清除当前行：ctrl + u</div><div class="line">14. 到行首：ctrl + a</div><div class="line">15. 到行尾：ctrl + e</div><div class="line">16. 前进后退：ctrl + f/b (相当于左右方向键)</div><div class="line">17. 上一条命令：ctrl + p</div><div class="line">18. 搜索命令历史：ctrl + r</div><div class="line">19. 删除当前光标的字符：ctrl + d</div><div class="line">20. 删除光标之前的字符：ctrl + h</div><div class="line">21. 删除光标之前的单词：ctrl + w</div><div class="line">22. 删除到文本末尾：ctrl + k</div><div class="line">23. 交换光标处文本：ctrl + t</div><div class="line">24. 清屏1：command + r</div><div class="line">25. 清屏2：ctrl + l</div><div class="line">26. ⌘ + f 所查找的内容会被自动复制</div><div class="line">27. ⌘ + r = clear，而且只是换到新一屏，不会想 clear 一样创建一个空屏</div><div class="line">28. ctrl + u 清空当前行，无论光标在什么位置</div><div class="line">29. 输入开头命令后 按 ⌘ + ; 会自动列出输入过的命令</div><div class="line">30. ⌘ + shift + h 会列出剪切板历史</div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;iTerm2常用命令&quot;&gt;&lt;a href=&quot;#iTerm2常用命令&quot; class=&quot;headerlink&quot; title=&quot;iTerm2常用命令&quot;&gt;&lt;/a&gt;iTerm2常用命令&lt;/h4&gt;
+    
+    </summary>
+    
+      <category term="iTerm2" scheme="http://yoursite.com/categories/iTerm2/"/>
+    
+    
+      <category term="iTerm2" scheme="http://yoursite.com/tags/iTerm2/"/>
+    
+  </entry>
   
   <entry>
     <title>Mac下Python多版本环境管理</title>
@@ -47,11 +70,90 @@
   </entry>
   
   <entry>
+    <title>item2 + oh-my-zsh + solarized配色</title>
+    <link href="http://yoursite.com/2017/10/22/linux/Mac/zsh-theme/"/>
+    <id>http://yoursite.com/2017/10/22/linux/Mac/zsh-theme/</id>
+    <published>2017-10-21T16:00:00.000Z</published>
+    <updated>2017-10-22T09:17:08.000Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="item2-oh-my-zsh-solarized配色"><a href="#item2-oh-my-zsh-solarized配色" class="headerlink" title="item2 + oh-my-zsh + solarized配色"></a>item2 + oh-my-zsh + solarized配色</h4><a id="more"></a>
+<h5 id="iTem2设置为默认终端"><a href="#iTem2设置为默认终端" class="headerlink" title="iTem2设置为默认终端"></a>iTem2设置为默认终端</h5><blockquote>
+<p>菜单栏）iTerm2 -&gt; Make iTerm2 Default Term</p>
+</blockquote>
+<h5 id="iTem2设置为默认终端-1"><a href="#iTem2设置为默认终端-1" class="headerlink" title="iTem2设置为默认终端"></a>iTem2设置为默认终端</h5><blockquote>
+<p>打开偏好设置preference，选中Keys，勾选Hotkey下的Show/hide iTerm2 with a system-wide hotkey，将热键设置为command+. ，这样你就可以通过command+. 全局热键来打开或关闭iTerm2窗口，非常方便。</p>
+</blockquote>
+<h5 id="配色方案"><a href="#配色方案" class="headerlink" title="配色方案"></a>配色方案</h5><blockquote>
+<p>这里选用 solarized，效果还不错。点开官网，下载，解压，然后打开 iTerm2 下的偏好设置 preference ，点开 profiles 下的colors 选项，点击右下角的 Color Presets 选项，选择import ，导入解压到的 solarized 文件下的Solarized Dark.itermcolors。</p>
+</blockquote>
+<h5 id="安装oh-my-zsh"><a href="#安装oh-my-zsh" class="headerlink" title="安装oh-my-zsh"></a>安装oh-my-zsh</h5><p>使用 crul 安装：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sh -c &quot;$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&quot;</div></pre></td></tr></table></figure>
+<p>或使用wget：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sh -c &quot;$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)&quot;</div></pre></td></tr></table></figure>
+<h5 id="主题配置"><a href="#主题配置" class="headerlink" title="主题配置"></a>主题配置</h5><p>安装成功后，用vim打开隐藏文件 .zshrc ，修改主题为 agnoster：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"># ZSH_THEME=&quot;robbyrussell&quot;</div><div class="line">ZSH_THEME=&quot;agnoster&quot;</div></pre></td></tr></table></figure>
+<p>应用这个主题需要特殊的字体支持，否则会出现乱码情况，这时我们来配置字体：</p>
+<p>1.使用 Meslo 字体，点开连接<a href="https://github.com/powerline/fonts/blob/master/Meslo%20Slashed/Meslo%20LG%20M%20Regular%20for%20Powerline.tt" target="_blank" rel="external">字体</a>f点击 view raw 下载字体。</p>
+<p>2.安装字体到系统字体册。</p>
+<p>3.应用字体到iTerm2下，我自己喜欢将字号设置为14px，看着舒服（iTerm -&gt; Preferences -&gt; Profiles -&gt; Text -&gt; Change Font）。</p>
+<p>4.重新打开iTerm2窗口，这时便可以看到效果了。</p>
+<h5 id="自动提示命令"><a href="#自动提示命令" class="headerlink" title="自动提示命令"></a>自动提示命令</h5><p>当我们输入命令时，终端会自动提示你接下来可能要输入的命令，这时按 → 便可输出这些命令，非常方便。</p>
+<p>设置如下：</p>
+<p>1.克隆仓库到本地 ~/.oh-my-zsh/custom/plugins 路径下</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions</div></pre></td></tr></table></figure>
+<p>2.用 vim 打开 .zshrc 文件，找到插件设置命令，默认是 plugins=(git) ，我们把它修改为</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">plugins=(zsh-autosuggestions git)</div></pre></td></tr></table></figure>
+<p>3.重新打开终端窗口。</p>
+<p>PS：修改提示字体亮度：</p>
+<p>移动到 ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions 路径下</p>
+<p>cd ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions<br>用 vim 打开 zsh-autosuggestions.zsh 文件，修改<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE=&apos;fg=10&apos;</div></pre></td></tr></table></figure></p>
+<h5 id="语法高亮"><a href="#语法高亮" class="headerlink" title="语法高亮"></a>语法高亮</h5><p>1.使用homebrew安装 zsh-syntax-highlighting 插件。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install zsh-syntax-highlighting</div></pre></td></tr></table></figure></p>
+<p>2.配置.zshrc文件，插入一行。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh</div></pre></td></tr></table></figure></p>
+<p>还有的人是这么干的<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">plugins=(zsh-autosuggestions git zsh-syntax-highlighting)</div></pre></td></tr></table></figure></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;item2-oh-my-zsh-solarized配色&quot;&gt;&lt;a href=&quot;#item2-oh-my-zsh-solarized配色&quot; class=&quot;headerlink&quot; title=&quot;item2 + oh-my-zsh + solarized配色&quot;&gt;&lt;/a&gt;item2 + oh-my-zsh + solarized配色&lt;/h4&gt;
+    
+    </summary>
+    
+      <category term="item2" scheme="http://yoursite.com/categories/item2/"/>
+    
+    
+      <category term="主题配置" scheme="http://yoursite.com/tags/%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MacVim</title>
+    <link href="http://yoursite.com/2017/10/22/linux/Mac/macVim/"/>
+    <id>http://yoursite.com/2017/10/22/linux/Mac/macVim/</id>
+    <published>2017-10-21T16:00:00.000Z</published>
+    <updated>2017-10-22T16:30:39.000Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="MacVim"><a href="#MacVim" class="headerlink" title="MacVim"></a>MacVim</h4><a id="more"></a>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;MacVim&quot;&gt;&lt;a href=&quot;#MacVim&quot; class=&quot;headerlink&quot; title=&quot;MacVim&quot;&gt;&lt;/a&gt;MacVim&lt;/h4&gt;
+    
+    </summary>
+    
+      <category term="MacVim" scheme="http://yoursite.com/categories/MacVim/"/>
+    
+    
+      <category term="MacVim" scheme="http://yoursite.com/tags/MacVim/"/>
+    
+  </entry>
+  
+  <entry>
     <title>tmux</title>
     <link href="http://yoursite.com/2017/10/22/linux/Mac/tmux/"/>
     <id>http://yoursite.com/2017/10/22/linux/Mac/tmux/</id>
     <published>2017-10-21T16:00:00.000Z</published>
-    <updated>2017-10-23T08:37:41.000Z</updated>
+    <updated>2017-10-24T06:33:20.000Z</updated>
     
     <content type="html"><![CDATA[<h4 id="tmux"><a href="#tmux" class="headerlink" title="tmux"></a><a href="https://github.com/tmux/tmux/wiki" target="_blank" rel="external"><strong>tmux</strong></a></h4><a id="more"></a>
 <p><code>tmux</code>是什么？一个工具，是linux中的一种管理窗口的程序。<br>tmux提供了多标签和分割窗体的功能，提供了一个窗体组随时存储和恢复的功能。</p>
@@ -105,6 +207,21 @@
 <td style="text-align:center">:</td>
 <td style="text-align:center">竖直分割</td>
 </tr>
+<tr>
+<td style="text-align:center">prefix</td>
+<td style="text-align:center">o</td>
+<td style="text-align:center">依次切换当前窗口下的各个pane。</td>
+</tr>
+<tr>
+<td style="text-align:center">prefix</td>
+<td style="text-align:center">Space (空格键)</td>
+<td style="text-align:center">对当前窗口下的所有pane重新排列布局，每按一次，换一种样式。</td>
+</tr>
+<tr>
+<td style="text-align:center">prefix</td>
+<td style="text-align:center">x</td>
+<td style="text-align:center">关闭当前使用中的pane。</td>
+</tr>
 </tbody>
 </table>
 <h2 id="Windows"><a href="#Windows" class="headerlink" title="Windows"></a><code>Windows</code></h2><table>
@@ -125,6 +242,26 @@
 <td style="text-align:center">prefix</td>
 <td style="text-align:center">数字</td>
 <td style="text-align:center">移动</td>
+</tr>
+<tr>
+<td style="text-align:center">Prefix</td>
+<td style="text-align:center">p</td>
+<td style="text-align:center">(p for previous)：切换到上一个window。</td>
+</tr>
+<tr>
+<td style="text-align:center">Prefix</td>
+<td style="text-align:center">n</td>
+<td style="text-align:center">(n for next): 切换到下一个window。</td>
+</tr>
+<tr>
+<td style="text-align:center">Prefix</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">: 切换到0号window，依次类推，1、2、3…</td>
+</tr>
+<tr>
+<td style="text-align:center">Prefix</td>
+<td style="text-align:center">w</td>
+<td style="text-align:center">(w for windows):出当前session所有window，通过上、下键可以选择切换到指定window。</td>
 </tr>
 <tr>
 <td style="text-align:center">prefix</td>
@@ -256,7 +393,7 @@
 <p>安装 retach-to-user-namespace。用 brew 安装的话将会非常简单，只需要运行下面这条命令：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install reattach-to-user-namespace</div></pre></td></tr></table></figure>
 <h6 id="选择并复制文本"><a href="#选择并复制文本" class="headerlink" title="选择并复制文本"></a>选择并复制文本</h6><blockquote>
-<p>首先按下 <code>Ctrl-b</code> [ 进入复制模式，然后可以看到一小段高亮的文本出现在了屏幕的右上角 (“[0/0]”)</p>
+<p>首先按下 <code>Ctrl-b</code> [ 进入复制模式，然后可以看到一小段高亮的文本出现在了屏幕的右上角 (“[0/0]”)<br>使用空格键（space）开始内容选取，回车键（Enter）进行拷贝，<br>然后使用 “ctrl-b ]” 进行粘贴。</p>
 </blockquote>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"># invoke reattach-to-user-namespace every time a new window/pane opens</div><div class="line">set-option -g default-command &quot;reattach-to-user-namespace -l bash&quot;</div></pre></td></tr></table></figure>
 <h6 id="使用vim快捷键"><a href="#使用vim快捷键" class="headerlink" title="使用vim快捷键"></a>使用vim快捷键</h6><blockquote>
@@ -327,62 +464,6 @@
   </entry>
   
   <entry>
-    <title>item2 + oh-my-zsh + solarized配色</title>
-    <link href="http://yoursite.com/2017/10/22/linux/Mac/zsh-theme/"/>
-    <id>http://yoursite.com/2017/10/22/linux/Mac/zsh-theme/</id>
-    <published>2017-10-21T16:00:00.000Z</published>
-    <updated>2017-10-22T09:17:08.000Z</updated>
-    
-    <content type="html"><![CDATA[<h4 id="item2-oh-my-zsh-solarized配色"><a href="#item2-oh-my-zsh-solarized配色" class="headerlink" title="item2 + oh-my-zsh + solarized配色"></a>item2 + oh-my-zsh + solarized配色</h4><a id="more"></a>
-<h5 id="iTem2设置为默认终端"><a href="#iTem2设置为默认终端" class="headerlink" title="iTem2设置为默认终端"></a>iTem2设置为默认终端</h5><blockquote>
-<p>菜单栏）iTerm2 -&gt; Make iTerm2 Default Term</p>
-</blockquote>
-<h5 id="iTem2设置为默认终端-1"><a href="#iTem2设置为默认终端-1" class="headerlink" title="iTem2设置为默认终端"></a>iTem2设置为默认终端</h5><blockquote>
-<p>打开偏好设置preference，选中Keys，勾选Hotkey下的Show/hide iTerm2 with a system-wide hotkey，将热键设置为command+. ，这样你就可以通过command+. 全局热键来打开或关闭iTerm2窗口，非常方便。</p>
-</blockquote>
-<h5 id="配色方案"><a href="#配色方案" class="headerlink" title="配色方案"></a>配色方案</h5><blockquote>
-<p>这里选用 solarized，效果还不错。点开官网，下载，解压，然后打开 iTerm2 下的偏好设置 preference ，点开 profiles 下的colors 选项，点击右下角的 Color Presets 选项，选择import ，导入解压到的 solarized 文件下的Solarized Dark.itermcolors。</p>
-</blockquote>
-<h5 id="安装oh-my-zsh"><a href="#安装oh-my-zsh" class="headerlink" title="安装oh-my-zsh"></a>安装oh-my-zsh</h5><p>使用 crul 安装：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sh -c &quot;$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&quot;</div></pre></td></tr></table></figure>
-<p>或使用wget：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sh -c &quot;$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)&quot;</div></pre></td></tr></table></figure>
-<h5 id="主题配置"><a href="#主题配置" class="headerlink" title="主题配置"></a>主题配置</h5><p>安装成功后，用vim打开隐藏文件 .zshrc ，修改主题为 agnoster：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"># ZSH_THEME=&quot;robbyrussell&quot;</div><div class="line">ZSH_THEME=&quot;agnoster&quot;</div></pre></td></tr></table></figure>
-<p>应用这个主题需要特殊的字体支持，否则会出现乱码情况，这时我们来配置字体：</p>
-<p>1.使用 Meslo 字体，点开连接<a href="https://github.com/powerline/fonts/blob/master/Meslo%20Slashed/Meslo%20LG%20M%20Regular%20for%20Powerline.tt" target="_blank" rel="external">字体</a>f点击 view raw 下载字体。</p>
-<p>2.安装字体到系统字体册。</p>
-<p>3.应用字体到iTerm2下，我自己喜欢将字号设置为14px，看着舒服（iTerm -&gt; Preferences -&gt; Profiles -&gt; Text -&gt; Change Font）。</p>
-<p>4.重新打开iTerm2窗口，这时便可以看到效果了。</p>
-<h5 id="自动提示命令"><a href="#自动提示命令" class="headerlink" title="自动提示命令"></a>自动提示命令</h5><p>当我们输入命令时，终端会自动提示你接下来可能要输入的命令，这时按 → 便可输出这些命令，非常方便。</p>
-<p>设置如下：</p>
-<p>1.克隆仓库到本地 ~/.oh-my-zsh/custom/plugins 路径下</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions</div></pre></td></tr></table></figure>
-<p>2.用 vim 打开 .zshrc 文件，找到插件设置命令，默认是 plugins=(git) ，我们把它修改为</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">plugins=(zsh-autosuggestions git)</div></pre></td></tr></table></figure>
-<p>3.重新打开终端窗口。</p>
-<p>PS：修改提示字体亮度：</p>
-<p>移动到 ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions 路径下</p>
-<p>cd ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions<br>用 vim 打开 zsh-autosuggestions.zsh 文件，修改<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE=&apos;fg=10&apos;</div></pre></td></tr></table></figure></p>
-<h5 id="语法高亮"><a href="#语法高亮" class="headerlink" title="语法高亮"></a>语法高亮</h5><p>1.使用homebrew安装 zsh-syntax-highlighting 插件。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install zsh-syntax-highlighting</div></pre></td></tr></table></figure></p>
-<p>2.配置.zshrc文件，插入一行。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh</div></pre></td></tr></table></figure></p>
-<p>还有的人是这么干的<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">plugins=(zsh-autosuggestions git zsh-syntax-highlighting)</div></pre></td></tr></table></figure></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h4 id=&quot;item2-oh-my-zsh-solarized配色&quot;&gt;&lt;a href=&quot;#item2-oh-my-zsh-solarized配色&quot; class=&quot;headerlink&quot; title=&quot;item2 + oh-my-zsh + solarized配色&quot;&gt;&lt;/a&gt;item2 + oh-my-zsh + solarized配色&lt;/h4&gt;
-    
-    </summary>
-    
-      <category term="item2" scheme="http://yoursite.com/categories/item2/"/>
-    
-    
-      <category term="主题配置" scheme="http://yoursite.com/tags/%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/"/>
-    
-  </entry>
-  
-  <entry>
     <title>powerline</title>
     <link href="http://yoursite.com/2017/10/22/linux/Mac/powerline/"/>
     <id>http://yoursite.com/2017/10/22/linux/Mac/powerline/</id>
@@ -407,25 +488,29 @@
   </entry>
   
   <entry>
-    <title>MacVim</title>
-    <link href="http://yoursite.com/2017/10/22/linux/Mac/macVim/"/>
-    <id>http://yoursite.com/2017/10/22/linux/Mac/macVim/</id>
-    <published>2017-10-21T16:00:00.000Z</published>
-    <updated>2017-10-22T16:30:39.000Z</updated>
+    <title>Anaconda的升级与卸载</title>
+    <link href="http://yoursite.com/2017/10/21/websit/NotesOfOther/"/>
+    <id>http://yoursite.com/2017/10/21/websit/NotesOfOther/</id>
+    <published>2017-10-21T10:01:29.000Z</published>
+    <updated>2017-10-21T10:01:29.000Z</updated>
     
-    <content type="html"><![CDATA[<h4 id="MacVim"><a href="#MacVim" class="headerlink" title="MacVim"></a>MacVim</h4><a id="more"></a>
+    <content type="html"><![CDATA[<h4 id="升级"><a href="#升级" class="headerlink" title="升级"></a>升级</h4><a id="more"></a>
+<p>升级Anaconda需要先升级conda</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">conda update conda</div><div class="line">conda update anaconda</div></pre></td></tr></table></figure>
+<h4 id="卸载"><a href="#卸载" class="headerlink" title="卸载"></a>卸载</h4><p>由于Anaconda的安装文件都包含在一个目录中，所以直接将该目录删除即可。删除整个Anaconda目录：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">rm -rf anaconda</div></pre></td></tr></table></figure></p>
+<p>最后，建议清理下.bashrc中的Anaconda路径。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;h4 id=&quot;MacVim&quot;&gt;&lt;a href=&quot;#MacVim&quot; class=&quot;headerlink&quot; title=&quot;MacVim&quot;&gt;&lt;/a&gt;MacVim&lt;/h4&gt;
+      &lt;h4 id=&quot;升级&quot;&gt;&lt;a href=&quot;#升级&quot; class=&quot;headerlink&quot; title=&quot;升级&quot;&gt;&lt;/a&gt;升级&lt;/h4&gt;
     
     </summary>
     
-      <category term="MacVim" scheme="http://yoursite.com/categories/MacVim/"/>
+      <category term="Linux/MacOs" scheme="http://yoursite.com/categories/Linux-MacOs/"/>
     
     
-      <category term="MacVim" scheme="http://yoursite.com/tags/MacVim/"/>
+      <category term="Python" scheme="http://yoursite.com/tags/Python/"/>
     
   </entry>
   
@@ -460,7 +545,7 @@
     <title>Visual Studio Code开发技巧</title>
     <link href="http://yoursite.com/2017/09/27/tool/vscode/"/>
     <id>http://yoursite.com/2017/09/27/tool/vscode/</id>
-    <published>2017-09-27T05:24:50.000Z</published>
+    <published>2017-09-27T05:54:57.000Z</published>
     <updated>2017-09-27T05:54:57.000Z</updated>
     
     <content type="html"><![CDATA[<h4 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h4><a id="more"></a>
@@ -516,37 +601,10 @@
   </entry>
   
   <entry>
-    <title>Anaconda的升级与卸载</title>
-    <link href="http://yoursite.com/2017/09/27/websit/NotesOfOther/"/>
-    <id>http://yoursite.com/2017/09/27/websit/NotesOfOther/</id>
-    <published>2017-09-27T05:24:50.000Z</published>
-    <updated>2017-10-21T10:01:29.000Z</updated>
-    
-    <content type="html"><![CDATA[<h4 id="升级"><a href="#升级" class="headerlink" title="升级"></a>升级</h4><a id="more"></a>
-<p>升级Anaconda需要先升级conda</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">conda update conda</div><div class="line">conda update anaconda</div></pre></td></tr></table></figure>
-<h4 id="卸载"><a href="#卸载" class="headerlink" title="卸载"></a>卸载</h4><p>由于Anaconda的安装文件都包含在一个目录中，所以直接将该目录删除即可。删除整个Anaconda目录：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">rm -rf anaconda</div></pre></td></tr></table></figure></p>
-<p>最后，建议清理下.bashrc中的Anaconda路径。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h4 id=&quot;升级&quot;&gt;&lt;a href=&quot;#升级&quot; class=&quot;headerlink&quot; title=&quot;升级&quot;&gt;&lt;/a&gt;升级&lt;/h4&gt;
-    
-    </summary>
-    
-      <category term="Linux/MacOs" scheme="http://yoursite.com/categories/Linux-MacOs/"/>
-    
-    
-      <category term="Python" scheme="http://yoursite.com/tags/Python/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Golang 安装</title>
     <link href="http://yoursite.com/2017/09/26/code/golang/install/"/>
     <id>http://yoursite.com/2017/09/26/code/golang/install/</id>
-    <published>2017-09-26T08:26:45.000Z</published>
+    <published>2017-09-26T10:01:56.000Z</published>
     <updated>2017-09-26T10:01:56.000Z</updated>
     
     <content type="html"><![CDATA[<h5 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h5><a id="more"></a>
@@ -624,7 +682,7 @@
     <title>iTerm2使用sz/rz</title>
     <link href="http://yoursite.com/2017/09/21/linux/Tool/szrc/"/>
     <id>http://yoursite.com/2017/09/21/linux/Tool/szrc/</id>
-    <published>2017-09-21T03:27:20.000Z</published>
+    <published>2017-09-21T06:54:09.000Z</published>
     <updated>2017-09-21T06:54:09.000Z</updated>
     
     <content type="html"><![CDATA[<h3 id="sz-rz"><a href="#sz-rz" class="headerlink" title="sz/rz"></a>sz/rz</h3><a id="more"></a>
@@ -690,7 +748,7 @@
     <title>Supervisor 安装配置</title>
     <link href="http://yoursite.com/2017/09/12/tool/supervisor/"/>
     <id>http://yoursite.com/2017/09/12/tool/supervisor/</id>
-    <published>2017-09-12T09:00:46.000Z</published>
+    <published>2017-09-12T09:15:04.000Z</published>
     <updated>2017-09-12T09:15:04.000Z</updated>
     
     <content type="html"><![CDATA[<h4 id="Supervisor"><a href="#Supervisor" class="headerlink" title="Supervisor"></a>Supervisor</h4><a id="more"></a>
@@ -729,7 +787,7 @@
     <title>GitLab-Runner</title>
     <link href="http://yoursite.com/2017/09/12/gitlabci/gitlab_runner/"/>
     <id>http://yoursite.com/2017/09/12/gitlabci/gitlab_runner/</id>
-    <published>2017-09-12T07:12:03.000Z</published>
+    <published>2017-09-12T08:53:30.000Z</published>
     <updated>2017-09-12T08:53:30.000Z</updated>
     
     <content type="html"><![CDATA[<h4 id="GitLab-Runner"><a href="#GitLab-Runner" class="headerlink" title="GitLab-Runner"></a>GitLab-Runner</h4><a id="more"></a>
@@ -786,7 +844,7 @@
     <title>GitLab-CI 一些概念</title>
     <link href="http://yoursite.com/2017/09/12/gitlabci/gitlabci/"/>
     <id>http://yoursite.com/2017/09/12/gitlabci/gitlabci/</id>
-    <published>2017-09-12T06:58:16.000Z</published>
+    <published>2017-09-12T07:58:00.000Z</published>
     <updated>2017-09-12T07:58:00.000Z</updated>
     
     <content type="html"><![CDATA[<h5 id="GitLab-CI"><a href="#GitLab-CI" class="headerlink" title="GitLab-CI"></a>GitLab-CI</h5><a id="more"></a>

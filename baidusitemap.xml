@@ -4,8 +4,28 @@
 
     
   <url>
+    <loc>http://yoursite.com/2017/11/08/linux/Mac/iTerm2%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
+    <lastmod>2017-11-08T06:54:40.000Z</lastmod>
+    <data>
+        <display>
+        <title>iTerm2常用命令</title>
+        <pubTime>2017-11-07T16:00:00.000Z</pubTime>
+        
+        <tag>iTerm2</tag>
+         
+         
+           
+             
+              <breadCrumb title="iTerm2" url="http://yoursite.com/categories/iTerm2/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2017/10/22/linux/Mac/tmux/</loc>
-    <lastmod>2017-10-23T08:37:41.000Z</lastmod>
+    <lastmod>2017-10-24T06:33:20.000Z</lastmod>
     <data>
         <display>
         <title>tmux</title>
@@ -159,12 +179,12 @@
 
     
   <url>
-    <loc>http://yoursite.com/2017/09/27/websit/NotesOfOther/</loc>
+    <loc>http://yoursite.com/2017/10/21/websit/NotesOfOther/</loc>
     <lastmod>2017-10-21T10:01:29.000Z</lastmod>
     <data>
         <display>
         <title>Anaconda的升级与卸载</title>
-        <pubTime>2017-09-27T05:24:50.000Z</pubTime>
+        <pubTime>2017-10-21T10:01:29.000Z</pubTime>
         
         <tag>Python</tag>
          
@@ -184,7 +204,7 @@
     <data>
         <display>
         <title>Visual Studio Code开发技巧</title>
-        <pubTime>2017-09-27T05:24:50.000Z</pubTime>
+        <pubTime>2017-09-27T05:54:57.000Z</pubTime>
         
         <tag>VS Code</tag>
          
@@ -204,7 +224,7 @@
     <data>
         <display>
         <title>Golang 安装</title>
-        <pubTime>2017-09-26T08:26:45.000Z</pubTime>
+        <pubTime>2017-09-26T10:01:56.000Z</pubTime>
         
         <tag>Golang</tag>
          
@@ -264,7 +284,7 @@
     <data>
         <display>
         <title>iTerm2使用sz/rz</title>
-        <pubTime>2017-09-21T03:27:20.000Z</pubTime>
+        <pubTime>2017-09-21T06:54:09.000Z</pubTime>
         
         <tag>Linux/sz、rz</tag>
          
@@ -284,7 +304,7 @@
     <data>
         <display>
         <title>Supervisor 安装配置</title>
-        <pubTime>2017-09-12T09:00:46.000Z</pubTime>
+        <pubTime>2017-09-12T09:15:04.000Z</pubTime>
         
         <tag>Supervisor</tag>
          
@@ -304,7 +324,7 @@
     <data>
         <display>
         <title>GitLab-Runner</title>
-        <pubTime>2017-09-12T07:12:03.000Z</pubTime>
+        <pubTime>2017-09-12T08:53:30.000Z</pubTime>
         
         <tag>GitLab-CI</tag>
          
@@ -324,7 +344,7 @@
     <data>
         <display>
         <title>GitLab-CI 一些概念</title>
-        <pubTime>2017-09-12T06:58:16.000Z</pubTime>
+        <pubTime>2017-09-12T07:58:00.000Z</pubTime>
         
         <tag>GitLab-CI</tag>
          
