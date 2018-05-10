@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-11-08T06:54:40.000Z</updated>
+  <updated>2018-05-10T18:51:49.667Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,149 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>My Resume</title>
+    <link href="http://yoursite.com/2018/05/10/resume/resume/"/>
+    <id>http://yoursite.com/2018/05/10/resume/resume/</id>
+    <published>2018-05-10T15:10:33.288Z</published>
+    <updated>2018-05-10T18:51:49.667Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Python程序员-李志威"><a href="#Python程序员-李志威" class="headerlink" title="Python程序员-李志威"></a>Python程序员-李志威</h1><hr>
+<h1 id="联系方式"><a href="#联系方式" class="headerlink" title="联系方式"></a>联系方式</h1><ul>
+<li>手机 ：136-9334-7696</li>
+<li>Email：lzw9560@gmail.com </li>
+<li>微信号：wxinjiao</li>
+</ul>
+<h2 id=""><a href="#" class="headerlink" title=""></a><a id="more"></a></h2><h1 id="个人信息"><a href="#个人信息" class="headerlink" title="个人信息"></a>个人信息</h1><ul>
+<li>男 1990 </li>
+<li>专科/计算机以及电子自动化 </li>
+<li>工作年限：5年</li>
+<li>期望职位：后台开发工程师</li>
+<li>期望薪资：面议</li>
+<li>期望城市：北京</li>
+</ul>
+<hr>
+<h1 id="工作经历"><a href="#工作经历" class="headerlink" title="工作经历"></a>工作经历</h1><h2 id="架标科技有限公司-（-2016年9月-至今-）"><a href="#架标科技有限公司-（-2016年9月-至今-）" class="headerlink" title="架标科技有限公司 （ 2016年9月 ~ 至今 ）"></a>架标科技有限公司 （ 2016年9月 ~ 至今 ）</h2><h3 id="基于电子价签扩展应用系统（Version2）"><a href="#基于电子价签扩展应用系统（Version2）" class="headerlink" title="基于电子价签扩展应用系统（Version2）"></a>基于电子价签扩展应用系统（Version2）</h3><h4 id="简介："><a href="#简介：" class="headerlink" title="简介："></a><strong>简介</strong>：</h4><p>主要使用 <em>Flask-RESTful</em> 实现，给移动APP端和WEB端提供后台API接口。<br>针对新零售的概念，APP端主要针对C端用户使用，结合电子价签给用户不同的购物体验。<br>WEB端主要提供商品和超市品牌的管理。</p>
+<h4 id="描述："><a href="#描述：" class="headerlink" title="描述："></a><strong>描述</strong>：</h4><ul>
+<li>负责数据库模型设计，API设计实现，后台部署，系统运维等工作。</li>
+<li>微信移动应用授权，微信小程序授权。</li>
+<li>项目中涉及相对比较复杂的权限管理控制，设计实现了RBAC（Resource-Based Access Contro）基于资源的权限控制模型Flask插件。</li>
+<li>MySQL数据库查询优化，索引创建。</li>
+<li>搜索使用 elasticsearch + 中文分词插件</li>
+<li>部署采用 supervisor + gunicorn + Nginx</li>
+</ul>
+<h3 id="ERP商品数据同步系统"><a href="#ERP商品数据同步系统" class="headerlink" title="ERP商品数据同步系统"></a>ERP商品数据同步系统</h3><h4 id="简介"><a href="#简介" class="headerlink" title="简介"></a><strong>简介</strong></h4><p>超市ERP商品数据同步到电子价签系统。</p>
+<h4 id="描述"><a href="#描述" class="headerlink" title="描述"></a><strong>描述</strong></h4><ul>
+<li>从不同商超ERP读取变价商品信息，同步到电子价签，价签同步显示商品实时价格，并实时同步到相关后台应用数据库。</li>
+<li>商品数据格式化，格式化不同ERP商品数据，统一格式存储，维护应用商品库。</li>
+<li>程序优化，效率提升，数据库读写采用批量提交回滚，涉及到csv文件读写，使用 <em>Python yield</em> 实现，10w条商品数据处理大约需要600多秒。</li>
+<li>程序监控，支持自动重启。</li>
+</ul>
+<h3 id="基于电子价签扩展应用系统"><a href="#基于电子价签扩展应用系统" class="headerlink" title="基于电子价签扩展应用系统"></a>基于电子价签扩展应用系统</h3><h4 id="简介：-1"><a href="#简介：-1" class="headerlink" title="简介："></a><strong>简介</strong>：</h4><p>主要使用 <em>Django REST framework</em> 实现，给移动APP端和WEB端提供后台API接口。<br>手机移动端结合电子价签一些应用。</p>
+<h4 id="描述：-1"><a href="#描述：-1" class="headerlink" title="描述："></a><strong>描述</strong>：</h4><ul>
+<li>负责数据库模型设计实现，API设计实现，单元测试，后台项目部署，系统运维等工作。</li>
+<li>自动化持续构建集成 <strong>GitLab CI</strong>，提高效率，节省开发成本。</li>
+<li>后台异步任务、定时任务采用 Django Celery</li>
+<li>地理相关使用 PostGIS GeoDjango</li>
+<li>部署采用 uWSGI + Nginx</li>
+</ul>
+<h2 id="搜狐公司-网络运营部-（-2016年3月-2016年9月-）"><a href="#搜狐公司-网络运营部-（-2016年3月-2016年9月-）" class="headerlink" title="搜狐公司-网络运营部 （ 2016年3月 ~ 2016年9月 ）"></a>搜狐公司-网络运营部 （ 2016年3月 ~ 2016年9月 ）</h2><h3 id="自动化构建部署发布模块-用户验收测试框"><a href="#自动化构建部署发布模块-用户验收测试框" class="headerlink" title="自动化构建部署发布模块-用户验收测试框"></a>自动化构建部署发布模块-用户验收测试框</h3><h4 id="简介：-2"><a href="#简介：-2" class="headerlink" title="简介："></a><strong>简介</strong>：</h4><p>项目属于公司内部运维平台自动化构建部署框架的一部分，由于系统产品迭代周期较快，产品人员验收成本较高，人工验收很难统一标准，回归测试代价较高，所以将该部分工作实现自动化以节省人员成本以及统一验收标准提高产品交付质量。项目用于自动化用户验收测试框架，需要在Linux下准备测试环境，然后在Windows下实现具体测试用例，为了避免环境干扰和测试用例解耦合，针对用例在Linux虚拟机上准备单独的LXC测试环境，环境部分分为测试环境准备，测试环境初始化，测试环境还原；测试框架部分主要是测试用例的分发规则和具体测试用例，最后结合Jenkins集成框架，实现了自动化构建，部署，发布功能。</p>
+<h4 id="描述：-2"><a href="#描述：-2" class="headerlink" title="描述："></a><strong>描述</strong>：</h4><ul>
+<li>测试框架使用Selenuim + PyUnit的方式进行用例编写自动化测试框架。</li>
+<li>针对自动化运维平台，覆盖不同使用场景，不同使用流程的测试用例编写。</li>
+<li>Windows下自动化测试框架设计开发。</li>
+<li>Linux下运维脚本开发，编写自动化脚本准备测试LXC虚拟环境。</li>
+<li>编写Shell脚本，对测试数据库数据进行更新恢复，数据还原。</li>
+</ul>
+<h2 id="北京文思海辉技术有限公司-（-2015年5月-2016年3月-）"><a href="#北京文思海辉技术有限公司-（-2015年5月-2016年3月-）" class="headerlink" title="北京文思海辉技术有限公司  （ 2015年5月 ~ 2016年3月 ）"></a>北京文思海辉技术有限公司  （ 2015年5月 ~ 2016年3月 ）</h2><h3 id="轨道电路虚拟仿真分析平台系统"><a href="#轨道电路虚拟仿真分析平台系统" class="headerlink" title="轨道电路虚拟仿真分析平台系统"></a>轨道电路虚拟仿真分析平台系统</h3><h4 id="简介：-3"><a href="#简介：-3" class="headerlink" title="简介："></a><strong>简介</strong>：</h4><p>轨道电路虚拟仿真分析软件是轨道电路专项实验室的重要组成部分，需实现轨道电路的仿真计算、结果分析和数据管理功能，支撑轨道电路的技术方案论证、系统/设备结构调整论证、传输极限条件测试、元器件故障安全测试、调整表计算和管理、现场故障仿真分析等工作，为轨道电路的研发、优化、测试、应用、集成、售后提供服务。轨道电路虚拟仿真分析软件为系统研发阶段的仿真环境，提供轨道电路的仿真计算功能和数据管理功能。</p>
+<h4 id="描述：-3"><a href="#描述：-3" class="headerlink" title="描述："></a><strong>描述</strong>：</h4><ul>
+<li>Django + MySQL</li>
+<li>服务器端脚本程序编写，调用MatLab进行科学计算，并同步计算结果到数据库。</li>
+<li>用户需求分析，数据库模型设计，功能模块实现，代码编写以及优化。</li>
+</ul>
+<h2 id="启动力咨询有限责任公司-（-2013年6月-2015年3月-）"><a href="#启动力咨询有限责任公司-（-2013年6月-2015年3月-）" class="headerlink" title="启动力咨询有限责任公司  （ 2013年6月 ~ 2015年3月 ）"></a>启动力咨询有限责任公司  （ 2013年6月 ~ 2015年3月 ）</h2><h3 id="院校学生信息管理web应用"><a href="#院校学生信息管理web应用" class="headerlink" title="院校学生信息管理web应用"></a>院校学生信息管理web应用</h3><h4 id="简介：-4"><a href="#简介：-4" class="headerlink" title="简介："></a>简介：</h4><p>该应用基于Django框架开发，是一款打通微信接口的轻APP，通过微信访问，实现轻松管理学生信息，并对学生学习阶段进行跟踪测试，该web分为后台管理端（提供管理员对学生信息进行管理），和用户端（学生查看个人信息以及进行阶段测试等），实现了通过移动端方便的进行学生同院校之间的信息交互，该web应用有很强的拓展性和可移植性。</p>
+<h4 id="描述：-4"><a href="#描述：-4" class="headerlink" title="描述："></a><strong>描述</strong>：</h4><ul>
+<li>Django + MySQL</li>
+<li>需求分析，数据库模型设计，功能模块实现，代码编写以及优化。</li>
+</ul>
+<h3 id="电子招投标系统基础设施平台"><a href="#电子招投标系统基础设施平台" class="headerlink" title="电子招投标系统基础设施平台"></a>电子招投标系统基础设施平台</h3><h4 id="简介：-5"><a href="#简介：-5" class="headerlink" title="简介："></a>简介：</h4><p>本系统是一款基础设施类项目，以网络技术为基础, 招标、投标、评标、合同等业务全过程实现数字化、网络化、高度集成化的系统,该系统实现了基本的业务功能要求,同时也考虑了系统的性能及安全性问题,并提出了相应的安全控制措施。安全性和可靠性是本系统的根本问题，本系统具有操作简单、用户界面友好的特点,为招投标业务实现电子化管理的应用奠定了基础,对提高招投标业务管理水平具有重要的现实意义。项目主要针对节点之间通信做安全保障，将节点之间通信的数据不定时的更新密钥，节点接受数据之后调用系统提供的接口通过本系统进行加密，进行安全传输。</p>
+<h4 id="描述：-5"><a href="#描述：-5" class="headerlink" title="描述："></a>描述：</h4><ul>
+<li>使用C++编写Linux密钥管理客户端模块，实现应用节点和应用节点之间的身份认证</li>
+<li>通过调用报文处理函数API，对服务端收到的相应节点请求进行处理，实现密钥的协商，校验，查看和注销，对密钥进行生命周期管理</li>
+<li>服务器从数据库读取应用节点的密钥信息，保存在共享内存以便实现高速访问，调用共享内存相关操作组件对共享内存进行读写操作</li>
+<li>通过对共享内存的操作来管理密钥信息，在开发过程中解决了因为指针类型转换导致读取内存因为指针偏移步长导致的程序段错误的问题。</li>
+<li>使用ASN.l（抽象语法标记语言）处理报文，对传输信息进行编码，解码处理,该标准提供的TLV格式描述了对象的结构，并不关心具体数据的实现，简单易用，清晰明了，参与报文格式的设计，对报文数据进行表示、编码、传输和解码</li>
+<li>分别在Windows和Linux下平台将函数功能实现的部分接口进行封装，实现跨平台使用，导出成供Windows/Linux程序调用的动态库，提供系统外联接口，供前置机上层应用调用</li>
+</ul>
+<hr>
+<h1 id="技能清单"><a href="#技能清单" class="headerlink" title="技能清单"></a>技能清单</h1><ul>
+<li>Linux：Linux命令/Shell脚本/Nginx</li>
+<li>数据库：MySQL/PostgreSQL/Oracle/SQLite/SQL Server/Redis</li>
+<li>Web框架：Django/Flask/Tonado</li>
+<li>任务队列：Celery</li>
+<li>API调试：Postman/Charles</li>
+<li>持续构建：GitLAB CI</li>
+<li>版本管理：Git/SourceTree</li>
+<li>文档：macDown/yaml/ReStructuredText</li>
+<li>单元测试：unittest</li>
+<li>科学上网：自带翻墙技能</li>
+<li>其他：Websocket/mqtt</li>
+</ul>
+<h1 id="自我评价"><a href="#自我评价" class="headerlink" title="自我评价"></a>自我评价</h1><ul>
+<li>热爱工作，热爱生活，善于充实自我</li>
+<li>具有良好的文档编写能力，能按要求完成项目所需文档的编写</li>
+<li>具有良好的团队合作精神，工作责任心强，能承受一定的工作压力</li>
+<li>工作认真，有较强的责任心，具备良好的团队精神</li>
+<li>有很强的学习能力，态度端正，强烈的求知欲</li>
+</ul>
+<hr>
+<h1 id="致谢"><a href="#致谢" class="headerlink" title="致谢"></a>致谢</h1><p>感谢您花时间阅读我的简历，期待能有机会和您共事。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Python程序员-李志威&quot;&gt;&lt;a href=&quot;#Python程序员-李志威&quot; class=&quot;headerlink&quot; title=&quot;Python程序员-李志威&quot;&gt;&lt;/a&gt;Python程序员-李志威&lt;/h1&gt;&lt;hr&gt;
+&lt;h1 id=&quot;联系方式&quot;&gt;&lt;a href=&quot;#联系方式&quot; class=&quot;headerlink&quot; title=&quot;联系方式&quot;&gt;&lt;/a&gt;联系方式&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;手机 ：136-9334-7696&lt;/li&gt;
+&lt;li&gt;Email：lzw9560@gmail.com &lt;/li&gt;
+&lt;li&gt;微信号：wxinjiao&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;
+    
+    </summary>
+    
+    
+      <category term="My Resume" scheme="http://yoursite.com/tags/My-Resume/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python Functional Programming</title>
+    <link href="http://yoursite.com/2017/11/23/code/Python/Python-FP/"/>
+    <id>http://yoursite.com/2017/11/23/code/Python/Python-FP/</id>
+    <published>2017-11-22T16:00:00.000Z</published>
+    <updated>2017-11-24T07:59:43.052Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="Python-函数式编程"><a href="#Python-函数式编程" class="headerlink" title="Python 函数式编程"></a>Python 函数式编程</h4><a id="more"></a>
+<p>函数是Python内建支持的一种封装，我们通过把大段代码拆成函数，通过一层层的函数调用，就可以把复杂的任务分解成简单的任务，这种分解可以称之为面向过程的程序设计。函数时面向过程的程序设计的基本单元。</p>
+<p>函数式编程–<strong>Functional Programming</strong>， 虽然也可以归结到面向过程的程序设计，但启思想更接近书数学计算。</p>
+<p>函数式编程就是一种抽象程度很高的编程范式，纯粹的函数式编程语言编写的函数没有变量，因此任意一个函数只要输入是固定的，输出就是固定的，这种春函数我们称之为没有副作用。</p>
+<p>函数式编程的一个特点是，允许函数本身作为参数传入另一个函数，还允许返回另一个函数！</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;Python-函数式编程&quot;&gt;&lt;a href=&quot;#Python-函数式编程&quot; class=&quot;headerlink&quot; title=&quot;Python 函数式编程&quot;&gt;&lt;/a&gt;Python 函数式编程&lt;/h4&gt;
+    
+    </summary>
+    
+      <category term="Python" scheme="http://yoursite.com/categories/Python/"/>
+    
+    
+      <category term="Python" scheme="http://yoursite.com/tags/Python/"/>
+    
+  </entry>
   
   <entry>
     <title>iTerm2常用命令</title>
@@ -35,116 +178,6 @@
     
     
       <category term="iTerm2" scheme="http://yoursite.com/tags/iTerm2/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Mac下Python多版本环境管理</title>
-    <link href="http://yoursite.com/2017/10/22/code/Python/pyenv/"/>
-    <id>http://yoursite.com/2017/10/22/code/Python/pyenv/</id>
-    <published>2017-10-21T16:00:00.000Z</published>
-    <updated>2017-10-22T08:28:03.000Z</updated>
-    
-    <content type="html"><![CDATA[<h4 id="Mac-Python多版本环境管理"><a href="#Mac-Python多版本环境管理" class="headerlink" title="Mac Python多版本环境管理"></a>Mac Python多版本环境管理</h4><a id="more"></a>
-<p>首先通过homebrew安装pyenv，之后的所有Python安装和管理通过pyenv进行。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ brew install pyenv</div></pre></td></tr></table></figure></p>
-<p>pyenv安装完以后，就可以选择性的进行Python环境安装了。下面已安装Python2.7为例：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ pyenv install 2.7.5</div></pre></td></tr></table></figure></p>
-<p>此外，你还可以通过pyenv查看目前系统中已经安装过的Python版本<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ pyenv versions</div></pre></td></tr></table></figure></p>
-<p>如果需要在不同版本的Python间进行切换的话，使用以下命令：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ pyenv global 3.3.1</div></pre></td></tr></table></figure></p>
-<p>当然，你也可以让版本切换只对当前目录生效<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ pyenv local 2.7.5</div></pre></td></tr></table></figure></p>
-<p>参考文档地址：<br><a href="https://stackoverflow.com/questions/18671253/how-can-i-use-homebrew-to-install-both-python-2-and-3-on-mac" target="_blank" rel="external">转自Stackoverflow的回答</a>  </p>
-<p><a href="https://github.com/pyenv/pyenv" target="_blank" rel="external">Github地址：pyenv）</a><br><a href="https://github.com/pyenv/pyenv-virtualenv" target="_blank" rel="external">Github地址：pyenv-virtuelanv）</a></p>
-<p><a href="https://conda.io/docs/index.html" target="_blank" rel="external">conda使用说明</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h4 id=&quot;Mac-Python多版本环境管理&quot;&gt;&lt;a href=&quot;#Mac-Python多版本环境管理&quot; class=&quot;headerlink&quot; title=&quot;Mac Python多版本环境管理&quot;&gt;&lt;/a&gt;Mac Python多版本环境管理&lt;/h4&gt;
-    
-    </summary>
-    
-      <category term="pyenv" scheme="http://yoursite.com/categories/pyenv/"/>
-    
-    
-      <category term="Python环境管理" scheme="http://yoursite.com/tags/Python%E7%8E%AF%E5%A2%83%E7%AE%A1%E7%90%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>item2 + oh-my-zsh + solarized配色</title>
-    <link href="http://yoursite.com/2017/10/22/linux/Mac/zsh-theme/"/>
-    <id>http://yoursite.com/2017/10/22/linux/Mac/zsh-theme/</id>
-    <published>2017-10-21T16:00:00.000Z</published>
-    <updated>2017-10-22T09:17:08.000Z</updated>
-    
-    <content type="html"><![CDATA[<h4 id="item2-oh-my-zsh-solarized配色"><a href="#item2-oh-my-zsh-solarized配色" class="headerlink" title="item2 + oh-my-zsh + solarized配色"></a>item2 + oh-my-zsh + solarized配色</h4><a id="more"></a>
-<h5 id="iTem2设置为默认终端"><a href="#iTem2设置为默认终端" class="headerlink" title="iTem2设置为默认终端"></a>iTem2设置为默认终端</h5><blockquote>
-<p>菜单栏）iTerm2 -&gt; Make iTerm2 Default Term</p>
-</blockquote>
-<h5 id="iTem2设置为默认终端-1"><a href="#iTem2设置为默认终端-1" class="headerlink" title="iTem2设置为默认终端"></a>iTem2设置为默认终端</h5><blockquote>
-<p>打开偏好设置preference，选中Keys，勾选Hotkey下的Show/hide iTerm2 with a system-wide hotkey，将热键设置为command+. ，这样你就可以通过command+. 全局热键来打开或关闭iTerm2窗口，非常方便。</p>
-</blockquote>
-<h5 id="配色方案"><a href="#配色方案" class="headerlink" title="配色方案"></a>配色方案</h5><blockquote>
-<p>这里选用 solarized，效果还不错。点开官网，下载，解压，然后打开 iTerm2 下的偏好设置 preference ，点开 profiles 下的colors 选项，点击右下角的 Color Presets 选项，选择import ，导入解压到的 solarized 文件下的Solarized Dark.itermcolors。</p>
-</blockquote>
-<h5 id="安装oh-my-zsh"><a href="#安装oh-my-zsh" class="headerlink" title="安装oh-my-zsh"></a>安装oh-my-zsh</h5><p>使用 crul 安装：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sh -c &quot;$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&quot;</div></pre></td></tr></table></figure>
-<p>或使用wget：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sh -c &quot;$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)&quot;</div></pre></td></tr></table></figure>
-<h5 id="主题配置"><a href="#主题配置" class="headerlink" title="主题配置"></a>主题配置</h5><p>安装成功后，用vim打开隐藏文件 .zshrc ，修改主题为 agnoster：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"># ZSH_THEME=&quot;robbyrussell&quot;</div><div class="line">ZSH_THEME=&quot;agnoster&quot;</div></pre></td></tr></table></figure>
-<p>应用这个主题需要特殊的字体支持，否则会出现乱码情况，这时我们来配置字体：</p>
-<p>1.使用 Meslo 字体，点开连接<a href="https://github.com/powerline/fonts/blob/master/Meslo%20Slashed/Meslo%20LG%20M%20Regular%20for%20Powerline.tt" target="_blank" rel="external">字体</a>f点击 view raw 下载字体。</p>
-<p>2.安装字体到系统字体册。</p>
-<p>3.应用字体到iTerm2下，我自己喜欢将字号设置为14px，看着舒服（iTerm -&gt; Preferences -&gt; Profiles -&gt; Text -&gt; Change Font）。</p>
-<p>4.重新打开iTerm2窗口，这时便可以看到效果了。</p>
-<h5 id="自动提示命令"><a href="#自动提示命令" class="headerlink" title="自动提示命令"></a>自动提示命令</h5><p>当我们输入命令时，终端会自动提示你接下来可能要输入的命令，这时按 → 便可输出这些命令，非常方便。</p>
-<p>设置如下：</p>
-<p>1.克隆仓库到本地 ~/.oh-my-zsh/custom/plugins 路径下</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions</div></pre></td></tr></table></figure>
-<p>2.用 vim 打开 .zshrc 文件，找到插件设置命令，默认是 plugins=(git) ，我们把它修改为</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">plugins=(zsh-autosuggestions git)</div></pre></td></tr></table></figure>
-<p>3.重新打开终端窗口。</p>
-<p>PS：修改提示字体亮度：</p>
-<p>移动到 ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions 路径下</p>
-<p>cd ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions<br>用 vim 打开 zsh-autosuggestions.zsh 文件，修改<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE=&apos;fg=10&apos;</div></pre></td></tr></table></figure></p>
-<h5 id="语法高亮"><a href="#语法高亮" class="headerlink" title="语法高亮"></a>语法高亮</h5><p>1.使用homebrew安装 zsh-syntax-highlighting 插件。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install zsh-syntax-highlighting</div></pre></td></tr></table></figure></p>
-<p>2.配置.zshrc文件，插入一行。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh</div></pre></td></tr></table></figure></p>
-<p>还有的人是这么干的<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">plugins=(zsh-autosuggestions git zsh-syntax-highlighting)</div></pre></td></tr></table></figure></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h4 id=&quot;item2-oh-my-zsh-solarized配色&quot;&gt;&lt;a href=&quot;#item2-oh-my-zsh-solarized配色&quot; class=&quot;headerlink&quot; title=&quot;item2 + oh-my-zsh + solarized配色&quot;&gt;&lt;/a&gt;item2 + oh-my-zsh + solarized配色&lt;/h4&gt;
-    
-    </summary>
-    
-      <category term="item2" scheme="http://yoursite.com/categories/item2/"/>
-    
-    
-      <category term="主题配置" scheme="http://yoursite.com/tags/%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>MacVim</title>
-    <link href="http://yoursite.com/2017/10/22/linux/Mac/macVim/"/>
-    <id>http://yoursite.com/2017/10/22/linux/Mac/macVim/</id>
-    <published>2017-10-21T16:00:00.000Z</published>
-    <updated>2017-10-22T16:30:39.000Z</updated>
-    
-    <content type="html"><![CDATA[<h4 id="MacVim"><a href="#MacVim" class="headerlink" title="MacVim"></a>MacVim</h4><a id="more"></a>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h4 id=&quot;MacVim&quot;&gt;&lt;a href=&quot;#MacVim&quot; class=&quot;headerlink&quot; title=&quot;MacVim&quot;&gt;&lt;/a&gt;MacVim&lt;/h4&gt;
-    
-    </summary>
-    
-      <category term="MacVim" scheme="http://yoursite.com/categories/MacVim/"/>
-    
-    
-      <category term="MacVim" scheme="http://yoursite.com/tags/MacVim/"/>
     
   </entry>
   
@@ -464,6 +497,62 @@
   </entry>
   
   <entry>
+    <title>item2 + oh-my-zsh + solarized配色</title>
+    <link href="http://yoursite.com/2017/10/22/linux/Mac/zsh-theme/"/>
+    <id>http://yoursite.com/2017/10/22/linux/Mac/zsh-theme/</id>
+    <published>2017-10-21T16:00:00.000Z</published>
+    <updated>2017-10-22T09:17:08.000Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="item2-oh-my-zsh-solarized配色"><a href="#item2-oh-my-zsh-solarized配色" class="headerlink" title="item2 + oh-my-zsh + solarized配色"></a>item2 + oh-my-zsh + solarized配色</h4><a id="more"></a>
+<h5 id="iTem2设置为默认终端"><a href="#iTem2设置为默认终端" class="headerlink" title="iTem2设置为默认终端"></a>iTem2设置为默认终端</h5><blockquote>
+<p>菜单栏）iTerm2 -&gt; Make iTerm2 Default Term</p>
+</blockquote>
+<h5 id="iTem2设置为默认终端-1"><a href="#iTem2设置为默认终端-1" class="headerlink" title="iTem2设置为默认终端"></a>iTem2设置为默认终端</h5><blockquote>
+<p>打开偏好设置preference，选中Keys，勾选Hotkey下的Show/hide iTerm2 with a system-wide hotkey，将热键设置为command+. ，这样你就可以通过command+. 全局热键来打开或关闭iTerm2窗口，非常方便。</p>
+</blockquote>
+<h5 id="配色方案"><a href="#配色方案" class="headerlink" title="配色方案"></a>配色方案</h5><blockquote>
+<p>这里选用 solarized，效果还不错。点开官网，下载，解压，然后打开 iTerm2 下的偏好设置 preference ，点开 profiles 下的colors 选项，点击右下角的 Color Presets 选项，选择import ，导入解压到的 solarized 文件下的Solarized Dark.itermcolors。</p>
+</blockquote>
+<h5 id="安装oh-my-zsh"><a href="#安装oh-my-zsh" class="headerlink" title="安装oh-my-zsh"></a>安装oh-my-zsh</h5><p>使用 crul 安装：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sh -c &quot;$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&quot;</div></pre></td></tr></table></figure>
+<p>或使用wget：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sh -c &quot;$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)&quot;</div></pre></td></tr></table></figure>
+<h5 id="主题配置"><a href="#主题配置" class="headerlink" title="主题配置"></a>主题配置</h5><p>安装成功后，用vim打开隐藏文件 .zshrc ，修改主题为 agnoster：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"># ZSH_THEME=&quot;robbyrussell&quot;</div><div class="line">ZSH_THEME=&quot;agnoster&quot;</div></pre></td></tr></table></figure>
+<p>应用这个主题需要特殊的字体支持，否则会出现乱码情况，这时我们来配置字体：</p>
+<p>1.使用 Meslo 字体，点开连接<a href="https://github.com/powerline/fonts/blob/master/Meslo%20Slashed/Meslo%20LG%20M%20Regular%20for%20Powerline.tt" target="_blank" rel="external">字体</a>f点击 view raw 下载字体。</p>
+<p>2.安装字体到系统字体册。</p>
+<p>3.应用字体到iTerm2下，我自己喜欢将字号设置为14px，看着舒服（iTerm -&gt; Preferences -&gt; Profiles -&gt; Text -&gt; Change Font）。</p>
+<p>4.重新打开iTerm2窗口，这时便可以看到效果了。</p>
+<h5 id="自动提示命令"><a href="#自动提示命令" class="headerlink" title="自动提示命令"></a>自动提示命令</h5><p>当我们输入命令时，终端会自动提示你接下来可能要输入的命令，这时按 → 便可输出这些命令，非常方便。</p>
+<p>设置如下：</p>
+<p>1.克隆仓库到本地 ~/.oh-my-zsh/custom/plugins 路径下</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions</div></pre></td></tr></table></figure>
+<p>2.用 vim 打开 .zshrc 文件，找到插件设置命令，默认是 plugins=(git) ，我们把它修改为</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">plugins=(zsh-autosuggestions git)</div></pre></td></tr></table></figure>
+<p>3.重新打开终端窗口。</p>
+<p>PS：修改提示字体亮度：</p>
+<p>移动到 ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions 路径下</p>
+<p>cd ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions<br>用 vim 打开 zsh-autosuggestions.zsh 文件，修改<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE=&apos;fg=10&apos;</div></pre></td></tr></table></figure></p>
+<h5 id="语法高亮"><a href="#语法高亮" class="headerlink" title="语法高亮"></a>语法高亮</h5><p>1.使用homebrew安装 zsh-syntax-highlighting 插件。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install zsh-syntax-highlighting</div></pre></td></tr></table></figure></p>
+<p>2.配置.zshrc文件，插入一行。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh</div></pre></td></tr></table></figure></p>
+<p>还有的人是这么干的<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">plugins=(zsh-autosuggestions git zsh-syntax-highlighting)</div></pre></td></tr></table></figure></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;item2-oh-my-zsh-solarized配色&quot;&gt;&lt;a href=&quot;#item2-oh-my-zsh-solarized配色&quot; class=&quot;headerlink&quot; title=&quot;item2 + oh-my-zsh + solarized配色&quot;&gt;&lt;/a&gt;item2 + oh-my-zsh + solarized配色&lt;/h4&gt;
+    
+    </summary>
+    
+      <category term="item2" scheme="http://yoursite.com/categories/item2/"/>
+    
+    
+      <category term="主题配置" scheme="http://yoursite.com/tags/%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/"/>
+    
+  </entry>
+  
+  <entry>
     <title>powerline</title>
     <link href="http://yoursite.com/2017/10/22/linux/Mac/powerline/"/>
     <id>http://yoursite.com/2017/10/22/linux/Mac/powerline/</id>
@@ -484,6 +573,60 @@
     
     
       <category term="主题配置" scheme="http://yoursite.com/tags/%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MacVim</title>
+    <link href="http://yoursite.com/2017/10/22/linux/Mac/macVim/"/>
+    <id>http://yoursite.com/2017/10/22/linux/Mac/macVim/</id>
+    <published>2017-10-21T16:00:00.000Z</published>
+    <updated>2017-10-22T16:30:39.000Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="MacVim"><a href="#MacVim" class="headerlink" title="MacVim"></a>MacVim</h4><a id="more"></a>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;MacVim&quot;&gt;&lt;a href=&quot;#MacVim&quot; class=&quot;headerlink&quot; title=&quot;MacVim&quot;&gt;&lt;/a&gt;MacVim&lt;/h4&gt;
+    
+    </summary>
+    
+      <category term="MacVim" scheme="http://yoursite.com/categories/MacVim/"/>
+    
+    
+      <category term="MacVim" scheme="http://yoursite.com/tags/MacVim/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Mac下Python多版本环境管理</title>
+    <link href="http://yoursite.com/2017/10/22/code/Python/pyenv/"/>
+    <id>http://yoursite.com/2017/10/22/code/Python/pyenv/</id>
+    <published>2017-10-21T16:00:00.000Z</published>
+    <updated>2017-10-22T08:28:03.000Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="Mac-Python多版本环境管理"><a href="#Mac-Python多版本环境管理" class="headerlink" title="Mac Python多版本环境管理"></a>Mac Python多版本环境管理</h4><a id="more"></a>
+<p>首先通过homebrew安装pyenv，之后的所有Python安装和管理通过pyenv进行。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ brew install pyenv</div></pre></td></tr></table></figure></p>
+<p>pyenv安装完以后，就可以选择性的进行Python环境安装了。下面已安装Python2.7为例：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ pyenv install 2.7.5</div></pre></td></tr></table></figure></p>
+<p>此外，你还可以通过pyenv查看目前系统中已经安装过的Python版本<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ pyenv versions</div></pre></td></tr></table></figure></p>
+<p>如果需要在不同版本的Python间进行切换的话，使用以下命令：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ pyenv global 3.3.1</div></pre></td></tr></table></figure></p>
+<p>当然，你也可以让版本切换只对当前目录生效<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ pyenv local 2.7.5</div></pre></td></tr></table></figure></p>
+<p>参考文档地址：<br><a href="https://stackoverflow.com/questions/18671253/how-can-i-use-homebrew-to-install-both-python-2-and-3-on-mac" target="_blank" rel="external">转自Stackoverflow的回答</a>  </p>
+<p><a href="https://github.com/pyenv/pyenv" target="_blank" rel="external">Github地址：pyenv）</a><br><a href="https://github.com/pyenv/pyenv-virtualenv" target="_blank" rel="external">Github地址：pyenv-virtuelanv）</a></p>
+<p><a href="https://conda.io/docs/index.html" target="_blank" rel="external">conda使用说明</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;Mac-Python多版本环境管理&quot;&gt;&lt;a href=&quot;#Mac-Python多版本环境管理&quot; class=&quot;headerlink&quot; title=&quot;Mac Python多版本环境管理&quot;&gt;&lt;/a&gt;Mac Python多版本环境管理&lt;/h4&gt;
+    
+    </summary>
+    
+      <category term="pyenv" scheme="http://yoursite.com/categories/pyenv/"/>
+    
+    
+      <category term="Python环境管理" scheme="http://yoursite.com/tags/Python%E7%8E%AF%E5%A2%83%E7%AE%A1%E7%90%86/"/>
     
   </entry>
   
