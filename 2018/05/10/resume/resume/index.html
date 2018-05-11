@@ -104,7 +104,7 @@
 <meta property="og:site_name" content="Victory&#39;s Blog">
 <meta property="og:description" content="Python程序员-李志威 联系方式 手机 ：136-9334-7696 Email：lzw9560@gmail.com  微信号：wxinjiao">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-05-11T03:21:46.557Z">
+<meta property="og:updated_time" content="2018-05-11T03:57:48.618Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="My Resume">
 <meta name="twitter:description" content="Python程序员-李志威 联系方式 手机 ：136-9334-7696 Email：lzw9560@gmail.com  微信号：wxinjiao">
@@ -365,7 +365,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  2,352
+                  2,350
                 </span>
               
 
@@ -419,18 +419,17 @@
 <hr>
 <h1 id="工作经历"><a href="#工作经历" class="headerlink" title="工作经历"></a>工作经历</h1><h2 id="架标科技有限公司-（-2016年9月-至今-）"><a href="#架标科技有限公司-（-2016年9月-至今-）" class="headerlink" title="架标科技有限公司 （ 2016年9月 ~ 至今 ）"></a>架标科技有限公司 （ 2016年9月 ~ 至今 ）</h2><h3 id="基于电子价签扩展应用系统"><a href="#基于电子价签扩展应用系统" class="headerlink" title="基于电子价签扩展应用系统"></a>基于电子价签扩展应用系统</h3><h4 id="简介："><a href="#简介：" class="headerlink" title="简介："></a><strong>简介</strong>：</h4><p>基于新零售的概念，项目以电子价签为切入点，替换了纸质标签，节省超市成本的同时为用户提供有别于传统超市的购物体验,能够实时显示商品价格信息，做到线上线下同步，同时可以做到商品定位导航，货架管理，商品陈列管理，同时还有基于电子标签蓝牙和NFC的互动，提升了用户在线下商超购物乐趣，通过线上加线下的方式，收集用户购物行为习惯，实现流量变现，提升用户粘合度。应用系统后台基于 <em>Flask-RESTful</em> 和 <em>Django REST framework</em> 技术实现，分为移动APP用户端，超市端管理，后台商品管理，电子价签管理，等多个模块。</p>
 <h4 id="描述："><a href="#描述：" class="headerlink" title="描述："></a><strong>描述</strong>：</h4><ul>
-<li>项目架构采用前后分离，主要负责后台应用框架搭建，数据库模型设计实现，API设计实现，后台部署，系统运维等工作。</li>
+<li>项目架构采用前后分离，主要负责后台应用框架搭建，API设计实现。</li>
 <li>项目中涉及相对比较复杂的权限管理控制，设计实现了RBAC（Resource-Based Access Contro）基于资源的权限控制模型Flask插件。</li>
-<li>自动化持续构建集成 <strong>GitLab CI</strong>，提高效率，节省开发成本。</li>
-<li>后台异步任务、定时任务采用 Django Celery</li>
-<li>地理相关使用 PostGIS GeoDjango</li>
-<li>部署采用 uWSGI + Nginx/supervisor + gunicorn + Nginx</li>
-<li>搜索使用 elasticsearch + 中文分词插件</li>
+<li>优化了数据同步脚本，提升了运行效率，数据库读写采用批量提交回滚，涉及到csv文件读写，使用 <em>Python yield</em> 实现，10w条商品数据处理大约需要600多秒。</li>
+<li>负责搭建自动化持续构建集成 <strong>GitLab CI</strong>持续构建工具。</li>
+<li>负责服务器代码部署，使用 uWSGI + Nginx/supervisor + gunicorn + Nginx。</li>
+<li>采用Django Celery执行后台异步任务、定时任务。</li>
+<li>涉及室外定位采用地理相关使用 PostGIS GeoDjango，坐标计算，距离计算。</li>
 <li>MySQL数据库查询优化，索引创建.</li>
-<li>微信移动应用授权，微信小程序授权。</li>
+<li>学习使用 elasticsearch + 中文分词插件，完成商品搜索匹配。</li>
+<li>完成了移动端APP微信移动应用授权，微信小程序授权。</li>
 <li>从不同商超ERP读取变价商品信息，同步到电子价签，价签同步显示商品实时价格，并实时同步到相关后台应用数据库。</li>
-<li>商品数据格式化，格式化不同ERP商品数据，统一格式存储，维护应用商品库。</li>
-<li>程序优化，效率提升，数据库读写采用批量提交回滚，涉及到csv文件读写，使用 <em>Python yield</em> 实现，10w条商品数据处理大约需要600多秒。</li>
 </ul>
 <h2 id="搜狐公司-网络运营部-（-2016年3月-2016年9月-）"><a href="#搜狐公司-网络运营部-（-2016年3月-2016年9月-）" class="headerlink" title="搜狐公司-网络运营部 （ 2016年3月 ~ 2016年9月 ）"></a>搜狐公司-网络运营部 （ 2016年3月 ~ 2016年9月 ）</h2><h3 id="自动化构建部署发布模块-用户验收测试框"><a href="#自动化构建部署发布模块-用户验收测试框" class="headerlink" title="自动化构建部署发布模块-用户验收测试框"></a>自动化构建部署发布模块-用户验收测试框</h3><h4 id="简介：-1"><a href="#简介：-1" class="headerlink" title="简介："></a><strong>简介</strong>：</h4><p>项目属于公司内部运维平台自动化构建部署框架的一部分，由于系统产品迭代周期较快，产品人员验收成本较高，人工验收很难统一标准，回归测试代价较高，所以将该部分工作实现自动化以节省人员成本以及统一验收标准提高产品交付质量。项目用于自动化用户验收测试框架，需要在Linux下准备测试环境，然后在Windows下实现具体测试用例，为了避免环境干扰和测试用例解耦合，针对用例在Linux虚拟机上准备单独的LXC测试环境，环境部分分为测试环境准备，测试环境初始化，测试环境还原；测试框架部分主要是测试用例的分发规则和具体测试用例，最后结合Jenkins集成框架，实现了自动化构建，部署，发布功能。</p>
 <h4 id="描述：-1"><a href="#描述：-1" class="headerlink" title="描述："></a><strong>描述</strong>：</h4><ul>
