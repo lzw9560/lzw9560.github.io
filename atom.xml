@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-05-11T03:57:48.618Z</updated>
+  <updated>2018-05-11T04:17:26.003Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2018/05/10/resume/resume/"/>
     <id>http://yoursite.com/2018/05/10/resume/resume/</id>
     <published>2018-05-10T15:10:33.288Z</published>
-    <updated>2018-05-11T03:57:48.618Z</updated>
+    <updated>2018-05-11T04:17:26.003Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Python程序员-李志威"><a href="#Python程序员-李志威" class="headerlink" title="Python程序员-李志威"></a>Python程序员-李志威</h1><hr>
 <h1 id="联系方式"><a href="#联系方式" class="headerlink" title="联系方式"></a>联系方式</h1><ul>
@@ -46,12 +46,9 @@
 <li>负责服务器代码部署，使用 uWSGI + Nginx/supervisor + gunicorn + Nginx。</li>
 <li>采用Django Celery执行后台异步任务、定时任务。</li>
 <li>涉及室外定位采用地理相关使用 PostGIS GeoDjango，坐标计算，距离计算。</li>
-<li>MySQL数据库查询优化，索引创建.</li>
 <li>学习使用 elasticsearch + 中文分词插件，完成商品搜索匹配。</li>
-<li>完成了移动端APP微信移动应用授权，微信小程序授权。</li>
-<li>从不同商超ERP读取变价商品信息，同步到电子价签，价签同步显示商品实时价格，并实时同步到相关后台应用数据库。</li>
 </ul>
-<h2 id="搜狐公司-网络运营部-（-2016年3月-2016年9月-）"><a href="#搜狐公司-网络运营部-（-2016年3月-2016年9月-）" class="headerlink" title="搜狐公司-网络运营部 （ 2016年3月 ~ 2016年9月 ）"></a>搜狐公司-网络运营部 （ 2016年3月 ~ 2016年9月 ）</h2><h3 id="自动化构建部署发布模块-用户验收测试框"><a href="#自动化构建部署发布模块-用户验收测试框" class="headerlink" title="自动化构建部署发布模块-用户验收测试框"></a>自动化构建部署发布模块-用户验收测试框</h3><h4 id="简介：-1"><a href="#简介：-1" class="headerlink" title="简介："></a><strong>简介</strong>：</h4><p>项目属于公司内部运维平台自动化构建部署框架的一部分，由于系统产品迭代周期较快，产品人员验收成本较高，人工验收很难统一标准，回归测试代价较高，所以将该部分工作实现自动化以节省人员成本以及统一验收标准提高产品交付质量。项目用于自动化用户验收测试框架，需要在Linux下准备测试环境，然后在Windows下实现具体测试用例，为了避免环境干扰和测试用例解耦合，针对用例在Linux虚拟机上准备单独的LXC测试环境，环境部分分为测试环境准备，测试环境初始化，测试环境还原；测试框架部分主要是测试用例的分发规则和具体测试用例，最后结合Jenkins集成框架，实现了自动化构建，部署，发布功能。</p>
+<h2 id="搜狐公司-网络运营部-（-2016年3月-2016年9月-）"><a href="#搜狐公司-网络运营部-（-2016年3月-2016年9月-）" class="headerlink" title="搜狐公司-网络运营部 （ 2016年3月 ~ 2016年9月 ）"></a>搜狐公司-网络运营部 （ 2016年3月 ~ 2016年9月 ）</h2><h3 id="自动化构建部署发布模块-用户验收测试框"><a href="#自动化构建部署发布模块-用户验收测试框" class="headerlink" title="自动化构建部署发布模块-用户验收测试框"></a>自动化构建部署发布模块-用户验收测试框</h3><h4 id="简介：-1"><a href="#简介：-1" class="headerlink" title="简介："></a><strong>简介</strong>：</h4><p>该项目属于公司内部运维平台自动化构建部署框架的一部分，用于自动化用户验收测试框架，需要在Linux下准备测试环境，然后在Windows下实现具体测试用例，为了避免环境干扰和测试用例解耦合，针对用例在Linux虚拟机上准备单独的LXC测试环境，环境部分分为测试环境准备，测试环境初始化，测试环境还原；测试框架部分主要是测试用例的分发规则和具体测试用例，最后结合Jenkins集成框架，实现了自动化构建，部署，发布功能。</p>
 <h4 id="描述：-1"><a href="#描述：-1" class="headerlink" title="描述："></a><strong>描述</strong>：</h4><ul>
 <li>测试框架使用Selenuim + PyUnit的方式进行用例编写自动化测试框架。</li>
 <li>针对自动化运维平台，覆盖不同使用场景，不同使用流程的测试用例编写。</li>
@@ -167,30 +164,6 @@
     
     
       <category term="iTerm2" scheme="http://yoursite.com/tags/iTerm2/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>powerline</title>
-    <link href="http://yoursite.com/2017/10/22/linux/Mac/powerline/"/>
-    <id>http://yoursite.com/2017/10/22/linux/Mac/powerline/</id>
-    <published>2017-10-21T16:00:00.000Z</published>
-    <updated>2017-10-23T07:56:55.000Z</updated>
-    
-    <content type="html"><![CDATA[<h4 id="powerline"><a href="#powerline" class="headerlink" title="powerline"></a>powerline</h4><a id="more"></a>
-<p>powerline是一个stateless status line，即一个全局状态/提示栏.<br><a href="https://github.com/powerline/powerline" target="_blank" rel="external">powerline</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h4 id=&quot;powerline&quot;&gt;&lt;a href=&quot;#powerline&quot; class=&quot;headerlink&quot; title=&quot;powerline&quot;&gt;&lt;/a&gt;powerline&lt;/h4&gt;
-    
-    </summary>
-    
-      <category term="item2" scheme="http://yoursite.com/categories/item2/"/>
-    
-    
-      <category term="主题配置" scheme="http://yoursite.com/tags/%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/"/>
     
   </entry>
   
@@ -566,25 +539,26 @@
   </entry>
   
   <entry>
-    <title>MacVim</title>
-    <link href="http://yoursite.com/2017/10/22/linux/Mac/macVim/"/>
-    <id>http://yoursite.com/2017/10/22/linux/Mac/macVim/</id>
+    <title>powerline</title>
+    <link href="http://yoursite.com/2017/10/22/linux/Mac/powerline/"/>
+    <id>http://yoursite.com/2017/10/22/linux/Mac/powerline/</id>
     <published>2017-10-21T16:00:00.000Z</published>
-    <updated>2017-10-22T16:30:39.000Z</updated>
+    <updated>2017-10-23T07:56:55.000Z</updated>
     
-    <content type="html"><![CDATA[<h4 id="MacVim"><a href="#MacVim" class="headerlink" title="MacVim"></a>MacVim</h4><a id="more"></a>
+    <content type="html"><![CDATA[<h4 id="powerline"><a href="#powerline" class="headerlink" title="powerline"></a>powerline</h4><a id="more"></a>
+<p>powerline是一个stateless status line，即一个全局状态/提示栏.<br><a href="https://github.com/powerline/powerline" target="_blank" rel="external">powerline</a></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;h4 id=&quot;MacVim&quot;&gt;&lt;a href=&quot;#MacVim&quot; class=&quot;headerlink&quot; title=&quot;MacVim&quot;&gt;&lt;/a&gt;MacVim&lt;/h4&gt;
+      &lt;h4 id=&quot;powerline&quot;&gt;&lt;a href=&quot;#powerline&quot; class=&quot;headerlink&quot; title=&quot;powerline&quot;&gt;&lt;/a&gt;powerline&lt;/h4&gt;
     
     </summary>
     
-      <category term="MacVim" scheme="http://yoursite.com/categories/MacVim/"/>
+      <category term="item2" scheme="http://yoursite.com/categories/item2/"/>
     
     
-      <category term="MacVim" scheme="http://yoursite.com/tags/MacVim/"/>
+      <category term="主题配置" scheme="http://yoursite.com/tags/%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/"/>
     
   </entry>
   
@@ -616,6 +590,29 @@
     
     
       <category term="Python环境管理" scheme="http://yoursite.com/tags/Python%E7%8E%AF%E5%A2%83%E7%AE%A1%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MacVim</title>
+    <link href="http://yoursite.com/2017/10/22/linux/Mac/macVim/"/>
+    <id>http://yoursite.com/2017/10/22/linux/Mac/macVim/</id>
+    <published>2017-10-21T16:00:00.000Z</published>
+    <updated>2017-10-22T16:30:39.000Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="MacVim"><a href="#MacVim" class="headerlink" title="MacVim"></a>MacVim</h4><a id="more"></a>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;MacVim&quot;&gt;&lt;a href=&quot;#MacVim&quot; class=&quot;headerlink&quot; title=&quot;MacVim&quot;&gt;&lt;/a&gt;MacVim&lt;/h4&gt;
+    
+    </summary>
+    
+      <category term="MacVim" scheme="http://yoursite.com/categories/MacVim/"/>
+    
+    
+      <category term="MacVim" scheme="http://yoursite.com/tags/MacVim/"/>
     
   </entry>
   
