@@ -2,9 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/2018/05/10/resume/resume/</loc>
+    <loc>http://yoursite.com/about/index.html</loc>
     
-    <lastmod>2018-05-11T04:17:26.003Z</lastmod>
+    <lastmod>2018-05-17T07:19:59.971Z</lastmod>
     
   </url>
   
@@ -61,13 +61,6 @@
     <loc>http://yoursite.com/2017/10/22/code/Python/pyenv/</loc>
     
     <lastmod>2017-10-22T08:28:03.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/about/index.html</loc>
-    
-    <lastmod>2017-10-21T14:46:18.000Z</lastmod>
     
   </url>
   
