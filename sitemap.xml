@@ -2,149 +2,156 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/about/index.html</loc>
+    <loc>http://yoursite.com/2018/10/20/resume/resume/</loc>
     
-    <lastmod>2018-05-17T07:19:59.971Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/11/23/code/Python/Python-FP/</loc>
-    
-    <lastmod>2017-11-24T07:59:43.052Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/11/08/linux/Mac/iTerm2%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
-    
-    <lastmod>2017-11-08T06:54:40.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/10/22/linux/Mac/tmux/</loc>
-    
-    <lastmod>2017-10-24T06:33:20.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/09/26/hexo/travis/</loc>
-    
-    <lastmod>2017-10-23T08:17:27.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/10/22/linux/Mac/powerline/</loc>
-    
-    <lastmod>2017-10-23T07:56:55.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/10/22/linux/Mac/macVim/</loc>
-    
-    <lastmod>2017-10-22T16:30:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/10/22/linux/Mac/zsh-theme/</loc>
-    
-    <lastmod>2017-10-22T09:17:08.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/10/22/code/Python/pyenv/</loc>
-    
-    <lastmod>2017-10-22T08:28:03.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/categories/index.html</loc>
-    
-    <lastmod>2017-10-21T14:23:07.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/10/21/linux/vim/nerdtree/</loc>
-    
-    <lastmod>2017-10-21T10:07:04.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/10/21/websit/NotesOfOther/</loc>
-    
-    <lastmod>2017-10-21T10:01:29.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/09/27/tool/vscode/</loc>
-    
-    <lastmod>2017-09-27T05:54:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/09/26/code/golang/install/</loc>
-    
-    <lastmod>2017-09-26T10:01:56.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/08/17/Elasticsearch-%E7%AC%94%E8%AE%B0/</loc>
-    
-    <lastmod>2017-09-26T08:07:01.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/08/17/hexo/hexo/</loc>
-    
-    <lastmod>2017-09-26T08:04:23.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/09/21/linux/Tool/szrc/</loc>
-    
-    <lastmod>2017-09-21T06:54:09.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/09/12/tool/supervisor/</loc>
-    
-    <lastmod>2017-09-12T09:15:04.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/09/12/gitlabci/gitlab_runner/</loc>
-    
-    <lastmod>2017-09-12T08:53:30.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/09/12/gitlabci/gitlabci/</loc>
-    
-    <lastmod>2017-09-12T07:58:00.000Z</lastmod>
+    <lastmod>2018-10-19T17:19:32.002Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://yoursite.com/tags/index.html</loc>
     
-    <lastmod>2017-08-17T06:14:01.000Z</lastmod>
+    <lastmod>2018-08-17T05:15:37.246Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/categories/index.html</loc>
+    
+    <lastmod>2018-08-17T05:15:37.245Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2018/08/17/websit/NotesOfOther/</loc>
+    
+    <lastmod>2018-08-17T05:15:37.244Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/about/index.html</loc>
+    
+    <lastmod>2018-08-17T05:15:37.244Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2018/08/17/tool/vscode/</loc>
+    
+    <lastmod>2018-08-17T05:15:37.244Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2018/08/17/tool/supervisor/</loc>
+    
+    <lastmod>2018-08-17T05:15:37.243Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2017/10/21/linux/vim/nerdtree/</loc>
+    
+    <lastmod>2018-08-17T05:15:37.243Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2018/08/17/linux/Tool/szrc/</loc>
+    
+    <lastmod>2018-08-17T05:15:37.242Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2017/10/22/linux/Mac/zsh-theme/</loc>
+    
+    <lastmod>2018-08-17T05:15:37.242Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2017/10/22/linux/Mac/tmux/</loc>
+    
+    <lastmod>2018-08-17T05:15:37.241Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2017/10/22/linux/Mac/powerline/</loc>
+    
+    <lastmod>2018-08-17T05:15:37.241Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2017/10/22/linux/Mac/macVim/</loc>
+    
+    <lastmod>2018-08-17T05:15:37.240Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2017/11/08/linux/Mac/iTerm2%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
+    
+    <lastmod>2018-08-17T05:15:37.240Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2017/09/26/hexo/travis/</loc>
+    
+    <lastmod>2018-08-17T05:15:37.239Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2017/08/17/hexo/hexo/</loc>
+    
+    <lastmod>2018-08-17T05:15:37.239Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2018/08/17/gitlabci/gitlabci/</loc>
+    
+    <lastmod>2018-08-17T05:15:37.238Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2018/08/17/gitlabci/gitlab_runner/</loc>
+    
+    <lastmod>2018-08-17T05:15:37.238Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2018/08/17/code/golang/install/</loc>
+    
+    <lastmod>2018-08-17T05:15:37.237Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2017/10/22/code/Python/pyenv/</loc>
+    
+    <lastmod>2018-08-17T05:15:37.237Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2017/11/23/code/Python/Python-FP/</loc>
+    
+    <lastmod>2018-08-17T05:15:37.236Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2017/08/17/Elasticsearch-%E7%AC%94%E8%AE%B0/</loc>
+    
+    <lastmod>2018-08-17T05:15:37.235Z</lastmod>
     
   </url>
   

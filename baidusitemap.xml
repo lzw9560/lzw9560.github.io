@@ -3,21 +3,73 @@
 
 
     
-    
   <url>
-    <loc>http://yoursite.com/2017/11/23/code/Python/Python-FP/</loc>
-    <lastmod>2017-11-24T07:59:43.052Z</lastmod>
+    <loc>http://yoursite.com/2018/10/20/resume/resume/</loc>
+    <lastmod>2018-10-19T17:19:32.002Z</lastmod>
     <data>
         <display>
-        <title>Python Functional Programming</title>
-        <pubTime>2017-11-22T16:00:00.000Z</pubTime>
+        <title>My Resume</title>
+        <pubTime>2018-10-19T16:32:01.973Z</pubTime>
+        
+        <tag>My Resume</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+    
+  <url>
+    <loc>http://yoursite.com/categories/index.html</loc>
+    <lastmod>2018-08-17T05:15:37.245Z</lastmod>
+    <data>
+        <display>
+        <title>categories</title>
+        <pubTime>2017-08-17T03:59:28.000Z</pubTime>
+        
+         
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2018/08/17/websit/NotesOfOther/</loc>
+    <lastmod>2018-08-17T05:15:37.244Z</lastmod>
+    <data>
+        <display>
+        <title>Anaconda的升级与卸载</title>
+        <pubTime>2018-08-17T05:15:37.244Z</pubTime>
         
         <tag>Python</tag>
          
          
            
              
-              <breadCrumb title="Python" url="http://yoursite.com/categories/Python/"/>
+              <breadCrumb title="Linux/MacOs" url="http://yoursite.com/categories/Linux-MacOs/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+  <url>
+    <loc>http://yoursite.com/2018/08/17/tool/vscode/</loc>
+    <lastmod>2018-08-17T05:15:37.244Z</lastmod>
+    <data>
+        <display>
+        <title>Visual Studio Code开发技巧</title>
+        <pubTime>2018-08-17T05:15:37.243Z</pubTime>
+        
+        <tag>VS Code</tag>
+         
+         
+           
+             
+              <breadCrumb title="tool" url="http://yoursite.com/categories/tool/"/>
           
         </display>
     </data>
@@ -25,19 +77,79 @@
 
     
   <url>
-    <loc>http://yoursite.com/2017/11/08/linux/Mac/iTerm2%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
-    <lastmod>2017-11-08T06:54:40.000Z</lastmod>
+    <loc>http://yoursite.com/2018/08/17/tool/supervisor/</loc>
+    <lastmod>2018-08-17T05:15:37.243Z</lastmod>
     <data>
         <display>
-        <title>iTerm2常用命令</title>
-        <pubTime>2017-11-07T16:00:00.000Z</pubTime>
+        <title>Supervisor 安装配置</title>
+        <pubTime>2018-08-17T05:15:37.243Z</pubTime>
         
-        <tag>iTerm2</tag>
+        <tag>Supervisor</tag>
          
          
            
              
-              <breadCrumb title="iTerm2" url="http://yoursite.com/categories/iTerm2/"/>
+              <breadCrumb title="tool" url="http://yoursite.com/categories/tool/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2017/10/21/linux/vim/nerdtree/</loc>
+    <lastmod>2018-08-17T05:15:37.243Z</lastmod>
+    <data>
+        <display>
+        <title>NERDTree 快捷键</title>
+        <pubTime>2017-10-20T16:00:00.000Z</pubTime>
+        
+        <tag>Linux/vim</tag>
+         
+         
+           
+             
+              <breadCrumb title="vim" url="http://yoursite.com/categories/vim/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2018/08/17/linux/Tool/szrc/</loc>
+    <lastmod>2018-08-17T05:15:37.242Z</lastmod>
+    <data>
+        <display>
+        <title>iTerm2使用sz/rz</title>
+        <pubTime>2018-08-17T05:15:37.242Z</pubTime>
+        
+        <tag>Linux/sz、rz</tag>
+         
+         
+           
+             
+              <breadCrumb title="tool" url="http://yoursite.com/categories/tool/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2017/10/22/linux/Mac/zsh-theme/</loc>
+    <lastmod>2018-08-17T05:15:37.242Z</lastmod>
+    <data>
+        <display>
+        <title>item2 + oh-my-zsh + solarized配色</title>
+        <pubTime>2017-10-21T16:00:00.000Z</pubTime>
+        
+        <tag>主题配置</tag>
+         
+         
+           
+             
+              <breadCrumb title="item2" url="http://yoursite.com/categories/item2/"/>
           
         </display>
     </data>
@@ -46,7 +158,7 @@
     
   <url>
     <loc>http://yoursite.com/2017/10/22/linux/Mac/tmux/</loc>
-    <lastmod>2017-10-24T06:33:20.000Z</lastmod>
+    <lastmod>2018-08-17T05:15:37.241Z</lastmod>
     <data>
         <display>
         <title>tmux</title>
@@ -65,28 +177,8 @@
 
     
   <url>
-    <loc>http://yoursite.com/2017/09/26/hexo/travis/</loc>
-    <lastmod>2017-10-23T08:17:27.000Z</lastmod>
-    <data>
-        <display>
-        <title>travis-ci自动部署Hexo</title>
-        <pubTime>2017-09-26T07:05:42.000Z</pubTime>
-        
-        <tag>travis-ci</tag>
-         
-         
-           
-             
-              <breadCrumb title="hexo" url="http://yoursite.com/categories/hexo/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://yoursite.com/2017/10/22/linux/Mac/powerline/</loc>
-    <lastmod>2017-10-23T07:56:55.000Z</lastmod>
+    <lastmod>2018-08-17T05:15:37.241Z</lastmod>
     <data>
         <display>
         <title>powerline</title>
@@ -106,7 +198,7 @@
     
   <url>
     <loc>http://yoursite.com/2017/10/22/linux/Mac/macVim/</loc>
-    <lastmod>2017-10-22T16:30:39.000Z</lastmod>
+    <lastmod>2018-08-17T05:15:37.240Z</lastmod>
     <data>
         <display>
         <title>MacVim</title>
@@ -125,19 +217,19 @@
 
     
   <url>
-    <loc>http://yoursite.com/2017/10/22/linux/Mac/zsh-theme/</loc>
-    <lastmod>2017-10-22T09:17:08.000Z</lastmod>
+    <loc>http://yoursite.com/2017/11/08/linux/Mac/iTerm2%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
+    <lastmod>2018-08-17T05:15:37.240Z</lastmod>
     <data>
         <display>
-        <title>item2 + oh-my-zsh + solarized配色</title>
-        <pubTime>2017-10-21T16:00:00.000Z</pubTime>
+        <title>iTerm2常用命令</title>
+        <pubTime>2017-11-07T16:00:00.000Z</pubTime>
         
-        <tag>主题配置</tag>
+        <tag>iTerm2</tag>
          
          
            
              
-              <breadCrumb title="item2" url="http://yoursite.com/categories/item2/"/>
+              <breadCrumb title="iTerm2" url="http://yoursite.com/categories/iTerm2/"/>
           
         </display>
     </data>
@@ -145,133 +237,19 @@
 
     
   <url>
-    <loc>http://yoursite.com/2017/10/22/code/Python/pyenv/</loc>
-    <lastmod>2017-10-22T08:28:03.000Z</lastmod>
+    <loc>http://yoursite.com/2017/09/26/hexo/travis/</loc>
+    <lastmod>2018-08-17T05:15:37.239Z</lastmod>
     <data>
         <display>
-        <title>Mac下Python多版本环境管理</title>
-        <pubTime>2017-10-21T16:00:00.000Z</pubTime>
+        <title>travis-ci自动部署Hexo</title>
+        <pubTime>2017-09-26T07:05:42.000Z</pubTime>
         
-        <tag>Python环境管理</tag>
+        <tag>travis-ci</tag>
          
          
            
              
-              <breadCrumb title="pyenv" url="http://yoursite.com/categories/pyenv/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/categories/index.html</loc>
-    <lastmod>2017-10-21T14:23:07.000Z</lastmod>
-    <data>
-        <display>
-        <title>categories</title>
-        <pubTime>2017-08-17T03:59:28.000Z</pubTime>
-        
-         
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2017/10/21/linux/vim/nerdtree/</loc>
-    <lastmod>2017-10-21T10:07:04.000Z</lastmod>
-    <data>
-        <display>
-        <title>NERDTree 快捷键</title>
-        <pubTime>2017-10-20T16:00:00.000Z</pubTime>
-        
-        <tag>Linux/vim</tag>
-         
-         
-           
-             
-              <breadCrumb title="vim" url="http://yoursite.com/categories/vim/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2017/10/21/websit/NotesOfOther/</loc>
-    <lastmod>2017-10-21T10:01:29.000Z</lastmod>
-    <data>
-        <display>
-        <title>Anaconda的升级与卸载</title>
-        <pubTime>2017-10-21T10:01:29.000Z</pubTime>
-        
-        <tag>Python</tag>
-         
-         
-           
-             
-              <breadCrumb title="Linux/MacOs" url="http://yoursite.com/categories/Linux-MacOs/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2017/09/27/tool/vscode/</loc>
-    <lastmod>2017-09-27T05:54:57.000Z</lastmod>
-    <data>
-        <display>
-        <title>Visual Studio Code开发技巧</title>
-        <pubTime>2017-09-27T05:54:57.000Z</pubTime>
-        
-        <tag>VS Code</tag>
-         
-         
-           
-             
-              <breadCrumb title="tool" url="http://yoursite.com/categories/tool/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2017/09/26/code/golang/install/</loc>
-    <lastmod>2017-09-26T10:01:56.000Z</lastmod>
-    <data>
-        <display>
-        <title>Golang 安装</title>
-        <pubTime>2017-09-26T10:01:56.000Z</pubTime>
-        
-        <tag>Golang</tag>
-         
-         
-           
-             
-              <breadCrumb title="Golang" url="http://yoursite.com/categories/Golang/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2017/08/17/Elasticsearch-%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2017-09-26T08:07:01.000Z</lastmod>
-    <data>
-        <display>
-        <title>Elasticsearch</title>
-        <pubTime>2017-08-17T07:05:42.000Z</pubTime>
-        
-        <tag>Elasticsearch</tag>
-         
-         
-           
-             
-              <breadCrumb title="程序" url="http://yoursite.com/categories/programming/"/>
+              <breadCrumb title="hexo" url="http://yoursite.com/categories/hexo/"/>
           
         </display>
     </data>
@@ -280,7 +258,7 @@
     
   <url>
     <loc>http://yoursite.com/2017/08/17/hexo/hexo/</loc>
-    <lastmod>2017-09-26T08:04:23.000Z</lastmod>
+    <lastmod>2018-08-17T05:15:37.239Z</lastmod>
     <data>
         <display>
         <title>Hexo 常用命令</title>
@@ -299,72 +277,12 @@
 
     
   <url>
-    <loc>http://yoursite.com/2017/09/21/linux/Tool/szrc/</loc>
-    <lastmod>2017-09-21T06:54:09.000Z</lastmod>
-    <data>
-        <display>
-        <title>iTerm2使用sz/rz</title>
-        <pubTime>2017-09-21T06:54:09.000Z</pubTime>
-        
-        <tag>Linux/sz、rz</tag>
-         
-         
-           
-             
-              <breadCrumb title="tool" url="http://yoursite.com/categories/tool/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2017/09/12/tool/supervisor/</loc>
-    <lastmod>2017-09-12T09:15:04.000Z</lastmod>
-    <data>
-        <display>
-        <title>Supervisor 安装配置</title>
-        <pubTime>2017-09-12T09:15:04.000Z</pubTime>
-        
-        <tag>Supervisor</tag>
-         
-         
-           
-             
-              <breadCrumb title="tool" url="http://yoursite.com/categories/tool/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2017/09/12/gitlabci/gitlab_runner/</loc>
-    <lastmod>2017-09-12T08:53:30.000Z</lastmod>
-    <data>
-        <display>
-        <title>GitLab-Runner</title>
-        <pubTime>2017-09-12T08:53:30.000Z</pubTime>
-        
-        <tag>GitLab-CI</tag>
-         
-         
-           
-             
-              <breadCrumb title="tool" url="http://yoursite.com/categories/tool/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2017/09/12/gitlabci/gitlabci/</loc>
-    <lastmod>2017-09-12T07:58:00.000Z</lastmod>
+    <loc>http://yoursite.com/2018/08/17/gitlabci/gitlabci/</loc>
+    <lastmod>2018-08-17T05:15:37.238Z</lastmod>
     <data>
         <display>
         <title>GitLab-CI 一些概念</title>
-        <pubTime>2017-09-12T07:58:00.000Z</pubTime>
+        <pubTime>2018-08-17T05:15:37.238Z</pubTime>
         
         <tag>GitLab-CI</tag>
          
@@ -378,4 +296,103 @@
     </url>
 
     
+  <url>
+    <loc>http://yoursite.com/2018/08/17/gitlabci/gitlab_runner/</loc>
+    <lastmod>2018-08-17T05:15:37.238Z</lastmod>
+    <data>
+        <display>
+        <title>GitLab-Runner</title>
+        <pubTime>2018-08-17T05:15:37.238Z</pubTime>
+        
+        <tag>GitLab-CI</tag>
+         
+         
+           
+             
+              <breadCrumb title="tool" url="http://yoursite.com/categories/tool/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2018/08/17/code/golang/install/</loc>
+    <lastmod>2018-08-17T05:15:37.237Z</lastmod>
+    <data>
+        <display>
+        <title>Golang 安装</title>
+        <pubTime>2018-08-17T05:15:37.237Z</pubTime>
+        
+        <tag>Golang</tag>
+         
+         
+           
+             
+              <breadCrumb title="Golang" url="http://yoursite.com/categories/Golang/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2017/10/22/code/Python/pyenv/</loc>
+    <lastmod>2018-08-17T05:15:37.237Z</lastmod>
+    <data>
+        <display>
+        <title>Mac下Python多版本环境管理</title>
+        <pubTime>2017-10-21T16:00:00.000Z</pubTime>
+        
+        <tag>Python环境管理</tag>
+         
+         
+           
+             
+              <breadCrumb title="pyenv" url="http://yoursite.com/categories/pyenv/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2017/11/23/code/Python/Python-FP/</loc>
+    <lastmod>2018-08-17T05:15:37.236Z</lastmod>
+    <data>
+        <display>
+        <title>Python Functional Programming</title>
+        <pubTime>2017-11-22T16:00:00.000Z</pubTime>
+        
+        <tag>Python</tag>
+         
+         
+           
+             
+              <breadCrumb title="Python" url="http://yoursite.com/categories/Python/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2017/08/17/Elasticsearch-%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2018-08-17T05:15:37.235Z</lastmod>
+    <data>
+        <display>
+        <title>Elasticsearch</title>
+        <pubTime>2017-08-17T07:05:42.000Z</pubTime>
+        
+        <tag>Elasticsearch</tag>
+         
+         
+           
+             
+              <breadCrumb title="程序" url="http://yoursite.com/categories/programming/"/>
+          
+        </display>
+    </data>
+    </url>
+
 </urlset>
