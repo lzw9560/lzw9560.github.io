@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://yoursite.com/2018/10/20/resume/resume/</loc>
-    <lastmod>2018-10-19T17:19:32.002Z</lastmod>
+    <lastmod>2018-10-30T12:29:56.126Z</lastmod>
     <data>
         <display>
         <title>My Resume</title>
@@ -35,6 +35,7 @@
     </url>
 
     
+    
   <url>
     <loc>http://yoursite.com/2018/08/17/websit/NotesOfOther/</loc>
     <lastmod>2018-08-17T05:15:37.244Z</lastmod>
@@ -54,7 +55,6 @@
     </data>
     </url>
 
-    
     
   <url>
     <loc>http://yoursite.com/2018/08/17/tool/vscode/</loc>
@@ -317,26 +317,6 @@
 
     
   <url>
-    <loc>http://yoursite.com/2018/08/17/code/golang/install/</loc>
-    <lastmod>2018-08-17T05:15:37.237Z</lastmod>
-    <data>
-        <display>
-        <title>Golang 安装</title>
-        <pubTime>2018-08-17T05:15:37.237Z</pubTime>
-        
-        <tag>Golang</tag>
-         
-         
-           
-             
-              <breadCrumb title="Golang" url="http://yoursite.com/categories/Golang/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://yoursite.com/2017/10/22/code/Python/pyenv/</loc>
     <lastmod>2018-08-17T05:15:37.237Z</lastmod>
     <data>
@@ -350,6 +330,26 @@
            
              
               <breadCrumb title="pyenv" url="http://yoursite.com/categories/pyenv/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2018/08/17/code/golang/install/</loc>
+    <lastmod>2018-08-17T05:15:37.237Z</lastmod>
+    <data>
+        <display>
+        <title>Golang 安装</title>
+        <pubTime>2018-08-17T05:15:37.237Z</pubTime>
+        
+        <tag>Golang</tag>
+         
+         
+           
+             
+              <breadCrumb title="Golang" url="http://yoursite.com/categories/Golang/"/>
           
         </display>
     </data>
