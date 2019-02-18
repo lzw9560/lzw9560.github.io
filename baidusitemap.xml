@@ -35,6 +35,25 @@
     </url>
 
     
+  <url>
+    <loc>http://yoursite.com/2018/08/17/tool/vscode/</loc>
+    <lastmod>2018-08-17T05:15:37.244Z</lastmod>
+    <data>
+        <display>
+        <title>Visual Studio Code开发技巧</title>
+        <pubTime>2018-08-17T05:15:37.243Z</pubTime>
+        
+        <tag>VS Code</tag>
+         
+         
+           
+             
+              <breadCrumb title="tool" url="http://yoursite.com/categories/tool/"/>
+          
+        </display>
+    </data>
+    </url>
+
     
   <url>
     <loc>http://yoursite.com/2018/08/17/websit/NotesOfOther/</loc>
@@ -56,25 +75,6 @@
     </url>
 
     
-  <url>
-    <loc>http://yoursite.com/2018/08/17/tool/vscode/</loc>
-    <lastmod>2018-08-17T05:15:37.244Z</lastmod>
-    <data>
-        <display>
-        <title>Visual Studio Code开发技巧</title>
-        <pubTime>2018-08-17T05:15:37.243Z</pubTime>
-        
-        <tag>VS Code</tag>
-         
-         
-           
-             
-              <breadCrumb title="tool" url="http://yoursite.com/categories/tool/"/>
-          
-        </display>
-    </data>
-    </url>
-
     
   <url>
     <loc>http://yoursite.com/2018/08/17/tool/supervisor/</loc>
@@ -117,6 +117,26 @@
 
     
   <url>
+    <loc>http://yoursite.com/2017/10/22/linux/Mac/zsh-theme/</loc>
+    <lastmod>2018-08-17T05:15:37.242Z</lastmod>
+    <data>
+        <display>
+        <title>item2 + oh-my-zsh + solarized配色</title>
+        <pubTime>2017-10-21T16:00:00.000Z</pubTime>
+        
+        <tag>主题配置</tag>
+         
+         
+           
+             
+              <breadCrumb title="item2" url="http://yoursite.com/categories/item2/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2018/08/17/linux/Tool/szrc/</loc>
     <lastmod>2018-08-17T05:15:37.242Z</lastmod>
     <data>
@@ -137,11 +157,11 @@
 
     
   <url>
-    <loc>http://yoursite.com/2017/10/22/linux/Mac/zsh-theme/</loc>
-    <lastmod>2018-08-17T05:15:37.242Z</lastmod>
+    <loc>http://yoursite.com/2017/10/22/linux/Mac/powerline/</loc>
+    <lastmod>2018-08-17T05:15:37.241Z</lastmod>
     <data>
         <display>
-        <title>item2 + oh-my-zsh + solarized配色</title>
+        <title>powerline</title>
         <pubTime>2017-10-21T16:00:00.000Z</pubTime>
         
         <tag>主题配置</tag>
@@ -177,19 +197,19 @@
 
     
   <url>
-    <loc>http://yoursite.com/2017/10/22/linux/Mac/powerline/</loc>
-    <lastmod>2018-08-17T05:15:37.241Z</lastmod>
+    <loc>http://yoursite.com/2017/11/08/linux/Mac/iTerm2%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
+    <lastmod>2018-08-17T05:15:37.240Z</lastmod>
     <data>
         <display>
-        <title>powerline</title>
-        <pubTime>2017-10-21T16:00:00.000Z</pubTime>
+        <title>iTerm2常用命令</title>
+        <pubTime>2017-11-07T16:00:00.000Z</pubTime>
         
-        <tag>主题配置</tag>
+        <tag>iTerm2</tag>
          
          
            
              
-              <breadCrumb title="item2" url="http://yoursite.com/categories/item2/"/>
+              <breadCrumb title="iTerm2" url="http://yoursite.com/categories/iTerm2/"/>
           
         </display>
     </data>
@@ -217,19 +237,19 @@
 
     
   <url>
-    <loc>http://yoursite.com/2017/11/08/linux/Mac/iTerm2%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
-    <lastmod>2018-08-17T05:15:37.240Z</lastmod>
+    <loc>http://yoursite.com/2017/08/17/hexo/hexo/</loc>
+    <lastmod>2018-08-17T05:15:37.239Z</lastmod>
     <data>
         <display>
-        <title>iTerm2常用命令</title>
-        <pubTime>2017-11-07T16:00:00.000Z</pubTime>
+        <title>Hexo 常用命令</title>
+        <pubTime>2017-08-17T07:05:42.000Z</pubTime>
         
-        <tag>iTerm2</tag>
+        <tag>Hexo</tag>
          
          
            
              
-              <breadCrumb title="iTerm2" url="http://yoursite.com/categories/iTerm2/"/>
+              <breadCrumb title="Hexo" url="http://yoursite.com/categories/Hexo/"/>
           
         </display>
     </data>
@@ -257,31 +277,11 @@
 
     
   <url>
-    <loc>http://yoursite.com/2017/08/17/hexo/hexo/</loc>
-    <lastmod>2018-08-17T05:15:37.239Z</lastmod>
-    <data>
-        <display>
-        <title>Hexo 常用命令</title>
-        <pubTime>2017-08-17T07:05:42.000Z</pubTime>
-        
-        <tag>Hexo</tag>
-         
-         
-           
-             
-              <breadCrumb title="Hexo" url="http://yoursite.com/categories/Hexo/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2018/08/17/gitlabci/gitlabci/</loc>
+    <loc>http://yoursite.com/2018/08/17/gitlabci/gitlab_runner/</loc>
     <lastmod>2018-08-17T05:15:37.238Z</lastmod>
     <data>
         <display>
-        <title>GitLab-CI 一些概念</title>
+        <title>GitLab-Runner</title>
         <pubTime>2018-08-17T05:15:37.238Z</pubTime>
         
         <tag>GitLab-CI</tag>
@@ -297,11 +297,11 @@
 
     
   <url>
-    <loc>http://yoursite.com/2018/08/17/gitlabci/gitlab_runner/</loc>
+    <loc>http://yoursite.com/2018/08/17/gitlabci/gitlabci/</loc>
     <lastmod>2018-08-17T05:15:37.238Z</lastmod>
     <data>
         <display>
-        <title>GitLab-Runner</title>
+        <title>GitLab-CI 一些概念</title>
         <pubTime>2018-08-17T05:15:37.238Z</pubTime>
         
         <tag>GitLab-CI</tag>

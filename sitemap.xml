@@ -23,7 +23,7 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/about/index.html</loc>
+    <loc>http://yoursite.com/2018/08/17/tool/vscode/</loc>
     
     <lastmod>2018-08-17T05:15:37.244Z</lastmod>
     
@@ -37,7 +37,7 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2018/08/17/tool/vscode/</loc>
+    <loc>http://yoursite.com/about/index.html</loc>
     
     <lastmod>2018-08-17T05:15:37.244Z</lastmod>
     
@@ -58,13 +58,6 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2018/08/17/linux/Tool/szrc/</loc>
-    
-    <lastmod>2018-08-17T05:15:37.242Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://yoursite.com/2017/10/22/linux/Mac/zsh-theme/</loc>
     
     <lastmod>2018-08-17T05:15:37.242Z</lastmod>
@@ -72,9 +65,9 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2017/10/22/linux/Mac/tmux/</loc>
+    <loc>http://yoursite.com/2018/08/17/linux/Tool/szrc/</loc>
     
-    <lastmod>2018-08-17T05:15:37.241Z</lastmod>
+    <lastmod>2018-08-17T05:15:37.242Z</lastmod>
     
   </url>
   
@@ -86,9 +79,9 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2017/10/22/linux/Mac/macVim/</loc>
+    <loc>http://yoursite.com/2017/10/22/linux/Mac/tmux/</loc>
     
-    <lastmod>2018-08-17T05:15:37.240Z</lastmod>
+    <lastmod>2018-08-17T05:15:37.241Z</lastmod>
     
   </url>
   
@@ -100,9 +93,9 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2017/09/26/hexo/travis/</loc>
+    <loc>http://yoursite.com/2017/10/22/linux/Mac/macVim/</loc>
     
-    <lastmod>2018-08-17T05:15:37.239Z</lastmod>
+    <lastmod>2018-08-17T05:15:37.240Z</lastmod>
     
   </url>
   
@@ -114,14 +107,21 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2018/08/17/gitlabci/gitlabci/</loc>
+    <loc>http://yoursite.com/2017/09/26/hexo/travis/</loc>
+    
+    <lastmod>2018-08-17T05:15:37.239Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2018/08/17/gitlabci/gitlab_runner/</loc>
     
     <lastmod>2018-08-17T05:15:37.238Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/2018/08/17/gitlabci/gitlab_runner/</loc>
+    <loc>http://yoursite.com/2018/08/17/gitlabci/gitlabci/</loc>
     
     <lastmod>2018-08-17T05:15:37.238Z</lastmod>
     
