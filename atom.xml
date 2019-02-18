@@ -130,28 +130,6 @@
   </entry>
   
   <entry>
-    <title>GitLab-CI 一些概念</title>
-    <link href="http://yoursite.com/2019/02/18/gitlabci/gitlabci/"/>
-    <id>http://yoursite.com/2019/02/18/gitlabci/gitlabci/</id>
-    <published>2019-02-18T08:21:03.923Z</published>
-    <updated>2019-02-18T08:21:03.923Z</updated>
-    
-    <content type="html"><![CDATA[<h5 id="GitLab-CI"><a href="#GitLab-CI" class="headerlink" title="GitLab-CI"></a>GitLab-CI</h5><a id="more"></a><h6 id="Continuous-Integration-持续集成"><a href="#Continuous-Integration-持续集成" class="headerlink" title="Continuous Integration(持续集成)"></a>Continuous Integration(持续集成)</h6><blockquote><p>持续集成是一种软件开发实践，即团队开发成员经常集成他们的工作，通常每个成员至少集成一次，也就意味着每天可能会发生多次集成。每次集成都通过自动化的构建（包括编译，发布，自动化测试）来验证，从而尽快的发现集成错误。许多团队发现这个过程可以大大减少集成的问题，让团队能都更快的开发内聚的软件。</p><p>软件集成： 代码合并–&gt; 安装依赖–&gt; 编译–&gt; 测试 –&gt;发布。</p></blockquote><h6 id="GitLab-CI-1"><a href="#GitLab-CI-1" class="headerlink" title="GitLab-CI"></a>GitLab-CI</h6><blockquote><p>GitLab-CI 就是一套配合GitLab使用的持续集成系统（Jenkins也可以配合GitLab使用）。</p></blockquote><h6 id="Pipeline"><a href="#Pipeline" class="headerlink" title="Pipeline"></a>Pipeline</h6><blockquote><p>一次 Pipeline 其实相当于一次构建任务，里面可以包含多个流程，如安装依赖、运行测试、编译、部署测试服务器、部署生产服务器等流程。<br>任何提交或者 Merge Request 的合并都可以触发 Pipeline，如下图所示：</p></blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">+------------------+           +----------------+</span><br><span class="line">|                  |  trigger  |                |</span><br><span class="line">|   Commit / MR    +----------&gt;+    Pipeline    |</span><br><span class="line">|                  |           |                |</span><br><span class="line">+------------------+           +----------------+</span><br></pre></td></tr></table></figure><h6 id="Stages"><a href="#Stages" class="headerlink" title="Stages"></a>Stages</h6><p>Stages 表示构建阶段，说白了就是上面提到的流程。<br>我们可以在一次 Pipeline 中定义多个 Stages，这些 Stages 会有以下特点：</p><p>所有 Stages 会按照顺序运行，即当一个 Stage 完成后，下一个 Stage 才会开始<br>只有当所有 Stages 完成后，该构建任务 (Pipeline) 才会成功<br>如果任何一个 Stage 失败，那么后面的 Stages 不会执行，该构建任务 (Pipeline) 失败<br>因此，Stages 和 Pipeline 的关系就是：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">+--------------------------------------------------------+</span><br><span class="line">|                                                        |</span><br><span class="line">|  Pipeline                                              |</span><br><span class="line">|                                                        |</span><br><span class="line">|  +-----------+     +------------+      +------------+  |</span><br><span class="line">|  |  Stage 1  |----&gt;|   Stage 2  |-----&gt;|   Stage 3  |  |</span><br><span class="line">|  +-----------+     +------------+      +------------+  |</span><br><span class="line">|                                                        |</span><br><span class="line">+--------------------------------------------------------+</span><br></pre></td></tr></table></figure><h6 id="Jobs"><a href="#Jobs" class="headerlink" title="Jobs"></a>Jobs</h6><p>Jobs 表示构建工作，表示某个 Stage 里面执行的工作。<br>我们可以在 Stages 里面定义多个 Jobs，这些 Jobs 会有以下特点：</p><p>相同 Stage 中的 Jobs 会并行执行<br>相同 Stage 中的 Jobs 都执行成功时，该 Stage 才会成功<br>如果任何一个 Job 失败，那么该 Stage 失败，即该构建任务 (Pipeline) 失败<br>所以，Jobs 和 Stage 的关系图就是：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">+------------------------------------------+</span><br><span class="line">|                                          |</span><br><span class="line">|  Stage 1                                 |</span><br><span class="line">|                                          |</span><br><span class="line">|  +---------+  +---------+  +---------+   |</span><br><span class="line">|  |  Job 1  |  |  Job 2  |  |  Job 3  |   |</span><br><span class="line">|  +---------+  +---------+  +---------+   |</span><br><span class="line">|                                          |</span><br><span class="line">+------------------------------------------+</span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h5 id=&quot;GitLab-CI&quot;&gt;&lt;a href=&quot;#GitLab-CI&quot; class=&quot;headerlink&quot; title=&quot;GitLab-CI&quot;&gt;&lt;/a&gt;GitLab-CI&lt;/h5&gt;
-    
-    </summary>
-    
-      <category term="tool" scheme="http://yoursite.com/categories/tool/"/>
-    
-    
-      <category term="GitLab-CI" scheme="http://yoursite.com/tags/GitLab-CI/"/>
-    
-  </entry>
-  
-  <entry>
     <title>GitLab-Runner</title>
     <link href="http://yoursite.com/2019/02/18/gitlabci/gitlab_runner/"/>
     <id>http://yoursite.com/2019/02/18/gitlabci/gitlab_runner/</id>
@@ -163,6 +141,28 @@
     <summary type="html">
     
       &lt;h4 id=&quot;GitLab-Runner&quot;&gt;&lt;a href=&quot;#GitLab-Runner&quot; class=&quot;headerlink&quot; title=&quot;GitLab-Runner&quot;&gt;&lt;/a&gt;GitLab-Runner&lt;/h4&gt;
+    
+    </summary>
+    
+      <category term="tool" scheme="http://yoursite.com/categories/tool/"/>
+    
+    
+      <category term="GitLab-CI" scheme="http://yoursite.com/tags/GitLab-CI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GitLab-CI 一些概念</title>
+    <link href="http://yoursite.com/2019/02/18/gitlabci/gitlabci/"/>
+    <id>http://yoursite.com/2019/02/18/gitlabci/gitlabci/</id>
+    <published>2019-02-18T08:21:03.923Z</published>
+    <updated>2019-02-18T08:21:03.923Z</updated>
+    
+    <content type="html"><![CDATA[<h5 id="GitLab-CI"><a href="#GitLab-CI" class="headerlink" title="GitLab-CI"></a>GitLab-CI</h5><a id="more"></a><h6 id="Continuous-Integration-持续集成"><a href="#Continuous-Integration-持续集成" class="headerlink" title="Continuous Integration(持续集成)"></a>Continuous Integration(持续集成)</h6><blockquote><p>持续集成是一种软件开发实践，即团队开发成员经常集成他们的工作，通常每个成员至少集成一次，也就意味着每天可能会发生多次集成。每次集成都通过自动化的构建（包括编译，发布，自动化测试）来验证，从而尽快的发现集成错误。许多团队发现这个过程可以大大减少集成的问题，让团队能都更快的开发内聚的软件。</p><p>软件集成： 代码合并–&gt; 安装依赖–&gt; 编译–&gt; 测试 –&gt;发布。</p></blockquote><h6 id="GitLab-CI-1"><a href="#GitLab-CI-1" class="headerlink" title="GitLab-CI"></a>GitLab-CI</h6><blockquote><p>GitLab-CI 就是一套配合GitLab使用的持续集成系统（Jenkins也可以配合GitLab使用）。</p></blockquote><h6 id="Pipeline"><a href="#Pipeline" class="headerlink" title="Pipeline"></a>Pipeline</h6><blockquote><p>一次 Pipeline 其实相当于一次构建任务，里面可以包含多个流程，如安装依赖、运行测试、编译、部署测试服务器、部署生产服务器等流程。<br>任何提交或者 Merge Request 的合并都可以触发 Pipeline，如下图所示：</p></blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">+------------------+           +----------------+</span><br><span class="line">|                  |  trigger  |                |</span><br><span class="line">|   Commit / MR    +----------&gt;+    Pipeline    |</span><br><span class="line">|                  |           |                |</span><br><span class="line">+------------------+           +----------------+</span><br></pre></td></tr></table></figure><h6 id="Stages"><a href="#Stages" class="headerlink" title="Stages"></a>Stages</h6><p>Stages 表示构建阶段，说白了就是上面提到的流程。<br>我们可以在一次 Pipeline 中定义多个 Stages，这些 Stages 会有以下特点：</p><p>所有 Stages 会按照顺序运行，即当一个 Stage 完成后，下一个 Stage 才会开始<br>只有当所有 Stages 完成后，该构建任务 (Pipeline) 才会成功<br>如果任何一个 Stage 失败，那么后面的 Stages 不会执行，该构建任务 (Pipeline) 失败<br>因此，Stages 和 Pipeline 的关系就是：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">+--------------------------------------------------------+</span><br><span class="line">|                                                        |</span><br><span class="line">|  Pipeline                                              |</span><br><span class="line">|                                                        |</span><br><span class="line">|  +-----------+     +------------+      +------------+  |</span><br><span class="line">|  |  Stage 1  |----&gt;|   Stage 2  |-----&gt;|   Stage 3  |  |</span><br><span class="line">|  +-----------+     +------------+      +------------+  |</span><br><span class="line">|                                                        |</span><br><span class="line">+--------------------------------------------------------+</span><br></pre></td></tr></table></figure><h6 id="Jobs"><a href="#Jobs" class="headerlink" title="Jobs"></a>Jobs</h6><p>Jobs 表示构建工作，表示某个 Stage 里面执行的工作。<br>我们可以在 Stages 里面定义多个 Jobs，这些 Jobs 会有以下特点：</p><p>相同 Stage 中的 Jobs 会并行执行<br>相同 Stage 中的 Jobs 都执行成功时，该 Stage 才会成功<br>如果任何一个 Job 失败，那么该 Stage 失败，即该构建任务 (Pipeline) 失败<br>所以，Jobs 和 Stage 的关系图就是：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">+------------------------------------------+</span><br><span class="line">|                                          |</span><br><span class="line">|  Stage 1                                 |</span><br><span class="line">|                                          |</span><br><span class="line">|  +---------+  +---------+  +---------+   |</span><br><span class="line">|  |  Job 1  |  |  Job 2  |  |  Job 3  |   |</span><br><span class="line">|  +---------+  +---------+  +---------+   |</span><br><span class="line">|                                          |</span><br><span class="line">+------------------------------------------+</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h5 id=&quot;GitLab-CI&quot;&gt;&lt;a href=&quot;#GitLab-CI&quot; class=&quot;headerlink&quot; title=&quot;GitLab-CI&quot;&gt;&lt;/a&gt;GitLab-CI&lt;/h5&gt;
     
     </summary>
     
