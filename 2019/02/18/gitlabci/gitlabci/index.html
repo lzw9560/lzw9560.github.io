@@ -78,7 +78,7 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo," />
+  <meta name="keywords" content="GitLab-CI," />
 
 
 
@@ -96,18 +96,18 @@
 
 
 
-<meta name="description" content="Hexo">
-<meta name="keywords" content="Hexo">
+<meta name="description" content="GitLab-CI">
+<meta name="keywords" content="GitLab-CI">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo 常用命令">
-<meta property="og:url" content="http://yoursite.com/2017/08/17/hexo/hexo/index.html">
+<meta property="og:title" content="GitLab-CI 一些概念">
+<meta property="og:url" content="http://yoursite.com/2019/02/18/gitlabci/gitlabci/index.html">
 <meta property="og:site_name" content="Victory&#39;s Blog">
-<meta property="og:description" content="Hexo">
+<meta property="og:description" content="GitLab-CI">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-02-18T08:21:03.924Z">
+<meta property="og:updated_time" content="2019-02-18T08:21:03.923Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo 常用命令">
-<meta name="twitter:description" content="Hexo">
+<meta name="twitter:title" content="GitLab-CI 一些概念">
+<meta name="twitter:description" content="GitLab-CI">
 
 
 
@@ -136,13 +136,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2017/08/17/hexo/hexo/"/>
+  <link rel="canonical" href="http://yoursite.com/2019/02/18/gitlabci/gitlabci/"/>
 
 
 
 
 
-  <title>Hexo 常用命令 | Victory's Blog</title>
+  <title>GitLab-CI 一些概念 | Victory's Blog</title>
   
 
 
@@ -299,7 +299,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/08/17/hexo/hexo/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/02/18/gitlabci/gitlabci/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Victory">
@@ -316,7 +316,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Hexo 常用命令</h1>
+          <h1 class="post-title" itemprop="name headline">GitLab-CI 一些概念</h1>
         
 
         <div class="post-meta">
@@ -328,8 +328,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-17T15:05:42+08:00">
-                2017-08-17
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-02-18T16:21:03+08:00">
+                2019-02-18
               </time>
             
 
@@ -351,8 +351,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Hexo/" itemprop="url" rel="index">
-                    <span itemprop="name">Hexo</span>
+                  <a href="/categories/tool/" itemprop="url" rel="index">
+                    <span itemprop="name">tool</span>
                   </a>
                 </span>
 
@@ -387,7 +387,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  144
+                  533
                 </span>
               
 
@@ -403,7 +403,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  1
+                  2
                 </span>
               
             </div>
@@ -424,20 +424,24 @@
       
 
       
-        <p>Hexo</p>
-<a id="more"></a>
-<p>安装 Hexo<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo</span><br></pre></td></tr></table></figure></p>
-<p>查看 Node 版本<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">node -v</span><br></pre></td></tr></table></figure></p>
-<p>查看 Hexo 版本<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo version</span><br></pre></td></tr></table></figure></p>
-<p>创建项目<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init hexo-lcx</span><br></pre></td></tr></table></figure></p>
-<p>进入目录<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd hexo-lcx</span><br></pre></td></tr></table></figure></p>
-<p>也可以先进目录再初始化项目<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd hexo-lcx</span><br><span class="line">hexo init</span><br></pre></td></tr></table></figure></p>
-<p>安装依赖包<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install</span><br></pre></td></tr></table></figure></p>
-<p>以后所有的命令都在该目录下进行</p>
-<p>启动服务<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure></p>
-<p>用浏览器打开<a href="http://localhost:4000/或者http://127.0.0.1:4000/就能看到网页了" target="_blank" rel="noopener">http://localhost:4000/或者http://127.0.0.1:4000/就能看到网页了</a><br>推荐使用现代化浏览器(Chrome)获得最佳效果</p>
-<p>按Ctrl+C停止本地预览服务</p>
-
+        <h5 id="GitLab-CI"><a href="#GitLab-CI" class="headerlink" title="GitLab-CI"></a>GitLab-CI</h5><a id="more"></a>
+<h6 id="Continuous-Integration-持续集成"><a href="#Continuous-Integration-持续集成" class="headerlink" title="Continuous Integration(持续集成)"></a>Continuous Integration(持续集成)</h6><blockquote>
+<p>持续集成是一种软件开发实践，即团队开发成员经常集成他们的工作，通常每个成员至少集成一次，也就意味着每天可能会发生多次集成。每次集成都通过自动化的构建（包括编译，发布，自动化测试）来验证，从而尽快的发现集成错误。许多团队发现这个过程可以大大减少集成的问题，让团队能都更快的开发内聚的软件。</p>
+<p>软件集成： 代码合并–&gt; 安装依赖–&gt; 编译–&gt; 测试 –&gt;发布。</p>
+</blockquote>
+<h6 id="GitLab-CI-1"><a href="#GitLab-CI-1" class="headerlink" title="GitLab-CI"></a>GitLab-CI</h6><blockquote>
+<p>GitLab-CI 就是一套配合GitLab使用的持续集成系统（Jenkins也可以配合GitLab使用）。</p>
+</blockquote>
+<h6 id="Pipeline"><a href="#Pipeline" class="headerlink" title="Pipeline"></a>Pipeline</h6><blockquote>
+<p>一次 Pipeline 其实相当于一次构建任务，里面可以包含多个流程，如安装依赖、运行测试、编译、部署测试服务器、部署生产服务器等流程。<br>任何提交或者 Merge Request 的合并都可以触发 Pipeline，如下图所示：</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">+------------------+           +----------------+</span><br><span class="line">|                  |  trigger  |                |</span><br><span class="line">|   Commit / MR    +----------&gt;+    Pipeline    |</span><br><span class="line">|                  |           |                |</span><br><span class="line">+------------------+           +----------------+</span><br></pre></td></tr></table></figure>
+<h6 id="Stages"><a href="#Stages" class="headerlink" title="Stages"></a>Stages</h6><p>Stages 表示构建阶段，说白了就是上面提到的流程。<br>我们可以在一次 Pipeline 中定义多个 Stages，这些 Stages 会有以下特点：</p>
+<p>所有 Stages 会按照顺序运行，即当一个 Stage 完成后，下一个 Stage 才会开始<br>只有当所有 Stages 完成后，该构建任务 (Pipeline) 才会成功<br>如果任何一个 Stage 失败，那么后面的 Stages 不会执行，该构建任务 (Pipeline) 失败<br>因此，Stages 和 Pipeline 的关系就是：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">+--------------------------------------------------------+</span><br><span class="line">|                                                        |</span><br><span class="line">|  Pipeline                                              |</span><br><span class="line">|                                                        |</span><br><span class="line">|  +-----------+     +------------+      +------------+  |</span><br><span class="line">|  |  Stage 1  |----&gt;|   Stage 2  |-----&gt;|   Stage 3  |  |</span><br><span class="line">|  +-----------+     +------------+      +------------+  |</span><br><span class="line">|                                                        |</span><br><span class="line">+--------------------------------------------------------+</span><br></pre></td></tr></table></figure>
+<h6 id="Jobs"><a href="#Jobs" class="headerlink" title="Jobs"></a>Jobs</h6><p>Jobs 表示构建工作，表示某个 Stage 里面执行的工作。<br>我们可以在 Stages 里面定义多个 Jobs，这些 Jobs 会有以下特点：</p>
+<p>相同 Stage 中的 Jobs 会并行执行<br>相同 Stage 中的 Jobs 都执行成功时，该 Stage 才会成功<br>如果任何一个 Job 失败，那么该 Stage 失败，即该构建任务 (Pipeline) 失败<br>所以，Jobs 和 Stage 的关系图就是：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">+------------------------------------------+</span><br><span class="line">|                                          |</span><br><span class="line">|  Stage 1                                 |</span><br><span class="line">|                                          |</span><br><span class="line">|  +---------+  +---------+  +---------+   |</span><br><span class="line">|  |  Job 1  |  |  Job 2  |  |  Job 3  |   |</span><br><span class="line">|  +---------+  +---------+  +---------+   |</span><br><span class="line">|                                          |</span><br><span class="line">+------------------------------------------+</span><br></pre></td></tr></table></figure>
       
     </div>
     
@@ -467,7 +471,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/Hexo/" rel="tag"> <i class="fa fa-tag"></i>Hexo</a>
+            <a href="/tags/GitLab-CI/" rel="tag"> <i class="fa fa-tag"></i>GitLab-CI</a>
           
         </div>
       
@@ -480,14 +484,18 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2019/02/18/gitlabci/gitlab_runner/" rel="next" title="GitLab-Runner">
+                <i class="fa fa-chevron-left"></i> GitLab-Runner
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2017/08/17/Elasticsearch-笔记/" rel="prev" title="Elasticsearch">
-                Elasticsearch <i class="fa fa-chevron-right"></i>
+              <a href="/2019/02/18/linux/Tool/szrc/" rel="prev" title="iTerm2使用sz/rz">
+                iTerm2使用sz/rz <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -540,8 +548,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/uploads/avatar.jpg"
@@ -610,6 +627,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-5"><a class="nav-link" href="#GitLab-CI"><span class="nav-number">1.</span> <span class="nav-text">GitLab-CI</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#Continuous-Integration-持续集成"><span class="nav-number">1.1.</span> <span class="nav-text">Continuous Integration(持续集成)</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#GitLab-CI-1"><span class="nav-number">1.2.</span> <span class="nav-text">GitLab-CI</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#Pipeline"><span class="nav-number">1.3.</span> <span class="nav-text">Pipeline</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#Stages"><span class="nav-number">1.4.</span> <span class="nav-text">Stages</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#Jobs"><span class="nav-number">1.5.</span> <span class="nav-text">Jobs</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       

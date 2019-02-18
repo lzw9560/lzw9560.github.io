@@ -2,156 +2,156 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/2018/10/20/resume/resume/</loc>
+    <loc>http://yoursite.com/2019/02/18/resume/resume/</loc>
     
-    <lastmod>2018-10-30T12:29:56.126Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/tags/index.html</loc>
-    
-    <lastmod>2018-08-17T05:15:37.246Z</lastmod>
+    <lastmod>2019-02-18T08:21:41.795Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/categories/index.html</loc>
+    <loc>http://yoursite.com/2019/02/18/websit/NotesOfOther/</loc>
     
-    <lastmod>2018-08-17T05:15:37.245Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/08/17/tool/vscode/</loc>
-    
-    <lastmod>2018-08-17T05:15:37.244Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/08/17/websit/NotesOfOther/</loc>
-    
-    <lastmod>2018-08-17T05:15:37.244Z</lastmod>
+    <lastmod>2019-02-18T08:21:03.927Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://yoursite.com/about/index.html</loc>
     
-    <lastmod>2018-08-17T05:15:37.244Z</lastmod>
+    <lastmod>2019-02-18T08:21:03.927Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/2018/08/17/tool/supervisor/</loc>
+    <loc>http://yoursite.com/categories/index.html</loc>
     
-    <lastmod>2018-08-17T05:15:37.243Z</lastmod>
+    <lastmod>2019-02-18T08:21:03.927Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/tags/index.html</loc>
+    
+    <lastmod>2019-02-18T08:21:03.927Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2019/02/18/tool/supervisor/</loc>
+    
+    <lastmod>2019-02-18T08:21:03.926Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2019/02/18/tool/vscode/</loc>
+    
+    <lastmod>2019-02-18T08:21:03.926Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://yoursite.com/2017/10/21/linux/vim/nerdtree/</loc>
     
-    <lastmod>2018-08-17T05:15:37.243Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/10/22/linux/Mac/zsh-theme/</loc>
-    
-    <lastmod>2018-08-17T05:15:37.242Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/08/17/linux/Tool/szrc/</loc>
-    
-    <lastmod>2018-08-17T05:15:37.242Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/10/22/linux/Mac/powerline/</loc>
-    
-    <lastmod>2018-08-17T05:15:37.241Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/10/22/linux/Mac/tmux/</loc>
-    
-    <lastmod>2018-08-17T05:15:37.241Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/11/08/linux/Mac/iTerm2%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
-    
-    <lastmod>2018-08-17T05:15:37.240Z</lastmod>
+    <lastmod>2019-02-18T08:21:03.926Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://yoursite.com/2017/10/22/linux/Mac/macVim/</loc>
     
-    <lastmod>2018-08-17T05:15:37.240Z</lastmod>
+    <lastmod>2019-02-18T08:21:03.925Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2017/10/22/linux/Mac/powerline/</loc>
+    
+    <lastmod>2019-02-18T08:21:03.925Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2017/10/22/linux/Mac/zsh-theme/</loc>
+    
+    <lastmod>2019-02-18T08:21:03.925Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2019/02/18/linux/Tool/szrc/</loc>
+    
+    <lastmod>2019-02-18T08:21:03.925Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2017/10/22/linux/Mac/tmux/</loc>
+    
+    <lastmod>2019-02-18T08:21:03.925Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://yoursite.com/2017/08/17/hexo/hexo/</loc>
     
-    <lastmod>2018-08-17T05:15:37.239Z</lastmod>
+    <lastmod>2019-02-18T08:21:03.924Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://yoursite.com/2017/09/26/hexo/travis/</loc>
     
-    <lastmod>2018-08-17T05:15:37.239Z</lastmod>
+    <lastmod>2019-02-18T08:21:03.924Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/2018/08/17/gitlabci/gitlab_runner/</loc>
+    <loc>http://yoursite.com/2017/11/08/linux/Mac/iTerm2%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
     
-    <lastmod>2018-08-17T05:15:37.238Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/08/17/gitlabci/gitlabci/</loc>
-    
-    <lastmod>2018-08-17T05:15:37.238Z</lastmod>
+    <lastmod>2019-02-18T08:21:03.924Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/2017/10/22/code/Python/pyenv/</loc>
+    <loc>http://yoursite.com/2019/02/18/gitlabci/gitlabci/</loc>
     
-    <lastmod>2018-08-17T05:15:37.237Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/08/17/code/golang/install/</loc>
-    
-    <lastmod>2018-08-17T05:15:37.237Z</lastmod>
+    <lastmod>2019-02-18T08:21:03.923Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/2017/11/23/code/Python/Python-FP/</loc>
+    <loc>http://yoursite.com/2019/02/18/gitlabci/gitlab_runner/</loc>
     
-    <lastmod>2018-08-17T05:15:37.236Z</lastmod>
+    <lastmod>2019-02-18T08:21:03.923Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2019/02/18/code/golang/install/</loc>
+    
+    <lastmod>2019-02-18T08:21:03.923Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://yoursite.com/2017/08/17/Elasticsearch-%E7%AC%94%E8%AE%B0/</loc>
     
-    <lastmod>2018-08-17T05:15:37.235Z</lastmod>
+    <lastmod>2019-02-18T08:21:03.922Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2017/11/23/code/Python/Python-FP/</loc>
+    
+    <lastmod>2019-02-18T08:21:03.922Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2017/10/22/code/Python/pyenv/</loc>
+    
+    <lastmod>2019-02-18T08:21:03.922Z</lastmod>
     
   </url>
   
