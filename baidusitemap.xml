@@ -277,11 +277,11 @@
 
     
   <url>
-    <loc>http://yoursite.com/2019/02/18/gitlabci/gitlab_runner/</loc>
+    <loc>http://yoursite.com/2019/02/18/gitlabci/gitlabci/</loc>
     <lastmod>2019-02-18T08:21:03.923Z</lastmod>
     <data>
         <display>
-        <title>GitLab-Runner</title>
+        <title>GitLab-CI 一些概念</title>
         <pubTime>2019-02-18T08:21:03.923Z</pubTime>
         
         <tag>GitLab-CI</tag>
@@ -297,11 +297,11 @@
 
     
   <url>
-    <loc>http://yoursite.com/2019/02/18/gitlabci/gitlabci/</loc>
+    <loc>http://yoursite.com/2019/02/18/gitlabci/gitlab_runner/</loc>
     <lastmod>2019-02-18T08:21:03.923Z</lastmod>
     <data>
         <display>
-        <title>GitLab-CI 一些概念</title>
+        <title>GitLab-Runner</title>
         <pubTime>2019-02-18T08:21:03.923Z</pubTime>
         
         <tag>GitLab-CI</tag>
@@ -357,26 +357,6 @@
 
     
   <url>
-    <loc>http://yoursite.com/2017/11/23/code/Python/Python-FP/</loc>
-    <lastmod>2019-02-18T08:21:03.922Z</lastmod>
-    <data>
-        <display>
-        <title>Python Functional Programming</title>
-        <pubTime>2017-11-22T16:00:00.000Z</pubTime>
-        
-        <tag>Python</tag>
-         
-         
-           
-             
-              <breadCrumb title="Python" url="http://yoursite.com/categories/Python/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://yoursite.com/2017/10/22/code/Python/pyenv/</loc>
     <lastmod>2019-02-18T08:21:03.922Z</lastmod>
     <data>
@@ -390,6 +370,26 @@
            
              
               <breadCrumb title="pyenv" url="http://yoursite.com/categories/pyenv/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2017/11/23/code/Python/Python-FP/</loc>
+    <lastmod>2019-02-18T08:21:03.922Z</lastmod>
+    <data>
+        <display>
+        <title>Python Functional Programming</title>
+        <pubTime>2017-11-22T16:00:00.000Z</pubTime>
+        
+        <tag>Python</tag>
+         
+         
+           
+             
+              <breadCrumb title="Python" url="http://yoursite.com/categories/Python/"/>
           
         </display>
     </data>
