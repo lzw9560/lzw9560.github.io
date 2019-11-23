@@ -259,28 +259,6 @@
   </entry>
   
   <entry>
-    <title>MacVim</title>
-    <link href="http://yoursite.com/2017/10/22/linux/Mac/macVim/"/>
-    <id>http://yoursite.com/2017/10/22/linux/Mac/macVim/</id>
-    <published>2017-10-21T16:00:00.000Z</published>
-    <updated>2019-02-18T08:21:03.925Z</updated>
-    
-    <content type="html"><![CDATA[<h4 id="MacVim"><a href="#MacVim" class="headerlink" title="MacVim"></a>MacVim</h4><a id="more"></a>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h4 id=&quot;MacVim&quot;&gt;&lt;a href=&quot;#MacVim&quot; class=&quot;headerlink&quot; title=&quot;MacVim&quot;&gt;&lt;/a&gt;MacVim&lt;/h4&gt;
-    
-    </summary>
-    
-      <category term="MacVim" scheme="http://yoursite.com/categories/MacVim/"/>
-    
-    
-      <category term="MacVim" scheme="http://yoursite.com/tags/MacVim/"/>
-    
-  </entry>
-  
-  <entry>
     <title>powerline</title>
     <link href="http://yoursite.com/2017/10/22/linux/Mac/powerline/"/>
     <id>http://yoursite.com/2017/10/22/linux/Mac/powerline/</id>
@@ -299,6 +277,28 @@
     
     
       <category term="主题配置" scheme="http://yoursite.com/tags/%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MacVim</title>
+    <link href="http://yoursite.com/2017/10/22/linux/Mac/macVim/"/>
+    <id>http://yoursite.com/2017/10/22/linux/Mac/macVim/</id>
+    <published>2017-10-21T16:00:00.000Z</published>
+    <updated>2019-02-18T08:21:03.925Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="MacVim"><a href="#MacVim" class="headerlink" title="MacVim"></a>MacVim</h4><a id="more"></a>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;MacVim&quot;&gt;&lt;a href=&quot;#MacVim&quot; class=&quot;headerlink&quot; title=&quot;MacVim&quot;&gt;&lt;/a&gt;MacVim&lt;/h4&gt;
+    
+    </summary>
+    
+      <category term="MacVim" scheme="http://yoursite.com/categories/MacVim/"/>
+    
+    
+      <category term="MacVim" scheme="http://yoursite.com/tags/MacVim/"/>
     
   </entry>
   

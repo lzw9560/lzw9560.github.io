@@ -234,27 +234,6 @@
     </entry>
     
     <entry>
-      <title>MacVim</title>
-      <link href="/2017/10/22/linux/Mac/macVim/"/>
-      <url>/2017/10/22/linux/Mac/macVim/</url>
-      <content type="html"><![CDATA[<h4 id="MacVim"><a href="#MacVim" class="headerlink" title="MacVim"></a>MacVim</h4><a id="more"></a>]]></content>
-      
-      <categories>
-          
-          <category> MacVim </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> MacVim </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
       <title>powerline</title>
       <link href="/2017/10/22/linux/Mac/powerline/"/>
       <url>/2017/10/22/linux/Mac/powerline/</url>
@@ -270,6 +249,27 @@
         <tags>
             
             <tag> 主题配置 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>MacVim</title>
+      <link href="/2017/10/22/linux/Mac/macVim/"/>
+      <url>/2017/10/22/linux/Mac/macVim/</url>
+      <content type="html"><![CDATA[<h4 id="MacVim"><a href="#MacVim" class="headerlink" title="MacVim"></a>MacVim</h4><a id="more"></a>]]></content>
+      
+      <categories>
+          
+          <category> MacVim </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> MacVim </tag>
             
         </tags>
       
