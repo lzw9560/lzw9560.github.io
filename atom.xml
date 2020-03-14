@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-03-14T07:01:38.343Z</updated>
+  <updated>2020-03-14T07:04:54.522Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yoursite.com/2020/03/14/Development/tdd/"/>
     <id>http://yoursite.com/2020/03/14/Development/tdd/</id>
     <published>2020-03-13T16:00:00.000Z</published>
-    <updated>2020-03-14T07:01:38.343Z</updated>
+    <updated>2020-03-14T07:04:54.522Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="Summary"><a href="#Summary" class="headerlink" title="Summary"></a>Summary</h1><p>测试驱动开发（Test-Driven-Development） 简称：TDD</p><a id="more"></a><h1 id="Process"><a href="#Process" class="headerlink" title="Process"></a>Process</h1><pre><code>- 编写 TODO List- 编写测试用例test case- 运行不通过的测试 test RED- 编写对应的功能代码 code- 测试通过 test pass GREEN- 重构 REDACTOR</code></pre><h1 id="Principle"><a href="#Principle" class="headerlink" title="Principle"></a>Principle</h1><pre><code>- 隔离测试- 一顶帽子- 测试列表- 测试驱动     &gt; 完成某个功能函数，首先编写测试代码，考虑如何使用，如何测试；然后在对其进行设计编码。- 先写断言- 可测试性    &gt; 高内聚，接口依赖- 及时重构- 小步前进    &gt; 极限编程</code></pre><h1 id="Trap"><a href="#Trap" class="headerlink" title="Trap"></a>Trap</h1><pre><code>* 忘记运行测试* 一次编写太多测试* 编写太大或者粗粒度的测试* 编写过于琐碎的测试，省略断言* 为琐碎的代码编写测试* 项目中部分使用TDD* 测试集合维护不力-运行时间过长* 废弃的测试集合</code></pre><h1 id="Scope"><a href="#Scope" class="headerlink" title="Scope"></a>Scope</h1><pre><code>测试驱动开发强调的不是负担，而是应该帮助我们减轻工作量的方法。取决于个人的经验，功能复杂，核心功能的代码就应该编写更全面、细致的测试用例，一般的测试流程即可。测试范围没有静态的标准，同时也应该可以随着时间改变。对于开始没有编写足够的测试的功能代码，根据bug补全即可。</code></pre><h1 id="How"><a href="#How" class="headerlink" title="How"></a>How</h1><pre><code>测试用例的编写使用传统的测试技术即可。</code></pre><h1 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h1><pre><code>以最初的开发工作量的适度增加为代价，达到最终的缺陷率降低，并且有助于减少后期工作量；TDD 有助于提高代码质量，高内聚和耦合度。谨防过渡设计。</code></pre><p><a href="http://www.google.com/" title="Google" target="_blank" rel="noopener">Google</a><br><a href="https://www.amazon.com/gp/product/0321146530/ref=as_li_ss_tl?ie=UTF8&amp;linkCode=sl1&amp;tag=&amp;linkId=6d76ed79b7f498d7930b370ad4c059ac," title="测试驱动开发" target="_blank" rel="noopener">测试驱动开发</a>，肯特·贝克（Kent Beck）</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="Summary"><a href="#Summary" class="headerlink" title="Summary"></a>Summary</h1><p>测试驱动开发（Test-Driven-Development） 简称：TDD</p><a id="more"></a><h1 id="Process"><a href="#Process" class="headerlink" title="Process"></a>Process</h1><pre><code>- 编写 TODO List- 编写测试用例test case- 运行不通过的测试 test RED- 编写对应的功能代码 code- 测试通过 test pass GREEN- 重构 REDACTOR</code></pre><h1 id="Principle"><a href="#Principle" class="headerlink" title="Principle"></a>Principle</h1><pre><code>- 隔离测试- 一顶帽子- 测试列表- 测试驱动     &gt; 完成某个功能函数，首先编写测试代码，考虑如何使用，如何测试；然后在对其进行设计编码。- 先写断言- 可测试性    &gt; 高内聚，接口依赖- 及时重构- 小步前进    &gt; 极限编程</code></pre><h1 id="Trap"><a href="#Trap" class="headerlink" title="Trap"></a>Trap</h1><pre><code>* 忘记运行测试* 一次编写太多测试* 编写太大或者粗粒度的测试* 编写过于琐碎的测试，省略断言* 为琐碎的代码编写测试* 项目中部分使用TDD* 测试集合维护不力-运行时间过长* 废弃的测试集合</code></pre><h1 id="Scope"><a href="#Scope" class="headerlink" title="Scope"></a>Scope</h1><pre><code>测试驱动开发强调的不是负担，而是应该帮助我们减轻工作量的方法。取决于个人的经验，功能复杂，核心功能的代码就应该编写更全面、细致的测试用例，一般的测试流程即可。测试范围没有静态的标准，同时也应该可以随着时间改变。对于开始没有编写足够的测试的功能代码，根据bug补全即可。</code></pre><h1 id="How"><a href="#How" class="headerlink" title="How"></a>How</h1><pre><code>测试用例的编写使用传统的测试技术即可。</code></pre><h1 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h1><pre><code>以最初的开发工作量的适度增加为代价，达到最终的缺陷率降低，并且有助于减少后期工作量；TDD 有助于提高代码质量，高内聚和耦合度。谨防过渡设计。</code></pre><p><a href="https://www.amazon.com/gp/product/0321146530/ref=as_li_ss_tl?ie=UTF8&amp;linkCode=sl1&amp;tag=&amp;linkId=6d76ed79b7f498d7930b370ad4c059ac," title="测试驱动开发" target="_blank" rel="noopener">测试驱动开发</a>，肯特·贝克（Kent Beck）</p>]]></content>
     
     <summary type="html">
     
