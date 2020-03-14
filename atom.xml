@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-03-13T15:52:07.128Z</updated>
+  <updated>2020-03-14T06:40:32.073Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>TDD</title>
+    <link href="http://yoursite.com/2020/03/14/Development/tdd/"/>
+    <id>http://yoursite.com/2020/03/14/Development/tdd/</id>
+    <published>2020-03-13T16:00:00.000Z</published>
+    <updated>2020-03-14T06:40:32.073Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Summary"><a href="#Summary" class="headerlink" title="Summary"></a>Summary</h1><p>测试驱动开发（Test-Driven-Development） 简称：TDD</p><a id="more"></a><h1 id="Process"><a href="#Process" class="headerlink" title="Process"></a>Process</h1><pre><code>- 编写 TODO List- 编写测试用例test case- 运行不通过的测试 test RED- 编写对应的功能代码 code- 测试通过 test pass GREEN- 重构 REDACTOR</code></pre><h1 id="Principle"><a href="#Principle" class="headerlink" title="Principle"></a>Principle</h1><pre><code>- 隔离测试- 一顶帽子- 测试列表- 测试驱动     &gt; 完成某个功能函数，首先编写测试代码，考虑如何使用，如何测试；然后在对其进行设计编码。- 先写断言- 可测试性    &gt; 高内聚，接口依赖- 及时重构- 小步前进    &gt; 极限编程</code></pre><h1 id="Scope"><a href="#Scope" class="headerlink" title="Scope"></a>Scope</h1><pre><code>测试驱动开发强调的不是负担，而是应该帮助我们减轻工作量的方法。取决于个人的经验，功能复杂，核心功能的代码就应该编写更全面、细致的测试用例，一般的测试流程即可。测试范围没有静态的标准，同时也应该可以随着时间改变。对于开始没有编写足够的测试的功能代码，根据bug补全即可。</code></pre><h1 id="How"><a href="#How" class="headerlink" title="How"></a>How</h1><pre><code>测试用例的编写使用传统的测试技术即可。</code></pre><h1 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h1><pre><code>谨防过渡设计。</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Summary&quot;&gt;&lt;a href=&quot;#Summary&quot; class=&quot;headerlink&quot; title=&quot;Summary&quot;&gt;&lt;/a&gt;Summary&lt;/h1&gt;&lt;p&gt;测试驱动开发（Test-Driven-Development） 简称：TDD&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Development" scheme="http://yoursite.com/categories/Development/"/>
+    
+    
+      <category term="Development" scheme="http://yoursite.com/tags/Development/"/>
+    
+  </entry>
   
   <entry>
     <title>Python 策略模式（灵活调用个不同平台直播SDK）</title>
@@ -101,28 +123,6 @@
     
     
       <category term="Python" scheme="http://yoursite.com/tags/Python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>TDD</title>
-    <link href="http://yoursite.com/2019/02/18/Development/tdd/"/>
-    <id>http://yoursite.com/2019/02/18/Development/tdd/</id>
-    <published>2019-02-18T08:21:03.926Z</published>
-    <updated>2020-03-14T06:33:52.564Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="Summary"><a href="#Summary" class="headerlink" title="Summary"></a>Summary</h1><p>测试驱动开发（Test-Driven-Development） 简称：TDD</p><a id="more"></a><h1 id="Process"><a href="#Process" class="headerlink" title="Process"></a>Process</h1><pre><code>- 编写 TODO List- 编写测试用例test case- 运行不通过的测试 test RED- 编写对应的功能代码 code- 测试通过 test pass GREEN- 重构 REDACTOR</code></pre><h1 id="Principle"><a href="#Principle" class="headerlink" title="Principle"></a>Principle</h1><pre><code>- 隔离测试- 一顶帽子- 测试列表- 测试驱动     &gt; 完成某个功能函数，首先编写测试代码，考虑如何使用，如何测试；然后在对其进行设计编码。- 先写断言- 可测试性    &gt; 高内聚，接口依赖- 及时重构- 小步前进    &gt; 极限编程</code></pre><h1 id="Scope"><a href="#Scope" class="headerlink" title="Scope"></a>Scope</h1><pre><code>测试驱动开发强调的不是负担，而是应该帮助我们减轻工作量的方法。取决于个人的经验，功能复杂，核心功能的代码就应该编写更全面、细致的测试用例，一般的测试流程即可。测试范围没有静态的标准，同时也应该可以随着时间改变。对于开始没有编写足够的测试的功能代码，根据bug补全即可。</code></pre><h1 id="How"><a href="#How" class="headerlink" title="How"></a>How</h1><pre><code>测试用例的编写使用传统的测试技术即可。</code></pre><h1 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h1><pre><code>谨防过渡设计。</code></pre>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;Summary&quot;&gt;&lt;a href=&quot;#Summary&quot; class=&quot;headerlink&quot; title=&quot;Summary&quot;&gt;&lt;/a&gt;Summary&lt;/h1&gt;&lt;p&gt;测试驱动开发（Test-Driven-Development） 简称：TDD&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Development" scheme="http://yoursite.com/categories/Development/"/>
-    
-    
-      <category term="Development" scheme="http://yoursite.com/tags/Development/"/>
     
   </entry>
   
