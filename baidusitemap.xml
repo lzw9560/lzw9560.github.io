@@ -109,14 +109,14 @@
 
     
   <url>
-    <loc>http://yoursite.com/2019/02/18/tool/supervisor/</loc>
+    <loc>http://yoursite.com/2019/02/18/tool/vscode/</loc>
     <lastmod>2019-02-18T08:21:03.926Z</lastmod>
     <data>
         <display>
-        <title>Supervisor 安装配置</title>
+        <title>Visual Studio Code开发技巧</title>
         <pubTime>2019-02-18T08:21:03.926Z</pubTime>
         
-        <tag>Supervisor</tag>
+        <tag>VS Code</tag>
          
          
            
@@ -129,14 +129,14 @@
 
     
   <url>
-    <loc>http://yoursite.com/2019/02/18/tool/vscode/</loc>
+    <loc>http://yoursite.com/2019/02/18/tool/supervisor/</loc>
     <lastmod>2019-02-18T08:21:03.926Z</lastmod>
     <data>
         <display>
-        <title>Visual Studio Code开发技巧</title>
+        <title>Supervisor 安装配置</title>
         <pubTime>2019-02-18T08:21:03.926Z</pubTime>
         
-        <tag>VS Code</tag>
+        <tag>Supervisor</tag>
          
          
            
@@ -162,6 +162,26 @@
            
              
               <breadCrumb title="vim" url="http://yoursite.com/categories/vim/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2017/10/22/linux/Mac/macVim/</loc>
+    <lastmod>2019-02-18T08:21:03.925Z</lastmod>
+    <data>
+        <display>
+        <title>MacVim</title>
+        <pubTime>2017-10-21T16:00:00.000Z</pubTime>
+        
+        <tag>MacVim</tag>
+         
+         
+           
+             
+              <breadCrumb title="MacVim" url="http://yoursite.com/categories/MacVim/"/>
           
         </display>
     </data>
@@ -222,26 +242,6 @@
            
              
               <breadCrumb title="item2" url="http://yoursite.com/categories/item2/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2017/10/22/linux/Mac/macVim/</loc>
-    <lastmod>2019-02-18T08:21:03.925Z</lastmod>
-    <data>
-        <display>
-        <title>MacVim</title>
-        <pubTime>2017-10-21T16:00:00.000Z</pubTime>
-        
-        <tag>MacVim</tag>
-         
-         
-           
-             
-              <breadCrumb title="MacVim" url="http://yoursite.com/categories/MacVim/"/>
           
         </display>
     </data>

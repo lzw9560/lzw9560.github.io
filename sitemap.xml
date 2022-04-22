@@ -58,14 +58,14 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2019/02/18/tool/supervisor/</loc>
+    <loc>http://yoursite.com/2019/02/18/tool/vscode/</loc>
     
     <lastmod>2019-02-18T08:21:03.926Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/2019/02/18/tool/vscode/</loc>
+    <loc>http://yoursite.com/2019/02/18/tool/supervisor/</loc>
     
     <lastmod>2019-02-18T08:21:03.926Z</lastmod>
     
@@ -75,6 +75,13 @@
     <loc>http://yoursite.com/2017/10/21/linux/vim/nerdtree/</loc>
     
     <lastmod>2019-02-18T08:21:03.926Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2017/10/22/linux/Mac/macVim/</loc>
+    
+    <lastmod>2019-02-18T08:21:03.925Z</lastmod>
     
   </url>
   
@@ -94,13 +101,6 @@
   
   <url>
     <loc>http://yoursite.com/2017/10/22/linux/Mac/zsh-theme/</loc>
-    
-    <lastmod>2019-02-18T08:21:03.925Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/10/22/linux/Mac/macVim/</loc>
     
     <lastmod>2019-02-18T08:21:03.925Z</lastmod>
     
