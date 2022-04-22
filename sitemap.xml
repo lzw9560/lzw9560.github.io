@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2022/04/22/resume/</loc>
+    
+    <lastmod>2022-04-22T14:15:15.299Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/tags/index.html</loc>
     
     <lastmod>2022-04-22T14:01:37.554Z</lastmod>
@@ -51,14 +58,14 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2019/02/18/tool/supervisor/</loc>
+    <loc>http://yoursite.com/2019/02/18/tool/vscode/</loc>
     
     <lastmod>2019-02-18T08:21:03.926Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/2019/02/18/tool/vscode/</loc>
+    <loc>http://yoursite.com/2019/02/18/tool/supervisor/</loc>
     
     <lastmod>2019-02-18T08:21:03.926Z</lastmod>
     
@@ -68,6 +75,13 @@
     <loc>http://yoursite.com/2017/10/21/linux/vim/nerdtree/</loc>
     
     <lastmod>2019-02-18T08:21:03.926Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2019/02/18/linux/Tool/szrc/</loc>
+    
+    <lastmod>2019-02-18T08:21:03.925Z</lastmod>
     
   </url>
   
@@ -86,21 +100,14 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2017/10/22/linux/Mac/zsh-theme/</loc>
-    
-    <lastmod>2019-02-18T08:21:03.925Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2019/02/18/linux/Tool/szrc/</loc>
-    
-    <lastmod>2019-02-18T08:21:03.925Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://yoursite.com/2017/10/22/linux/Mac/tmux/</loc>
+    
+    <lastmod>2019-02-18T08:21:03.925Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2017/10/22/linux/Mac/zsh-theme/</loc>
     
     <lastmod>2019-02-18T08:21:03.925Z</lastmod>
     
@@ -128,14 +135,14 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2019/02/18/gitlabci/gitlab_runner/</loc>
+    <loc>http://yoursite.com/2019/02/18/gitlabci/gitlabci/</loc>
     
     <lastmod>2019-02-18T08:21:03.923Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/2019/02/18/gitlabci/gitlabci/</loc>
+    <loc>http://yoursite.com/2019/02/18/gitlabci/gitlab_runner/</loc>
     
     <lastmod>2019-02-18T08:21:03.923Z</lastmod>
     
@@ -156,14 +163,14 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2017/11/23/code/Python/Python-FP/</loc>
+    <loc>http://yoursite.com/2017/10/22/code/Python/pyenv/</loc>
     
     <lastmod>2019-02-18T08:21:03.922Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/2017/10/22/code/Python/pyenv/</loc>
+    <loc>http://yoursite.com/2017/11/23/code/Python/Python-FP/</loc>
     
     <lastmod>2019-02-18T08:21:03.922Z</lastmod>
     

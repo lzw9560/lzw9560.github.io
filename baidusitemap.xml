@@ -3,6 +3,23 @@
 
 
     
+  <url>
+    <loc>http://yoursite.com/2022/04/22/resume/</loc>
+    <lastmod>2022-04-22T14:15:15.299Z</lastmod>
+    <data>
+        <display>
+        <title>My Resume</title>
+        <pubTime>2022-04-22T14:12:29.576Z</pubTime>
+        
+        <tag>My Resume</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
     
   <url>
     <loc>http://yoursite.com/categories/index.html</loc>
@@ -92,14 +109,14 @@
 
     
   <url>
-    <loc>http://yoursite.com/2019/02/18/tool/supervisor/</loc>
+    <loc>http://yoursite.com/2019/02/18/tool/vscode/</loc>
     <lastmod>2019-02-18T08:21:03.926Z</lastmod>
     <data>
         <display>
-        <title>Supervisor 安装配置</title>
+        <title>Visual Studio Code开发技巧</title>
         <pubTime>2019-02-18T08:21:03.926Z</pubTime>
         
-        <tag>Supervisor</tag>
+        <tag>VS Code</tag>
          
          
            
@@ -112,14 +129,14 @@
 
     
   <url>
-    <loc>http://yoursite.com/2019/02/18/tool/vscode/</loc>
+    <loc>http://yoursite.com/2019/02/18/tool/supervisor/</loc>
     <lastmod>2019-02-18T08:21:03.926Z</lastmod>
     <data>
         <display>
-        <title>Visual Studio Code开发技巧</title>
+        <title>Supervisor 安装配置</title>
         <pubTime>2019-02-18T08:21:03.926Z</pubTime>
         
-        <tag>VS Code</tag>
+        <tag>Supervisor</tag>
          
          
            
@@ -145,6 +162,26 @@
            
              
               <breadCrumb title="vim" url="http://yoursite.com/categories/vim/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2019/02/18/linux/Tool/szrc/</loc>
+    <lastmod>2019-02-18T08:21:03.925Z</lastmod>
+    <data>
+        <display>
+        <title>iTerm2使用sz/rz</title>
+        <pubTime>2019-02-18T08:21:03.925Z</pubTime>
+        
+        <tag>Linux/sz、rz</tag>
+         
+         
+           
+             
+              <breadCrumb title="tool" url="http://yoursite.com/categories/tool/"/>
           
         </display>
     </data>
@@ -192,46 +229,6 @@
 
     
   <url>
-    <loc>http://yoursite.com/2017/10/22/linux/Mac/zsh-theme/</loc>
-    <lastmod>2019-02-18T08:21:03.925Z</lastmod>
-    <data>
-        <display>
-        <title>item2 + oh-my-zsh + solarized配色</title>
-        <pubTime>2017-10-21T16:00:00.000Z</pubTime>
-        
-        <tag>主题配置</tag>
-         
-         
-           
-             
-              <breadCrumb title="item2" url="http://yoursite.com/categories/item2/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2019/02/18/linux/Tool/szrc/</loc>
-    <lastmod>2019-02-18T08:21:03.925Z</lastmod>
-    <data>
-        <display>
-        <title>iTerm2使用sz/rz</title>
-        <pubTime>2019-02-18T08:21:03.925Z</pubTime>
-        
-        <tag>Linux/sz、rz</tag>
-         
-         
-           
-             
-              <breadCrumb title="tool" url="http://yoursite.com/categories/tool/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://yoursite.com/2017/10/22/linux/Mac/tmux/</loc>
     <lastmod>2019-02-18T08:21:03.925Z</lastmod>
     <data>
@@ -245,6 +242,26 @@
            
              
               <breadCrumb title="tmux" url="http://yoursite.com/categories/tmux/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2017/10/22/linux/Mac/zsh-theme/</loc>
+    <lastmod>2019-02-18T08:21:03.925Z</lastmod>
+    <data>
+        <display>
+        <title>item2 + oh-my-zsh + solarized配色</title>
+        <pubTime>2017-10-21T16:00:00.000Z</pubTime>
+        
+        <tag>主题配置</tag>
+         
+         
+           
+             
+              <breadCrumb title="item2" url="http://yoursite.com/categories/item2/"/>
           
         </display>
     </data>
@@ -312,11 +329,11 @@
 
     
   <url>
-    <loc>http://yoursite.com/2019/02/18/gitlabci/gitlab_runner/</loc>
+    <loc>http://yoursite.com/2019/02/18/gitlabci/gitlabci/</loc>
     <lastmod>2019-02-18T08:21:03.923Z</lastmod>
     <data>
         <display>
-        <title>GitLab-Runner</title>
+        <title>GitLab-CI 一些概念</title>
         <pubTime>2019-02-18T08:21:03.923Z</pubTime>
         
         <tag>GitLab-CI</tag>
@@ -332,11 +349,11 @@
 
     
   <url>
-    <loc>http://yoursite.com/2019/02/18/gitlabci/gitlabci/</loc>
+    <loc>http://yoursite.com/2019/02/18/gitlabci/gitlab_runner/</loc>
     <lastmod>2019-02-18T08:21:03.923Z</lastmod>
     <data>
         <display>
-        <title>GitLab-CI 一些概念</title>
+        <title>GitLab-Runner</title>
         <pubTime>2019-02-18T08:21:03.923Z</pubTime>
         
         <tag>GitLab-CI</tag>
@@ -392,26 +409,6 @@
 
     
   <url>
-    <loc>http://yoursite.com/2017/11/23/code/Python/Python-FP/</loc>
-    <lastmod>2019-02-18T08:21:03.922Z</lastmod>
-    <data>
-        <display>
-        <title>Python Functional Programming</title>
-        <pubTime>2017-11-22T16:00:00.000Z</pubTime>
-        
-        <tag>Python</tag>
-         
-         
-           
-             
-              <breadCrumb title="Python" url="http://yoursite.com/categories/Python/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://yoursite.com/2017/10/22/code/Python/pyenv/</loc>
     <lastmod>2019-02-18T08:21:03.922Z</lastmod>
     <data>
@@ -425,6 +422,26 @@
            
              
               <breadCrumb title="pyenv" url="http://yoursite.com/categories/pyenv/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2017/11/23/code/Python/Python-FP/</loc>
+    <lastmod>2019-02-18T08:21:03.922Z</lastmod>
+    <data>
+        <display>
+        <title>Python Functional Programming</title>
+        <pubTime>2017-11-22T16:00:00.000Z</pubTime>
+        
+        <tag>Python</tag>
+         
+         
+           
+             
+              <breadCrumb title="Python" url="http://yoursite.com/categories/Python/"/>
           
         </display>
     </data>
