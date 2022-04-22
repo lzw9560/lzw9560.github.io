@@ -192,6 +192,26 @@
 
     
   <url>
+    <loc>http://yoursite.com/2017/10/22/linux/Mac/tmux/</loc>
+    <lastmod>2019-02-18T08:21:03.925Z</lastmod>
+    <data>
+        <display>
+        <title>tmux</title>
+        <pubTime>2017-10-21T16:00:00.000Z</pubTime>
+        
+        <tag>Linux</tag>
+         
+         
+           
+             
+              <breadCrumb title="tmux" url="http://yoursite.com/categories/tmux/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2017/10/22/linux/Mac/zsh-theme/</loc>
     <lastmod>2019-02-18T08:21:03.925Z</lastmod>
     <data>
@@ -232,19 +252,19 @@
 
     
   <url>
-    <loc>http://yoursite.com/2017/10/22/linux/Mac/tmux/</loc>
-    <lastmod>2019-02-18T08:21:03.925Z</lastmod>
+    <loc>http://yoursite.com/2017/09/26/hexo/travis/</loc>
+    <lastmod>2019-02-18T08:21:03.924Z</lastmod>
     <data>
         <display>
-        <title>tmux</title>
-        <pubTime>2017-10-21T16:00:00.000Z</pubTime>
+        <title>travis-ci自动部署Hexo</title>
+        <pubTime>2017-09-26T07:05:42.000Z</pubTime>
         
-        <tag>Linux</tag>
+        <tag>travis-ci</tag>
          
          
            
              
-              <breadCrumb title="tmux" url="http://yoursite.com/categories/tmux/"/>
+              <breadCrumb title="hexo" url="http://yoursite.com/categories/hexo/"/>
           
         </display>
     </data>
@@ -272,26 +292,6 @@
 
     
   <url>
-    <loc>http://yoursite.com/2017/09/26/hexo/travis/</loc>
-    <lastmod>2019-02-18T08:21:03.924Z</lastmod>
-    <data>
-        <display>
-        <title>travis-ci自动部署Hexo</title>
-        <pubTime>2017-09-26T07:05:42.000Z</pubTime>
-        
-        <tag>travis-ci</tag>
-         
-         
-           
-             
-              <breadCrumb title="hexo" url="http://yoursite.com/categories/hexo/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://yoursite.com/2017/11/08/linux/Mac/iTerm2%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
     <lastmod>2019-02-18T08:21:03.924Z</lastmod>
     <data>
@@ -312,11 +312,11 @@
 
     
   <url>
-    <loc>http://yoursite.com/2019/02/18/gitlabci/gitlabci/</loc>
+    <loc>http://yoursite.com/2019/02/18/gitlabci/gitlab_runner/</loc>
     <lastmod>2019-02-18T08:21:03.923Z</lastmod>
     <data>
         <display>
-        <title>GitLab-CI 一些概念</title>
+        <title>GitLab-Runner</title>
         <pubTime>2019-02-18T08:21:03.923Z</pubTime>
         
         <tag>GitLab-CI</tag>
@@ -332,11 +332,11 @@
 
     
   <url>
-    <loc>http://yoursite.com/2019/02/18/gitlabci/gitlab_runner/</loc>
+    <loc>http://yoursite.com/2019/02/18/gitlabci/gitlabci/</loc>
     <lastmod>2019-02-18T08:21:03.923Z</lastmod>
     <data>
         <display>
-        <title>GitLab-Runner</title>
+        <title>GitLab-CI 一些概念</title>
         <pubTime>2019-02-18T08:21:03.923Z</pubTime>
         
         <tag>GitLab-CI</tag>
