@@ -192,26 +192,6 @@
 
     
   <url>
-    <loc>http://yoursite.com/2017/10/22/linux/Mac/tmux/</loc>
-    <lastmod>2019-02-18T08:21:03.925Z</lastmod>
-    <data>
-        <display>
-        <title>tmux</title>
-        <pubTime>2017-10-21T16:00:00.000Z</pubTime>
-        
-        <tag>Linux</tag>
-         
-         
-           
-             
-              <breadCrumb title="tmux" url="http://yoursite.com/categories/tmux/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://yoursite.com/2017/10/22/linux/Mac/zsh-theme/</loc>
     <lastmod>2019-02-18T08:21:03.925Z</lastmod>
     <data>
@@ -225,6 +205,26 @@
            
              
               <breadCrumb title="item2" url="http://yoursite.com/categories/item2/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2017/10/22/linux/Mac/tmux/</loc>
+    <lastmod>2019-02-18T08:21:03.925Z</lastmod>
+    <data>
+        <display>
+        <title>tmux</title>
+        <pubTime>2017-10-21T16:00:00.000Z</pubTime>
+        
+        <tag>Linux</tag>
+         
+         
+           
+             
+              <breadCrumb title="tmux" url="http://yoursite.com/categories/tmux/"/>
           
         </display>
     </data>
@@ -252,26 +252,6 @@
 
     
   <url>
-    <loc>http://yoursite.com/2017/08/17/hexo/hexo/</loc>
-    <lastmod>2019-02-18T08:21:03.924Z</lastmod>
-    <data>
-        <display>
-        <title>Hexo 常用命令</title>
-        <pubTime>2017-08-17T07:05:42.000Z</pubTime>
-        
-        <tag>Hexo</tag>
-         
-         
-           
-             
-              <breadCrumb title="Hexo" url="http://yoursite.com/categories/Hexo/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://yoursite.com/2017/09/26/hexo/travis/</loc>
     <lastmod>2019-02-18T08:21:03.924Z</lastmod>
     <data>
@@ -285,6 +265,26 @@
            
              
               <breadCrumb title="hexo" url="http://yoursite.com/categories/hexo/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2017/08/17/hexo/hexo/</loc>
+    <lastmod>2019-02-18T08:21:03.924Z</lastmod>
+    <data>
+        <display>
+        <title>Hexo 常用命令</title>
+        <pubTime>2017-08-17T07:05:42.000Z</pubTime>
+        
+        <tag>Hexo</tag>
+         
+         
+           
+             
+              <breadCrumb title="Hexo" url="http://yoursite.com/categories/Hexo/"/>
           
         </display>
     </data>
