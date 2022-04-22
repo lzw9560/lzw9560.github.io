@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://yoursite.com/2022/04/22/resume/</loc>
-    <lastmod>2022-04-22T14:15:15.299Z</lastmod>
+    <lastmod>2022-04-22T15:33:23.172Z</lastmod>
     <data>
         <display>
         <title>My Resume</title>
@@ -109,14 +109,14 @@
 
     
   <url>
-    <loc>http://yoursite.com/2019/02/18/tool/vscode/</loc>
+    <loc>http://yoursite.com/2019/02/18/tool/supervisor/</loc>
     <lastmod>2019-02-18T08:21:03.926Z</lastmod>
     <data>
         <display>
-        <title>Visual Studio Code开发技巧</title>
+        <title>Supervisor 安装配置</title>
         <pubTime>2019-02-18T08:21:03.926Z</pubTime>
         
-        <tag>VS Code</tag>
+        <tag>Supervisor</tag>
          
          
            
@@ -129,14 +129,14 @@
 
     
   <url>
-    <loc>http://yoursite.com/2019/02/18/tool/supervisor/</loc>
+    <loc>http://yoursite.com/2019/02/18/tool/vscode/</loc>
     <lastmod>2019-02-18T08:21:03.926Z</lastmod>
     <data>
         <display>
-        <title>Supervisor 安装配置</title>
+        <title>Visual Studio Code开发技巧</title>
         <pubTime>2019-02-18T08:21:03.926Z</pubTime>
         
-        <tag>Supervisor</tag>
+        <tag>VS Code</tag>
          
          
            
@@ -209,26 +209,6 @@
 
     
   <url>
-    <loc>http://yoursite.com/2017/10/22/linux/Mac/tmux/</loc>
-    <lastmod>2019-02-18T08:21:03.925Z</lastmod>
-    <data>
-        <display>
-        <title>tmux</title>
-        <pubTime>2017-10-21T16:00:00.000Z</pubTime>
-        
-        <tag>Linux</tag>
-         
-         
-           
-             
-              <breadCrumb title="tmux" url="http://yoursite.com/categories/tmux/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://yoursite.com/2017/10/22/linux/Mac/zsh-theme/</loc>
     <lastmod>2019-02-18T08:21:03.925Z</lastmod>
     <data>
@@ -242,6 +222,26 @@
            
              
               <breadCrumb title="item2" url="http://yoursite.com/categories/item2/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2017/10/22/linux/Mac/tmux/</loc>
+    <lastmod>2019-02-18T08:21:03.925Z</lastmod>
+    <data>
+        <display>
+        <title>tmux</title>
+        <pubTime>2017-10-21T16:00:00.000Z</pubTime>
+        
+        <tag>Linux</tag>
+         
+         
+           
+             
+              <breadCrumb title="tmux" url="http://yoursite.com/categories/tmux/"/>
           
         </display>
     </data>
