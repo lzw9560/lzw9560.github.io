@@ -152,26 +152,6 @@
 
     
   <url>
-    <loc>http://yoursite.com/2017/10/22/linux/Mac/powerline/</loc>
-    <lastmod>2019-02-18T08:21:03.925Z</lastmod>
-    <data>
-        <display>
-        <title>powerline</title>
-        <pubTime>2017-10-21T16:00:00.000Z</pubTime>
-        
-        <tag>主题配置</tag>
-         
-         
-           
-             
-              <breadCrumb title="item2" url="http://yoursite.com/categories/item2/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://yoursite.com/2017/10/22/linux/Mac/macVim/</loc>
     <lastmod>2019-02-18T08:21:03.925Z</lastmod>
     <data>
@@ -185,6 +165,26 @@
            
              
               <breadCrumb title="MacVim" url="http://yoursite.com/categories/MacVim/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2017/10/22/linux/Mac/powerline/</loc>
+    <lastmod>2019-02-18T08:21:03.925Z</lastmod>
+    <data>
+        <display>
+        <title>powerline</title>
+        <pubTime>2017-10-21T16:00:00.000Z</pubTime>
+        
+        <tag>主题配置</tag>
+         
+         
+           
+             
+              <breadCrumb title="item2" url="http://yoursite.com/categories/item2/"/>
           
         </display>
     </data>
@@ -252,26 +252,6 @@
 
     
   <url>
-    <loc>http://yoursite.com/2017/09/26/hexo/travis/</loc>
-    <lastmod>2019-02-18T08:21:03.924Z</lastmod>
-    <data>
-        <display>
-        <title>travis-ci自动部署Hexo</title>
-        <pubTime>2017-09-26T07:05:42.000Z</pubTime>
-        
-        <tag>travis-ci</tag>
-         
-         
-           
-             
-              <breadCrumb title="hexo" url="http://yoursite.com/categories/hexo/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://yoursite.com/2017/08/17/hexo/hexo/</loc>
     <lastmod>2019-02-18T08:21:03.924Z</lastmod>
     <data>
@@ -285,6 +265,26 @@
            
              
               <breadCrumb title="Hexo" url="http://yoursite.com/categories/Hexo/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2017/09/26/hexo/travis/</loc>
+    <lastmod>2019-02-18T08:21:03.924Z</lastmod>
+    <data>
+        <display>
+        <title>travis-ci自动部署Hexo</title>
+        <pubTime>2017-09-26T07:05:42.000Z</pubTime>
+        
+        <tag>travis-ci</tag>
+         
+         
+           
+             
+              <breadCrumb title="hexo" url="http://yoursite.com/categories/hexo/"/>
           
         </display>
     </data>

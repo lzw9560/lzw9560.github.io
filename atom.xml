@@ -284,28 +284,6 @@
   </entry>
   
   <entry>
-    <title>powerline</title>
-    <link href="http://yoursite.com/2017/10/22/linux/Mac/powerline/"/>
-    <id>http://yoursite.com/2017/10/22/linux/Mac/powerline/</id>
-    <published>2017-10-21T16:00:00.000Z</published>
-    <updated>2019-02-18T08:21:03.925Z</updated>
-    
-    <content type="html"><![CDATA[<h4 id="powerline"><a href="#powerline" class="headerlink" title="powerline"></a>powerline</h4><a id="more"></a><p>powerline是一个stateless status line，即一个全局状态/提示栏.<br><a href="https://github.com/powerline/powerline" target="_blank" rel="noopener">powerline</a></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h4 id=&quot;powerline&quot;&gt;&lt;a href=&quot;#powerline&quot; class=&quot;headerlink&quot; title=&quot;powerline&quot;&gt;&lt;/a&gt;powerline&lt;/h4&gt;
-    
-    </summary>
-    
-      <category term="item2" scheme="http://yoursite.com/categories/item2/"/>
-    
-    
-      <category term="主题配置" scheme="http://yoursite.com/tags/%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/"/>
-    
-  </entry>
-  
-  <entry>
     <title>MacVim</title>
     <link href="http://yoursite.com/2017/10/22/linux/Mac/macVim/"/>
     <id>http://yoursite.com/2017/10/22/linux/Mac/macVim/</id>
@@ -324,6 +302,28 @@
     
     
       <category term="MacVim" scheme="http://yoursite.com/tags/MacVim/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>powerline</title>
+    <link href="http://yoursite.com/2017/10/22/linux/Mac/powerline/"/>
+    <id>http://yoursite.com/2017/10/22/linux/Mac/powerline/</id>
+    <published>2017-10-21T16:00:00.000Z</published>
+    <updated>2019-02-18T08:21:03.925Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="powerline"><a href="#powerline" class="headerlink" title="powerline"></a>powerline</h4><a id="more"></a><p>powerline是一个stateless status line，即一个全局状态/提示栏.<br><a href="https://github.com/powerline/powerline" target="_blank" rel="noopener">powerline</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;powerline&quot;&gt;&lt;a href=&quot;#powerline&quot; class=&quot;headerlink&quot; title=&quot;powerline&quot;&gt;&lt;/a&gt;powerline&lt;/h4&gt;
+    
+    </summary>
+    
+      <category term="item2" scheme="http://yoursite.com/categories/item2/"/>
+    
+    
+      <category term="主题配置" scheme="http://yoursite.com/tags/%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/"/>
     
   </entry>
   

@@ -237,27 +237,6 @@
     </entry>
     
     <entry>
-      <title>powerline</title>
-      <link href="/2017/10/22/linux/Mac/powerline/"/>
-      <url>/2017/10/22/linux/Mac/powerline/</url>
-      <content type="html"><![CDATA[<h4 id="powerline"><a href="#powerline" class="headerlink" title="powerline"></a>powerline</h4><a id="more"></a><p>powerline是一个stateless status line，即一个全局状态/提示栏.<br><a href="https://github.com/powerline/powerline" target="_blank" rel="noopener">powerline</a></p>]]></content>
-      
-      <categories>
-          
-          <category> item2 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 主题配置 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
       <title>MacVim</title>
       <link href="/2017/10/22/linux/Mac/macVim/"/>
       <url>/2017/10/22/linux/Mac/macVim/</url>
@@ -273,6 +252,27 @@
         <tags>
             
             <tag> MacVim </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>powerline</title>
+      <link href="/2017/10/22/linux/Mac/powerline/"/>
+      <url>/2017/10/22/linux/Mac/powerline/</url>
+      <content type="html"><![CDATA[<h4 id="powerline"><a href="#powerline" class="headerlink" title="powerline"></a>powerline</h4><a id="more"></a><p>powerline是一个stateless status line，即一个全局状态/提示栏.<br><a href="https://github.com/powerline/powerline" target="_blank" rel="noopener">powerline</a></p>]]></content>
+      
+      <categories>
+          
+          <category> item2 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 主题配置 </tag>
             
         </tags>
       
