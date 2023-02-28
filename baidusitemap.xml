@@ -189,11 +189,11 @@
 
     
   <url>
-    <loc>http://yoursite.com/2017/10/22/linux/Mac/powerline/</loc>
+    <loc>http://yoursite.com/2017/10/22/linux/Mac/zsh-theme/</loc>
     <lastmod>2019-02-18T08:21:03.925Z</lastmod>
     <data>
         <display>
-        <title>powerline</title>
+        <title>item2 + oh-my-zsh + solarized配色</title>
         <pubTime>2017-10-21T16:00:00.000Z</pubTime>
         
         <tag>主题配置</tag>
@@ -229,11 +229,11 @@
 
     
   <url>
-    <loc>http://yoursite.com/2017/10/22/linux/Mac/zsh-theme/</loc>
+    <loc>http://yoursite.com/2017/10/22/linux/Mac/powerline/</loc>
     <lastmod>2019-02-18T08:21:03.925Z</lastmod>
     <data>
         <display>
-        <title>item2 + oh-my-zsh + solarized配色</title>
+        <title>powerline</title>
         <pubTime>2017-10-21T16:00:00.000Z</pubTime>
         
         <tag>主题配置</tag>
